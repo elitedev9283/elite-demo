@@ -1,0 +1,49 @@
+00:15:21.574 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+00:15:21.582 All consistency checks passed with no errors detected (took 11ms)
+01:15:21.576 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+01:15:21.583 All consistency checks passed with no errors detected (took 8ms)
+02:15:21.001 Slow query took 30ms: SELECT noteId FROM notes WHERE isDeleted = 1 AND utcDateModified <= ?
+02:15:21.585 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+02:15:21.591 All consistency checks passed with no errors detected (took 6ms)
+03:15:21.597 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+03:15:21.604 All consistency checks passed with no errors detected (took 8ms)
+04:06:31.411 Slow query took 143ms: SELECT *, LENGTH(content) AS contentLength FROM blobs WHERE blobId = ?
+04:06:31.458 Slow 200 GET /api/notes/cSdoTWXM8Ank/blob with 155 bytes took 225ms
+04:06:31.463 200 GET /api/note-map/cSdoTWXM8Ank/backlink-count with 11 bytes took 0ms
+04:06:31.744 Slow query took 195ms: INSERT INTO options (name, value, isSynced, utcDateModified) VALUES (@name, @value, @isSynced, @utcDateModified) ON CONFLICT (name) DO UPDATE SET name = @name, value = @value, isSynced = @isSynced, utcDateModified = @utcDateModified
+04:06:32.063 Slow 204 PUT /api/options with 0 bytes took 595ms
+04:06:32.289 Slow 200 POST /api/tree/load with 2530 bytes took 55ms
+04:06:32.358 200 GET /api/notes/2XMZ8KcN70O7/blob with 155 bytes took 0ms
+04:06:32.359 200 POST /api/tree/load with 2525 bytes took 0ms
+04:06:32.361 200 GET /api/notes/5BEHIyWQaEcR/blob with 155 bytes took 0ms
+04:06:34.285 200 GET /api/notes/2XMZ8KcN70O7/blob with 155 bytes took 1ms
+04:06:34.285 200 GET /api/note-map/2XMZ8KcN70O7/backlink-count with 11 bytes took 0ms
+04:06:34.351 200 GET /api/tree?subTreeNoteId=cSdoTWXM8Ank with 2530 bytes took 0ms
+04:06:34.374 Slow 204 PUT /api/options with 0 bytes took 22ms
+04:06:34.386 Slow 204 PUT /api/branches/root_cSdoTWXM8Ank/expanded/1 with 0 bytes took 12ms
+04:06:34.446 200 GET /api/notes/jAKqT69ZxTfw/blob with 292 bytes took 1ms
+04:06:37.493 200 GET /api/notes/jAKqT69ZxTfw/blob with 292 bytes took 0ms
+04:06:37.494 200 GET /api/note-map/jAKqT69ZxTfw/backlink-count with 11 bytes took 0ms
+04:06:37.495 200 GET /api/tree?subTreeNoteId=2XMZ8KcN70O7 with 2524 bytes took 0ms
+04:06:37.497 204 PUT /api/options with 0 bytes took 1ms
+04:06:37.570 204 PUT /api/branches/cSdoTWXM8Ank_2XMZ8KcN70O7/expanded/1 with 0 bytes took 0ms
+04:15:21.598 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+04:15:21.604 All consistency checks passed with no errors detected (took 7ms)
+04:16:39.134 Slow 204 PUT /api/branches/root_iNbuLw4726Ic/expanded/0 with 0 bytes took 16ms
+22:55:42.825 Slow query took 8634ms: SELECT attachmentId FROM attachments WHERE utcDateScheduledForErasureSince < ?
+22:55:45.828 Slow query took 1832ms: SELECT COUNT(1) FROM notes
+22:55:46.158 Slow query took 330ms: SELECT COUNT(1) FROM attachments
+22:55:46.158 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+22:55:46.560 Slow query took 212ms: SELECT noteId as entityId FROM notes LEFT JOIN entity_changes ec ON ec.entityName = 'notes' AND ec.entityId = notes.noteId WHERE ec.id IS NULL
+22:55:46.801 Slow query took 240ms: SELECT id, entityId FROM entity_changes JOIN attachments ON entityId = attachments.attachmentId WHERE entity_changes.isErased = 1 AND entity_changes.entityName = 'attachments'
+22:55:46.837 Slow query took 34ms: SELECT id, entityId FROM entity_changes LEFT JOIN etapi_tokens ON entityId = etapi_tokens.etapiTokenId WHERE entity_changes.isErased = 0 AND entity_changes.entityName = 'etapi_tokens' AND etapi_tokens.etapiTokenId IS NULL
+22:55:47.208 Slow query took 370ms: SELECT branchId, branches.parentNoteId AS parentNoteId FROM branches LEFT JOIN notes ON notes.noteId = branches.parentNoteId WHERE branches.isDeleted = 0 AND branches.noteId != 'root' AND notes.noteId IS NULL
+22:55:47.576 Slow query took 368ms: SELECT attachmentId, attachments.ownerId AS noteId FROM attachments WHERE attachments.ownerId NOT IN ( SELECT noteId FROM notes UNION ALL SELECT revisionId FROM revisions ) AND attachments.isDeleted = 0
+22:55:48.985 Slow query took 1409ms: SELECT page_count * page_size / 1000 as size FROM pragma_page_count(), pragma_page_size()
+22:55:56.064 All consistency checks passed with no errors detected (took 12181ms)
+22:56:02.098 Slow query took 588ms: INSERT INTO options (name, value, isSynced, utcDateModified) VALUES (@name, @value, @isSynced, @utcDateModified) ON CONFLICT (name) DO UPDATE SET name = @name, value = @value, isSynced = @isSynced, utcDateModified = @utcDateModified
+22:56:09.788 Slow query took 241ms: INSERT OR REPLACE INTO entity_changes ( entityName, entityId, hash, isErased, utcDateChanged, isSynced, changeId, componentId, instanceId ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+22:56:12.844 Slow query took 2223ms: SELECT noteId FROM notes WHERE isDeleted = 1 AND utcDateModified <= ?
+22:56:13.593 Optimizing database
+22:56:13.798 Optimization finished in 0ms.
+22:56:53.913 Created backup at C:\Users\Dreamer\AppData\Roaming\trilium-data\backup/backup-daily.db

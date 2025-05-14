@@ -1,0 +1,31 @@
+00:12:34.036 Table counts: notes: 287, revisions: 36, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 194
+00:12:34.082 All consistency checks passed with no errors detected (took 47ms)
+01:12:34.050 Table counts: notes: 287, revisions: 36, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 194
+01:12:34.057 All consistency checks passed with no errors detected (took 8ms)
+02:12:34.061 Table counts: notes: 287, revisions: 36, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 194
+02:12:34.084 All consistency checks passed with no errors detected (took 24ms)
+02:42:48.607 Created new note 'hurIkmjhGdkm', branch 'iNbuLw4726Ic_hurIkmjhGdkm' of type 'text', mime 'text/html'
+02:42:48.690 Slow 200 POST /api/notes/iNbuLw4726Ic/children?target=into&targetBranchId= with 554 bytes took 251ms
+02:42:48.706 Created new note 'b2O4CMru9Xqb', branch 'iNbuLw4726Ic_b2O4CMru9Xqb' of type 'text', mime 'text/html'
+02:42:48.707 200 POST /api/notes/iNbuLw4726Ic/children?target=into&targetBranchId= with 554 bytes took 3ms
+02:42:48.711 200 POST /api/tree/load with 3063 bytes took 0ms
+02:42:48.746 200 GET /api/notes/hurIkmjhGdkm/blob with 155 bytes took 0ms
+02:42:48.747 200 GET /api/note-map/hurIkmjhGdkm/backlink-count with 11 bytes took 0ms
+02:42:48.758 200 GET /api/tree?subTreeNoteId=iNbuLw4726Ic with 3447 bytes took 0ms
+02:42:48.793 200 POST /api/tree/load with 3063 bytes took 1ms
+02:42:48.812 Slow 204 PUT /api/options with 0 bytes took 17ms
+02:42:49.012 200 GET /api/notes/b2O4CMru9Xqb/blob with 155 bytes took 0ms
+02:42:49.012 200 GET /api/note-map/b2O4CMru9Xqb/backlink-count with 11 bytes took 0ms
+02:42:49.015 204 PUT /api/branches/root_iNbuLw4726Ic/expanded/1 with 0 bytes took 0ms
+02:42:49.798 204 PUT /api/options with 0 bytes took 0ms
+02:42:49.968 200 GET /api/notes/iNbuLw4726Ic/blob with 155 bytes took 0ms
+02:42:49.969 200 GET /api/note-map/iNbuLw4726Ic/backlink-count with 11 bytes took 0ms
+02:42:49.987 200 GET /api/notes/yVRCrXjIYKwL/blob with 155 bytes took 0ms
+02:42:49.993 200 GET /api/notes/9HbErF3XLQ56/blob with 6849 bytes took 0ms
+02:42:49.997 200 GET /api/notes/hurIkmjhGdkm/blob with 155 bytes took 1ms
+02:42:50.803 204 PUT /api/options with 0 bytes took 1ms
+02:42:51.373 200 GET /api/notes/hurIkmjhGdkm/blob with 155 bytes took 0ms
+02:42:51.373 200 GET /api/note-map/hurIkmjhGdkm/backlink-count with 11 bytes took 0ms
+02:42:51.804 204 PUT /api/options with 0 bytes took 0ms
+02:42:55.316 204 PUT /api/notes/hurIkmjhGdkm/data with 0 bytes took 1ms
+02:42:55.319 200 GET /api/notes/hurIkmjhGdkm/blob with 488 bytes took 0ms

@@ -1,0 +1,118 @@
+00:50:19.551 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+00:50:19.555 All consistency checks passed with no errors detected (took 5ms)
+01:50:19.557 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+01:50:19.560 All consistency checks passed with no errors detected (took 3ms)
+02:50:19.557 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+02:50:19.561 All consistency checks passed with no errors detected (took 4ms)
+03:50:19.558 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+03:50:19.561 All consistency checks passed with no errors detected (took 3ms)
+04:50:19.022 Optimizing database
+04:50:19.022 Optimization finished in 0ms.
+04:50:19.565 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+04:50:19.569 All consistency checks passed with no errors detected (took 4ms)
+05:50:19.574 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+05:50:19.577 All consistency checks passed with no errors detected (took 3ms)
+06:50:19.362 Created backup at C:\Users\Dreamer\AppData\Roaming\trilium-data\backup/backup-daily.db
+06:50:19.577 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+06:50:19.581 All consistency checks passed with no errors detected (took 4ms)
+07:50:19.585 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+07:50:19.588 All consistency checks passed with no errors detected (took 3ms)
+08:50:19.601 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+08:50:19.605 All consistency checks passed with no errors detected (took 4ms)
+09:50:19.603 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+09:50:19.606 All consistency checks passed with no errors detected (took 3ms)
+10:50:19.605 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+10:50:19.609 All consistency checks passed with no errors detected (took 4ms)
+11:50:19.618 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+11:50:19.621 All consistency checks passed with no errors detected (took 3ms)
+12:50:19.629 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+12:50:19.634 All consistency checks passed with no errors detected (took 5ms)
+13:50:19.640 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+13:50:19.644 All consistency checks passed with no errors detected (took 4ms)
+14:12:14.125 204 PUT /api/notes/US8a7VFedyo1/set-attribute with 0 bytes took 2ms
+14:12:14.153 Slow 200 PUT /api/notes/US8a7VFedyo1/title with 337 bytes took 16ms
+14:12:15.123 204 PUT /api/notes/US8a7VFedyo1/set-attribute with 0 bytes took 0ms
+14:12:15.130 200 PUT /api/notes/US8a7VFedyo1/title with 341 bytes took 1ms
+14:50:19.037 Optimizing database
+14:50:19.037 Optimization finished in 0ms.
+14:50:19.642 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+14:50:19.650 All consistency checks passed with no errors detected (took 8ms)
+15:50:19.658 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+15:50:19.664 All consistency checks passed with no errors detected (took 7ms)
+16:07:17.657 204 PUT /api/branches/root_cSdoTWXM8Ank/expanded/0 with 0 bytes took 1ms
+16:07:18.762 200 GET /api/tree?subTreeNoteId=9iDZ7KfxdAmG with 3773 bytes took 1ms
+16:07:18.968 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/1 with 0 bytes took 0ms
+16:07:19.517 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/0 with 0 bytes took 0ms
+16:07:22.374 200 GET /api/notes/gdjwOc9jyNIw/blob with 2482 bytes took 1ms
+16:07:22.375 200 GET /api/note-map/gdjwOc9jyNIw/backlink-count with 11 bytes took 1ms
+16:07:22.380 204 PUT /api/options with 0 bytes took 2ms
+16:07:22.808 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 0ms
+16:07:22.809 200 GET /api/notes/PlfyCkEEJala/blob with 156 bytes took 1ms
+16:07:23.378 204 PUT /api/options with 0 bytes took 0ms
+16:07:27.024 Sending message to all clients: {"type":"protectedSessionLogin"}
+16:07:27.024 Slow 200 POST /api/login/protected with 16 bytes took 134ms
+16:07:27.027 200 GET /api/tree with 13060 bytes took 1ms
+16:07:27.027 204 POST /api/login/protected/touch with 0 bytes took 0ms
+16:07:27.029 200 POST /api/tree/load with 37443 bytes took 1ms
+16:07:27.043 200 GET /api/notes/jAKqT69ZxTfw/blob with 1376 bytes took 1ms
+16:07:27.043 200 GET /api/note-map/jAKqT69ZxTfw/backlink-count with 11 bytes took 0ms
+16:07:27.043 200 GET /api/notes/QCcfGSDu8cmr/blob with 656 bytes took 0ms
+16:07:27.044 200 GET /api/note-map/QCcfGSDu8cmr/backlink-count with 11 bytes took 0ms
+16:07:27.044 200 GET /api/notes/PlfyCkEEJala/blob with 156 bytes took 0ms
+16:07:27.045 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 0ms
+16:07:27.205 204 POST /api/login/protected/touch with 0 bytes took 1ms
+16:07:27.205 200 GET /api/notes/2kKJAbj2zuUW/blob with 1240 bytes took 0ms
+16:07:27.207 204 POST /api/login/protected/touch with 0 bytes took 0ms
+16:07:27.207 200 GET /api/notes/kZX9udkPCT8D/blob with 1037 bytes took 0ms
+16:07:27.209 204 POST /api/login/protected/touch with 0 bytes took 0ms
+16:07:27.209 200 GET /api/notes/AYglMZCkAqqw/blob with 1055 bytes took 0ms
+16:07:27.210 204 POST /api/login/protected/touch with 0 bytes took 0ms
+16:07:27.211 200 GET /api/notes/D5j0UYACCaXW/blob with 3044 bytes took 1ms
+16:07:27.212 204 POST /api/login/protected/touch with 0 bytes took 0ms
+16:07:27.212 200 GET /api/notes/7uobh7L0xRn8/blob with 156 bytes took 0ms
+16:07:27.214 204 POST /api/login/protected/touch with 0 bytes took 0ms
+16:07:27.215 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1924 bytes took 1ms
+16:07:27.216 204 POST /api/login/protected/touch with 0 bytes took 0ms
+16:07:27.217 200 GET /api/notes/ynFpBDVudIB7/blob with 2334 bytes took 0ms
+16:07:28.870 204 POST /api/login/protected/touch with 0 bytes took 1ms
+16:07:28.870 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 0ms
+16:07:28.871 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 1ms
+16:07:28.872 200 GET /api/tree?subTreeNoteId=PlfyCkEEJala with 5553 bytes took 1ms
+16:07:28.875 204 PUT /api/options with 0 bytes took 1ms
+16:07:28.897 200 GET /api/tree?subTreeNoteId=7uobh7L0xRn8 with 5711 bytes took 0ms
+16:07:28.900 204 PUT /api/branches/root_PlfyCkEEJala/expanded/1 with 0 bytes took 0ms
+16:07:28.901 204 PUT /api/branches/PlfyCkEEJala_7uobh7L0xRn8/expanded/1 with 0 bytes took 0ms
+16:17:50.354 Expiring protected session
+16:17:50.354 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+16:17:50.356 JS Info: Frontend app reload: received request from backend to reload frontend
+16:17:50.382 Generated CSRF token AbN60ntc-19_rdVn0snX5W_w7SviPKBDAMYE with secret undefined
+16:17:50.799 200 GET /api/options with 6798 bytes took 1ms
+16:17:50.799 200 GET /api/tree with 16208 bytes took 0ms
+16:17:50.801 200 GET /api/keyboard-actions with 14263 bytes took 1ms
+16:17:50.802 200 GET /api/script/widgets with 2687 bytes took 1ms
+16:17:50.804 200 POST /api/tree/load with 5908 bytes took 0ms
+16:17:50.829 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 1ms
+16:17:50.838 200 POST /api/tree/load with 7201 bytes took 0ms
+16:17:50.838 200 POST /api/tree/load with 3048 bytes took 0ms
+16:17:50.843 200 POST /api/tree/load with 20143 bytes took 0ms
+16:17:51.506 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+16:17:51.507 200 GET /api/notes/ncenxbDEDufV/blob with 158 bytes took 0ms
+16:17:51.529 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 1ms
+16:17:52.104 204 PUT /api/options with 0 bytes took 0ms
+16:17:53.103 200 GET /api/script/startup with 2 bytes took 0ms
+16:50:19.658 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+16:50:19.663 All consistency checks passed with no errors detected (took 5ms)
+17:50:19.668 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+17:50:19.672 All consistency checks passed with no errors detected (took 4ms)
+18:50:19.669 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+18:50:19.673 All consistency checks passed with no errors detected (took 3ms)
+19:50:19.672 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+19:50:19.676 All consistency checks passed with no errors detected (took 4ms)
+20:50:19.685 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+20:50:19.689 All consistency checks passed with no errors detected (took 4ms)
+21:50:19.689 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+21:50:19.692 All consistency checks passed with no errors detected (took 3ms)
+22:50:19.703 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+22:50:19.707 All consistency checks passed with no errors detected (took 5ms)
+23:50:19.707 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+23:50:19.720 All consistency checks passed with no errors detected (took 14ms)

@@ -1,0 +1,67 @@
+00:29:01.299 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+00:29:01.478 All consistency checks passed with no errors detected (took 179ms)
+01:29:01.315 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+01:29:01.318 All consistency checks passed with no errors detected (took 3ms)
+02:29:00.388 Optimizing database
+02:29:00.427 Slow query took 39ms: PRAGMA optimize
+02:29:00.427 Optimization finished in 39ms.
+02:29:01.325 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+02:29:01.329 All consistency checks passed with no errors detected (took 5ms)
+03:29:01.333 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+03:29:01.336 All consistency checks passed with no errors detected (took 3ms)
+04:29:01.347 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+04:29:01.350 All consistency checks passed with no errors detected (took 3ms)
+05:29:01.354 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+05:29:01.358 All consistency checks passed with no errors detected (took 4ms)
+06:29:01.361 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+06:29:01.364 All consistency checks passed with no errors detected (took 3ms)
+07:29:01.377 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+07:29:01.380 All consistency checks passed with no errors detected (took 3ms)
+08:29:01.382 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+08:29:01.385 All consistency checks passed with no errors detected (took 4ms)
+09:29:01.383 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+09:29:01.386 All consistency checks passed with no errors detected (took 3ms)
+10:29:01.388 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+10:29:01.395 All consistency checks passed with no errors detected (took 7ms)
+11:29:01.399 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+11:29:01.405 All consistency checks passed with no errors detected (took 7ms)
+12:29:00.419 Optimizing database
+12:29:00.471 Slow query took 46ms: PRAGMA optimize
+12:29:00.471 Optimization finished in 52ms.
+12:29:01.402 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+12:29:01.500 Slow query took 22ms: SELECT attachmentId, attachments.ownerId AS noteId FROM attachments WHERE attachments.ownerId NOT IN ( SELECT noteId FROM notes UNION ALL SELECT revisionId FROM revisions ) AND attachments.isDeleted = 0
+12:29:01.536 Slow query took 24ms: SELECT notes.noteId, notes.isProtected, notes.type, notes.mime FROM notes LEFT JOIN blobs USING (blobId) WHERE blobs.blobId IS NULL AND notes.isDeleted = 0
+12:29:01.539 All consistency checks passed with no errors detected (took 137ms)
+13:29:01.366 Slow query took 22ms: SELECT attachmentId FROM attachments WHERE utcDateScheduledForErasureSince < ?
+13:29:01.418 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+13:29:01.439 Slow query took 21ms: SELECT noteId as entityId FROM notes LEFT JOIN entity_changes ec ON ec.entityName = 'notes' AND ec.entityId = notes.noteId WHERE ec.id IS NULL
+13:29:01.461 All consistency checks passed with no errors detected (took 44ms)
+14:29:00.746 Slow query took 90ms: INSERT INTO options (name, value, isSynced, utcDateModified) VALUES (@name, @value, @isSynced, @utcDateModified) ON CONFLICT (name) DO UPDATE SET name = @name, value = @value, isSynced = @isSynced, utcDateModified = @utcDateModified
+14:29:01.206 Slow query took 86ms: INSERT OR REPLACE INTO entity_changes ( entityName, entityId, hash, isErased, utcDateChanged, isSynced, changeId, componentId, instanceId ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+14:29:01.675 Slow query took 26ms: SELECT noteId FROM notes WHERE isDeleted = 1 AND utcDateModified <= ?
+14:29:01.738 Slow query took 63ms: SELECT blobs.blobId FROM blobs LEFT JOIN notes ON notes.blobId = blobs.blobId LEFT JOIN attachments ON attachments.blobId = blobs.blobId LEFT JOIN revisions ON revisions.blobId = blobs.blobId WHERE notes.noteId IS NULL AND attachments.attachmentId IS NULL AND revisions.revisionId IS NULL
+14:29:02.474 Created backup at C:\Users\Dreamer\AppData\Roaming\trilium-data\backup/backup-daily.db
+14:29:02.475 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+14:29:02.519 Slow query took 42ms: SELECT noteId, type FROM notes WHERE isDeleted = 0 AND type NOT IN ('text', 'code', 'render', 'file', 'image', 'search', 'relationMap', 'book', 'noteMap', 'mermaid', 'canvas', 'webView', 'launcher', 'doc', 'contentWidget')
+14:29:02.520 All consistency checks passed with no errors detected (took 46ms)
+15:29:01.752 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+15:29:01.778 All consistency checks passed with no errors detected (took 27ms)
+16:29:01.755 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+16:29:01.838 Slow query took 28ms: SELECT attachmentId, attachments.ownerId AS noteId FROM attachments WHERE attachments.ownerId NOT IN ( SELECT noteId FROM notes UNION ALL SELECT revisionId FROM revisions ) AND attachments.isDeleted = 0
+16:29:01.840 All consistency checks passed with no errors detected (took 85ms)
+17:29:01.761 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+17:29:01.797 Slow query took 35ms: SELECT id, entityId FROM entity_changes JOIN attachments ON entityId = attachments.attachmentId WHERE entity_changes.isErased = 1 AND entity_changes.entityName = 'attachments'
+17:29:01.800 All consistency checks passed with no errors detected (took 39ms)
+18:29:00.947 Slow query took 113ms: SELECT value FROM options WHERE name = 'dbVersion'
+18:29:01.841 Slow query took 47ms: SELECT noteId FROM notes WHERE isDeleted = 1 AND utcDateModified <= ?
+18:29:01.928 Slow query took 87ms: SELECT blobs.blobId FROM blobs LEFT JOIN notes ON notes.blobId = blobs.blobId LEFT JOIN attachments ON attachments.blobId = blobs.blobId LEFT JOIN revisions ON revisions.blobId = blobs.blobId WHERE notes.noteId IS NULL AND attachments.attachmentId IS NULL AND revisions.revisionId IS NULL
+18:29:02.021 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+18:29:02.025 All consistency checks passed with no errors detected (took 4ms)
+19:29:02.029 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+19:29:02.051 Slow query took 20ms: SELECT noteId, type FROM notes WHERE isDeleted = 0 AND type NOT IN ('text', 'code', 'render', 'file', 'image', 'search', 'relationMap', 'book', 'noteMap', 'mermaid', 'canvas', 'webView', 'launcher', 'doc', 'contentWidget')
+19:29:02.081 All consistency checks passed with no errors detected (took 52ms)
+20:29:02.035 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+20:29:02.081 Slow query took 25ms: SELECT noteId, type FROM notes WHERE isDeleted = 0 AND type NOT IN ('text', 'code', 'render', 'file', 'image', 'search', 'relationMap', 'book', 'noteMap', 'mermaid', 'canvas', 'webView', 'launcher', 'doc', 'contentWidget')
+20:29:02.082 All consistency checks passed with no errors detected (took 48ms)
+21:29:02.048 Table counts: notes: 302, revisions: 42, attachments: 19, branches: 316, attributes: 378, etapi_tokens: 0, blobs: 206
+21:29:02.052 All consistency checks passed with no errors detected (took 4ms)

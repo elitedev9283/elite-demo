@@ -1,0 +1,80 @@
+00:15:21.034 Table counts: notes: 274, revisions: 11, attachments: 19, branches: 288, attributes: 356, etapi_tokens: 0, blobs: 161
+00:15:21.383 Slow query took 44ms: SELECT noteId, parentNoteId FROM branches WHERE isDeleted = 0
+00:15:21.384 All consistency checks passed with no errors detected (took 351ms)
+01:15:21.050 Table counts: notes: 274, revisions: 11, attachments: 19, branches: 288, attributes: 356, etapi_tokens: 0, blobs: 161
+01:15:21.069 All consistency checks passed with no errors detected (took 20ms)
+02:15:20.680 Optimizing database
+02:15:20.708 Slow query took 28ms: PRAGMA optimize
+02:15:20.709 Optimization finished in 28ms.
+02:15:20.890 Erased branches: ["root_H2xaGv6NNpXO","root_nWpLbSBhClDb"]
+02:15:20.908 Erased notes: ["nWpLbSBhClDb","H2xaGv6NNpXO"]
+02:15:21.054 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+02:15:21.067 All consistency checks passed with no errors detected (took 13ms)
+03:15:21.065 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+03:15:21.068 All consistency checks passed with no errors detected (took 3ms)
+04:15:21.078 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+04:15:21.082 All consistency checks passed with no errors detected (took 4ms)
+05:15:21.081 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+05:15:21.095 All consistency checks passed with no errors detected (took 14ms)
+06:15:21.084 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+06:15:21.100 All consistency checks passed with no errors detected (took 17ms)
+07:15:21.090 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+07:15:21.096 All consistency checks passed with no errors detected (took 7ms)
+08:15:21.111 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+08:15:21.130 All consistency checks passed with no errors detected (took 24ms)
+09:15:21.119 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+09:15:21.125 All consistency checks passed with no errors detected (took 7ms)
+10:15:20.899 Slow query took 57ms: SELECT noteId FROM notes WHERE isDeleted = 1 AND utcDateModified <= ?
+10:15:20.941 Slow query took 28ms: SELECT blobs.blobId FROM blobs LEFT JOIN notes ON notes.blobId = blobs.blobId LEFT JOIN attachments ON attachments.blobId = blobs.blobId LEFT JOIN revisions ON revisions.blobId = blobs.blobId WHERE notes.noteId IS NULL AND attachments.attachmentId IS NULL AND revisions.revisionId IS NULL
+10:15:21.131 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+10:15:21.137 All consistency checks passed with no errors detected (took 9ms)
+11:15:21.126 Slow query took 62ms: SELECT attachmentId FROM attachments WHERE utcDateScheduledForErasureSince < ?
+11:15:21.248 Slow query took 41ms: SELECT COUNT(1) FROM notes
+11:15:21.254 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+11:15:21.288 Slow query took 26ms: SELECT DISTINCT name FROM attributes
+11:15:21.337 All consistency checks passed with no errors detected (took 163ms)
+12:15:20.681 Optimizing database
+12:15:20.735 Slow query took 52ms: PRAGMA optimize
+12:15:20.735 Optimization finished in 52ms.
+12:15:21.202 Slow query took 20ms: SELECT COUNT(1) FROM notes
+12:15:21.202 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+12:15:21.288 All consistency checks passed with no errors detected (took 106ms)
+13:15:21.126 Slow query took 27ms: SELECT attachmentId FROM attachments WHERE utcDateScheduledForErasureSince < ?
+13:15:21.217 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+13:15:21.263 All consistency checks passed with no errors detected (took 68ms)
+14:15:20.780 Slow query took 47ms: INSERT INTO options (name, value, isSynced, utcDateModified) VALUES (@name, @value, @isSynced, @utcDateModified) ON CONFLICT (name) DO UPDATE SET name = @name, value = @value, isSynced = @isSynced, utcDateModified = @utcDateModified
+14:15:21.466 Created backup at C:\Users\Dreamer\AppData\Roaming\trilium-data\backup/backup-daily.db
+14:15:21.466 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+14:15:21.471 All consistency checks passed with no errors detected (took 5ms)
+15:15:21.482 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+15:15:21.489 All consistency checks passed with no errors detected (took 8ms)
+15:19:03.889 Slow query took 90ms: SELECT *, LENGTH(content) AS contentLength FROM blobs WHERE blobId = ?
+15:19:03.965 Slow 200 GET /api/notes/iNbuLw4726Ic/blob with 155 bytes took 248ms
+15:19:03.970 200 GET /api/note-map/iNbuLw4726Ic/backlink-count with 11 bytes took 0ms
+15:19:04.304 Slow query took 35ms: INSERT INTO options (name, value, isSynced, utcDateModified) VALUES (@name, @value, @isSynced, @utcDateModified) ON CONFLICT (name) DO UPDATE SET name = @name, value = @value, isSynced = @isSynced, utcDateModified = @utcDateModified
+15:19:04.374 Slow 204 PUT /api/options with 0 bytes took 348ms
+15:19:04.376 200 GET /api/notes/yVRCrXjIYKwL/blob with 155 bytes took 0ms
+15:19:04.378 200 GET /api/notes/9HbErF3XLQ56/blob with 6849 bytes took 0ms
+15:19:05.583 200 GET /api/notes/9HbErF3XLQ56/blob with 6849 bytes took 0ms
+15:19:05.584 200 GET /api/note-map/9HbErF3XLQ56/backlink-count with 11 bytes took 1ms
+15:19:05.634 Slow 204 PUT /api/branches/root_iNbuLw4726Ic/expanded/1 with 0 bytes took 48ms
+15:19:05.741 Slow 204 PUT /api/options with 0 bytes took 48ms
+16:15:21.494 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+16:15:21.500 All consistency checks passed with no errors detected (took 7ms)
+17:15:21.492 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+17:15:21.499 All consistency checks passed with no errors detected (took 7ms)
+18:15:21.508 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+18:15:21.514 All consistency checks passed with no errors detected (took 7ms)
+19:15:21.517 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+19:15:21.523 All consistency checks passed with no errors detected (took 7ms)
+20:15:21.524 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+20:15:21.530 All consistency checks passed with no errors detected (took 7ms)
+21:15:21.540 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+21:15:21.547 All consistency checks passed with no errors detected (took 7ms)
+22:15:20.694 Optimizing database
+22:15:20.711 Optimization finished in 16ms.
+22:15:21.567 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+22:15:21.612 Slow query took 41ms: SELECT attachmentId, attachments.ownerId AS noteId FROM attachments WHERE attachments.ownerId NOT IN ( SELECT noteId FROM notes UNION ALL SELECT revisionId FROM revisions ) AND attachments.isDeleted = 0
+22:15:21.635 All consistency checks passed with no errors detected (took 81ms)
+23:15:21.569 Table counts: notes: 272, revisions: 11, attachments: 19, branches: 286, attributes: 356, etapi_tokens: 0, blobs: 161
+23:15:21.576 All consistency checks passed with no errors detected (took 7ms)

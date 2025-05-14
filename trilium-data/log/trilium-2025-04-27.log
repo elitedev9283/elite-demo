@@ -1,0 +1,47 @@
+00:47:11.422 Table counts: notes: 287, revisions: 34, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 192
+00:47:11.526 All consistency checks passed with no errors detected (took 104ms)
+01:47:11.400 Slow query took 81ms: SELECT noteId FROM notes WHERE isDeleted = 1 AND utcDateModified <= ?
+01:47:12.740 Created backup at C:\Users\Dreamer\AppData\Roaming\trilium-data\backup/backup-daily.db
+01:47:12.741 Table counts: notes: 287, revisions: 34, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 192
+01:47:12.744 All consistency checks passed with no errors detected (took 4ms)
+02:47:11.949 Table counts: notes: 287, revisions: 34, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 192
+02:47:11.952 All consistency checks passed with no errors detected (took 3ms)
+03:47:08.363 Optimizing database
+03:47:08.427 Slow query took 63ms: PRAGMA optimize
+03:47:08.427 Optimization finished in 63ms.
+03:47:11.956 Table counts: notes: 287, revisions: 34, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 192
+03:47:11.981 Slow query took 25ms: SELECT noteId as entityId FROM notes LEFT JOIN entity_changes ec ON ec.entityName = 'notes' AND ec.entityId = notes.noteId WHERE ec.id IS NULL
+03:47:12.117 All consistency checks passed with no errors detected (took 163ms)
+04:47:11.451 Slow query took 39ms: SELECT attachmentId FROM attachments WHERE utcDateScheduledForErasureSince < ?
+04:47:11.983 Slow query took 26ms: SELECT COUNT(1) FROM notes
+04:47:11.984 Table counts: notes: 287, revisions: 34, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 192
+04:47:12.087 All consistency checks passed with no errors detected (took 130ms)
+05:47:08.703 Slow query took 128ms: SELECT value FROM options WHERE name = 'dbVersion'
+05:47:11.986 Slow query took 26ms: SELECT COUNT(1) FROM notes
+05:47:11.989 Table counts: notes: 287, revisions: 34, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 192
+05:47:12.028 All consistency checks passed with no errors detected (took 68ms)
+06:47:11.477 Slow query took 38ms: SELECT attachmentId FROM attachments WHERE utcDateScheduledForErasureSince < ?
+06:47:12.009 Slow query took 32ms: SELECT COUNT(1) FROM notes
+06:47:12.009 Table counts: notes: 287, revisions: 34, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 192
+06:47:12.019 All consistency checks passed with no errors detected (took 50ms)
+07:47:11.978 Table counts: notes: 287, revisions: 34, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 192
+07:47:11.999 All consistency checks passed with no errors detected (took 22ms)
+08:47:11.714 Slow query took 226ms: SELECT attachmentId FROM attachments WHERE utcDateScheduledForErasureSince < ?
+08:47:12.002 Slow query took 21ms: SELECT COUNT(1) FROM notes
+08:47:12.003 Table counts: notes: 287, revisions: 34, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 192
+08:47:12.061 All consistency checks passed with no errors detected (took 63ms)
+09:47:11.427 Slow query took 36ms: SELECT noteId FROM notes WHERE isDeleted = 1 AND utcDateModified <= ?
+09:47:12.001 Table counts: notes: 287, revisions: 34, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 192
+09:47:12.025 All consistency checks passed with no errors detected (took 39ms)
+10:47:11.705 Slow query took 27ms: SELECT attachmentId FROM attachments WHERE utcDateScheduledForErasureSince < ?
+10:47:12.036 Table counts: notes: 287, revisions: 34, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 192
+10:47:12.060 Slow query took 20ms: SELECT attachmentId, attachments.ownerId AS noteId FROM attachments WHERE attachments.ownerId NOT IN ( SELECT noteId FROM notes UNION ALL SELECT revisionId FROM revisions ) AND attachments.isDeleted = 0
+10:47:12.070 All consistency checks passed with no errors detected (took 53ms)
+11:47:11.847 Slow query took 55ms: SELECT attachmentId FROM attachments WHERE utcDateScheduledForErasureSince < ?
+11:47:12.270 Slow query took 255ms: SELECT COUNT(1) FROM notes
+11:47:12.353 Table counts: notes: 287, revisions: 34, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 192
+11:47:12.455 Slow query took 23ms: SELECT page_count * page_size / 1000 as size FROM pragma_page_count(), pragma_page_size()
+11:47:12.524 Slow query took 60ms: SELECT DISTINCT name FROM attributes
+11:47:12.749 All consistency checks passed with no errors detected (took 737ms)
+12:47:12.026 Table counts: notes: 287, revisions: 34, attachments: 19, branches: 301, attributes: 359, etapi_tokens: 0, blobs: 192
+12:47:12.033 All consistency checks passed with no errors detected (took 8ms)

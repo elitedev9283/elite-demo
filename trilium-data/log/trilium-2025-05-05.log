@@ -1,0 +1,63 @@
+00:50:19.048 Optimizing database
+00:50:19.148 Optimization finished in 8ms.
+00:50:19.733 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+00:50:19.765 All consistency checks passed with no errors detected (took 32ms)
+01:40:42.627 Sending message to all clients: {"type":"protectedSessionLogin"}
+01:40:42.629 Slow 200 POST /api/login/protected with 16 bytes took 162ms
+01:40:42.662 Slow 200 GET /api/tree with 16265 bytes took 19ms
+01:40:42.663 204 POST /api/login/protected/touch with 0 bytes took 1ms
+01:40:42.671 200 POST /api/tree/load with 34040 bytes took 8ms
+01:40:42.743 200 GET /api/notes/jAKqT69ZxTfw/blob with 1376 bytes took 9ms
+01:40:42.745 200 GET /api/note-map/jAKqT69ZxTfw/backlink-count with 11 bytes took 0ms
+01:40:42.746 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 0ms
+01:40:42.746 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+01:50:19.739 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+01:50:19.746 All consistency checks passed with no errors detected (took 7ms)
+01:50:59.817 Expiring protected session
+01:50:59.817 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+01:50:59.819 JS Info: Frontend app reload: received request from backend to reload frontend
+01:51:00.023 Generated CSRF token d3Q36fY5-iYIuqN7VQPP2OYgjXi96L1FlJDM with secret undefined
+01:51:01.072 200 GET /api/options with 6867 bytes took 0ms
+01:51:01.073 200 GET /api/tree with 16208 bytes took 1ms
+01:51:01.084 Slow 200 GET /api/keyboard-actions with 14263 bytes took 11ms
+01:51:01.085 200 GET /api/script/widgets with 2687 bytes took 1ms
+01:51:01.099 200 POST /api/tree/load with 5908 bytes took 1ms
+01:51:01.142 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+01:51:01.156 200 POST /api/tree/load with 7201 bytes took 0ms
+01:51:01.157 200 POST /api/tree/load with 3048 bytes took 0ms
+01:51:01.160 200 POST /api/tree/load with 20143 bytes took 1ms
+01:51:01.720 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+01:51:01.721 200 GET /api/notes/ncenxbDEDufV/blob with 158 bytes took 0ms
+01:51:01.748 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+01:51:02.157 Slow 204 PUT /api/options with 0 bytes took 47ms
+01:51:04.109 200 GET /api/script/startup with 2 bytes took 0ms
+02:50:19.742 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+02:50:19.764 All consistency checks passed with no errors detected (took 23ms)
+03:50:19.749 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+03:50:19.757 All consistency checks passed with no errors detected (took 9ms)
+04:50:19.753 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+04:50:19.762 All consistency checks passed with no errors detected (took 10ms)
+05:50:19.764 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+05:50:19.770 All consistency checks passed with no errors detected (took 7ms)
+06:50:19.255 Slow query took 35ms: INSERT OR REPLACE INTO entity_changes ( entityName, entityId, hash, isErased, utcDateChanged, isSynced, changeId, componentId, instanceId ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+06:50:19.821 Created backup at C:\Users\Dreamer\AppData\Roaming\trilium-data\backup/backup-daily.db
+06:50:19.822 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+06:50:19.827 All consistency checks passed with no errors detected (took 5ms)
+07:50:19.837 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+07:50:19.843 All consistency checks passed with no errors detected (took 7ms)
+08:50:19.841 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+08:50:19.845 All consistency checks passed with no errors detected (took 4ms)
+09:50:19.846 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+09:50:19.850 All consistency checks passed with no errors detected (took 4ms)
+10:50:19.049 Optimizing database
+10:50:19.051 Optimization finished in 1ms.
+10:50:19.859 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+10:50:19.893 All consistency checks passed with no errors detected (took 34ms)
+11:50:19.862 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+11:50:19.869 All consistency checks passed with no errors detected (took 8ms)
+12:50:19.864 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+12:50:19.873 All consistency checks passed with no errors detected (took 8ms)
+13:50:19.878 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+13:50:19.885 All consistency checks passed with no errors detected (took 8ms)
+14:50:19.881 Table counts: notes: 295, revisions: 41, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+14:50:19.887 All consistency checks passed with no errors detected (took 6ms)

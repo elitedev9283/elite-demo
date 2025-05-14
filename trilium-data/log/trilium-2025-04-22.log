@@ -1,0 +1,1988 @@
+00:17:02.629 Table counts: notes: 274, revisions: 11, attachments: 19, branches: 288, attributes: 359, etapi_tokens: 0, blobs: 162
+00:17:02.746 All consistency checks passed with no errors detected (took 118ms)
+01:17:01.927 Optimizing database
+01:17:01.977 Slow query took 45ms: PRAGMA optimize
+01:17:01.977 Optimization finished in 48ms.
+01:17:02.811 Created backup at C:\Users\Dreamer\AppData\Roaming\trilium-data\backup/backup-daily.db
+01:17:02.815 Table counts: notes: 274, revisions: 11, attachments: 19, branches: 288, attributes: 359, etapi_tokens: 0, blobs: 162
+01:17:02.821 All consistency checks passed with no errors detected (took 7ms)
+02:17:02.874 Slow query took 54ms: SELECT attachmentId FROM attachments WHERE utcDateScheduledForErasureSince < ?
+02:17:02.876 Table counts: notes: 274, revisions: 11, attachments: 19, branches: 288, attributes: 359, etapi_tokens: 0, blobs: 162
+02:17:02.882 All consistency checks passed with no errors detected (took 7ms)
+03:17:02.880 Table counts: notes: 274, revisions: 11, attachments: 19, branches: 288, attributes: 359, etapi_tokens: 0, blobs: 162
+03:17:02.887 All consistency checks passed with no errors detected (took 8ms)
+04:17:02.882 Table counts: notes: 274, revisions: 11, attachments: 19, branches: 288, attributes: 359, etapi_tokens: 0, blobs: 162
+04:17:02.889 All consistency checks passed with no errors detected (took 8ms)
+06:19:07.374 DB size: 2236 KB
+06:19:08.051 {
+  "appVersion": "0.63.5",
+  "dbVersion": 228,
+  "nodeVersion": "v18.15.0",
+  "syncVersion": 32,
+  "buildDate": "2024-03-28T07:11:39+01:00",
+  "buildRevision": "399458b52f250b22be22d980a78de0b3390d7521",
+  "dataDirectory": "C:\\Users\\Dreamer\\AppData\\Roaming\\trilium-data",
+  "clipperProtocolVersion": "1.0",
+  "utcDateTime": "2025-04-22T10:19:07.373Z"
+}
+06:19:08.051 CPU model: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz, logical cores: 16 freq: 2904 Mhz
+06:19:08.052 Trusted reverse proxy: false
+06:19:08.052 App HTTP server starting up at port 37840
+06:19:08.060 Listening on port 37840
+06:19:08.207 Becca (note cache) load took 146ms
+06:19:08.408 Registered global shortcut Ctrl+Alt+P for action createNoteIntoInbox
+06:19:09.562 Generated CSRF token EvLFCf9r-UChFgugFF5lXZuhh8-_RQm3Z1tY with secret _csrf=DRALvWYEtuuGQFc4MChWnf-6; Path=/
+06:19:09.660 Slow query took 98ms: SELECT COALESCE(MAX(id), 0) FROM entity_changes
+06:19:11.921 Slow query took 214ms: SELECT content FROM blobs WHERE blobId = ?
+06:19:11.936 200 GET /api/options with 6610 bytes took 0ms
+06:19:11.937 200 GET /api/tree with 12864 bytes took 0ms
+06:19:11.939 200 GET /api/keyboard-actions with 14263 bytes took 1ms
+06:19:11.962 Slow query took 22ms: SELECT content FROM blobs WHERE blobId = ?
+06:19:11.963 Slow 200 GET /api/script/widgets with 2687 bytes took 24ms
+06:19:11.965 200 POST /api/tree/load with 5384 bytes took 1ms
+06:19:11.995 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 1ms
+06:19:12.032 200 POST /api/tree/load with 6677 bytes took 0ms
+06:19:12.058 200 POST /api/tree/load with 19619 bytes took 1ms
+06:19:12.244 Table counts: notes: 274, revisions: 11, attachments: 19, branches: 288, attributes: 359, etapi_tokens: 0, blobs: 162
+06:19:12.388 Slow query took 144ms: SELECT id, entityId FROM entity_changes LEFT JOIN notes ON entityId = notes.noteId WHERE entity_changes.isErased = 0 AND entity_changes.entityName = 'notes' AND notes.noteId IS NULL
+06:19:12.456 Slow query took 49ms: SELECT notes.noteId, notes.type, notes.mime FROM notes JOIN blobs USING (blobId) WHERE isDeleted = 0 AND isProtected = 0 AND content IS NULL
+06:19:12.458 All consistency checks passed with no errors detected (took 244ms)
+06:19:12.534 200 GET /api/note-map/oLNIgf8fX9qG/backlink-count with 11 bytes took 1ms
+06:19:12.535 200 GET /api/notes/oLNIgf8fX9qG/blob with 157 bytes took 0ms
+06:19:13.996 200 GET /api/script/startup with 2 bytes took 1ms
+06:19:15.443 200 GET /api/notes/odeTZHUxAlZH/blob with 155 bytes took 0ms
+06:19:15.443 200 GET /api/note-map/odeTZHUxAlZH/backlink-count with 11 bytes took 0ms
+06:19:15.491 Slow 204 PUT /api/options with 0 bytes took 47ms
+06:19:15.570 200 POST /api/tree/load with 2372 bytes took 0ms
+06:19:15.575 200 GET /api/notes/azW54nPhzbkd/blob with 217 bytes took 0ms
+06:19:15.581 200 GET /api/notes/RX2vB6CfbArR/blob with 169 bytes took 1ms
+06:19:15.795 200 GET /api/notes/iNbuLw4726Ic/blob with 155 bytes took 1ms
+06:19:15.795 200 GET /api/note-map/iNbuLw4726Ic/backlink-count with 11 bytes took 0ms
+06:19:15.913 200 POST /api/tree/load with 2371 bytes took 0ms
+06:19:15.914 200 GET /api/notes/yVRCrXjIYKwL/blob with 155 bytes took 0ms
+06:19:15.922 200 GET /api/notes/9HbErF3XLQ56/blob with 6849 bytes took 7ms
+06:19:16.448 204 PUT /api/options with 0 bytes took 1ms
+06:19:17.160 200 GET /api/notes/9HbErF3XLQ56/blob with 6849 bytes took 0ms
+06:19:17.161 200 GET /api/note-map/9HbErF3XLQ56/backlink-count with 11 bytes took 0ms
+06:19:17.163 200 GET /api/tree?subTreeNoteId=iNbuLw4726Ic with 2371 bytes took 1ms
+06:19:17.382 204 PUT /api/branches/root_iNbuLw4726Ic/expanded/1 with 0 bytes took 1ms
+06:19:17.449 204 PUT /api/options with 0 bytes took 0ms
+06:29:18.123 204 PUT /api/branches/PlfyCkEEJala_7uobh7L0xRn8/expanded/0 with 0 bytes took 1ms
+06:29:19.113 204 PUT /api/branches/root_PlfyCkEEJala/expanded/0 with 0 bytes took 0ms
+07:19:08.067 Optimizing database
+07:19:08.068 Optimization finished in 1ms.
+07:19:08.224 Table counts: notes: 274, revisions: 11, attachments: 19, branches: 288, attributes: 359, etapi_tokens: 0, blobs: 162
+07:19:08.234 All consistency checks passed with no errors detected (took 11ms)
+07:19:08.856 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 0ms
+07:19:08.857 200 GET /api/notes/9iDZ7KfxdAmG/blob with 156 bytes took 0ms
+07:19:08.883 Slow 204 PUT /api/options with 0 bytes took 16ms
+07:19:08.937 200 POST /api/tree/load with 2956 bytes took 0ms
+07:19:13.176 Sending message to all clients: {"type":"protectedSessionLogin"}
+07:19:13.176 Slow 200 POST /api/login/protected with 16 bytes took 126ms
+07:19:13.178 200 GET /api/tree with 10233 bytes took 0ms
+07:19:13.179 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:19:13.180 200 POST /api/tree/load with 31242 bytes took 1ms
+07:19:13.189 200 GET /api/notes/9iDZ7KfxdAmG/blob with 156 bytes took 0ms
+07:19:13.191 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 1ms
+07:19:13.316 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:19:13.317 200 GET /api/notes/Qbgr2FOZRBHT/blob with 218 bytes took 1ms
+07:19:13.319 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:19:13.336 Slow 200 GET /api/notes/jQtcdrlQEWjD/blob with 191 bytes took 17ms
+07:19:13.338 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:19:13.339 200 GET /api/notes/wuWWW698bAlz/blob with 190 bytes took 1ms
+07:19:15.702 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:19:15.702 200 GET /api/notes/Qbgr2FOZRBHT/blob with 218 bytes took 0ms
+07:19:15.703 200 GET /api/note-map/Qbgr2FOZRBHT/backlink-count with 11 bytes took 0ms
+07:19:15.704 200 GET /api/tree?subTreeNoteId=9iDZ7KfxdAmG with 2939 bytes took 1ms
+07:19:15.705 204 PUT /api/options with 0 bytes took 0ms
+07:19:15.723 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/1 with 0 bytes took 0ms
+07:19:15.837 200 POST /api/tree/load with 3121 bytes took 2ms
+07:19:15.849 204 POST /api/login/protected/touch with 0 bytes took 1ms
+07:19:15.853 200 GET /api/notes/Se7jolEtqf8g/blob with 543 bytes took 2ms
+07:19:20.417 200 GET /api/tree?subTreeNoteId=Qbgr2FOZRBHT with 3121 bytes took 1ms
+07:19:20.633 204 PUT /api/branches/9iDZ7KfxdAmG_Qbgr2FOZRBHT/expanded/1 with 0 bytes took 1ms
+07:19:22.027 Slow query took 30ms: INSERT INTO notes (noteId, title, isProtected, type, mime, blobId, isDeleted, dateCreated, dateModified, utcDateCreated, utcDateModified) VALUES (@noteId, @title, @isProtected, @type, @mime, @blobId, @isDeleted, @dateCreated, @dateModified, @utcDateCreated, @utcDateModified) ON CONFLICT (noteId) DO UPDATE SET noteId = @noteId, title = @title, isProtected = @isProtected, type = @type, mime = @mime, blobId = @blobId, isDeleted = @isDeleted, dateCreated = @dateCreated, dateModified = @dateModified, utcDateCreated = @utcDateCreated, utcDateModified = @utcDateModified
+07:19:22.075 Created new note '385GY3FiqpYy', branch 'Qbgr2FOZRBHT_385GY3FiqpYy' of type 'text', mime 'text/html'
+07:19:22.076 Slow 200 POST /api/notes/Qbgr2FOZRBHT/children?target=into&targetBranchId= with 553 bytes took 83ms
+07:19:22.079 200 POST /api/tree/load with 2959 bytes took 0ms
+07:19:22.094 204 POST /api/login/protected/touch with 0 bytes took 1ms
+07:19:22.094 200 GET /api/notes/385GY3FiqpYy/blob with 156 bytes took 0ms
+07:19:22.095 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+07:19:22.097 204 PUT /api/options with 0 bytes took 1ms
+07:19:23.992 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:19:23.993 200 PUT /api/notes/385GY3FiqpYy/title with 319 bytes took 1ms
+07:19:23.996 200 GET /api/notes/385GY3FiqpYy/blob with 156 bytes took 0ms
+07:19:24.997 204 POST /api/login/protected/touch with 0 bytes took 2ms
+07:19:25.000 200 PUT /api/notes/385GY3FiqpYy/title with 320 bytes took 3ms
+07:19:25.002 200 GET /api/notes/385GY3FiqpYy/blob with 156 bytes took 0ms
+07:19:25.792 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:19:25.793 200 PUT /api/notes/385GY3FiqpYy/title with 323 bytes took 1ms
+07:19:33.115 204 POST /api/login/protected/touch with 0 bytes took 1ms
+07:19:33.170 Slow query took 55ms: INSERT INTO blobs (blobId, content, dateModified, utcDateModified) VALUES (@blobId, @content, @dateModified, @utcDateModified) ON CONFLICT (blobId) DO UPDATE SET blobId = @blobId, content = @content, dateModified = @dateModified, utcDateModified = @utcDateModified
+07:19:33.175 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 60ms
+07:19:33.178 200 GET /api/notes/385GY3FiqpYy/blob with 181 bytes took 0ms
+07:19:35.208 200 GET /api/notes/385GY3FiqpYy/blob with 181 bytes took 0ms
+07:19:36.460 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:19:36.462 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+07:19:36.464 200 GET /api/notes/385GY3FiqpYy/blob with 194 bytes took 0ms
+07:19:48.969 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:19:48.971 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+07:19:48.974 200 GET /api/notes/385GY3FiqpYy/blob with 211 bytes took 0ms
+07:29:50.107 204 PUT /api/branches/root_iNbuLw4726Ic/expanded/0 with 0 bytes took 1ms
+07:30:09.551 Expiring protected session
+07:30:09.551 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+07:30:09.553 JS Info: Frontend app reload: received request from backend to reload frontend
+07:30:09.573 Generated CSRF token FTFpJv63-cQDX2Z6CIUNBLmCVhmmqmQfCGms with secret undefined
+07:30:09.710 200 GET /api/options with 6541 bytes took 1ms
+07:30:09.710 200 GET /api/tree with 11224 bytes took 0ms
+07:30:09.712 200 GET /api/keyboard-actions with 14263 bytes took 1ms
+07:30:09.712 200 GET /api/script/widgets with 2687 bytes took 0ms
+07:30:09.714 200 POST /api/tree/load with 5384 bytes took 1ms
+07:30:09.738 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+07:30:09.776 200 POST /api/tree/load with 6677 bytes took 0ms
+07:30:09.785 200 POST /api/tree/load with 19619 bytes took 2ms
+07:30:10.124 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 1ms
+07:30:10.124 200 GET /api/notes/385GY3FiqpYy/blob with 157 bytes took 0ms
+07:30:10.137 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+07:30:11.113 204 PUT /api/options with 0 bytes took 1ms
+07:30:12.106 200 GET /api/script/startup with 2 bytes took 1ms
+07:58:20.356 Sending message to all clients: {"type":"protectedSessionLogin"}
+07:58:20.357 Slow 200 POST /api/login/protected with 16 bytes took 118ms
+07:58:20.359 200 GET /api/tree with 11215 bytes took 0ms
+07:58:20.359 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:58:20.360 200 POST /api/tree/load with 28581 bytes took 0ms
+07:58:20.369 200 GET /api/notes/385GY3FiqpYy/blob with 211 bytes took 0ms
+07:58:20.369 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+07:58:23.382 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:58:23.443 Slow query took 60ms: INSERT INTO revisions (revisionId, noteId, type, mime, isProtected, title, blobId, dateLastEdited, dateCreated, utcDateLastEdited, utcDateCreated, utcDateModified) VALUES (@revisionId, @noteId, @type, @mime, @isProtected, @title, @blobId, @dateLastEdited, @dateCreated, @utcDateLastEdited, @utcDateCreated, @utcDateModified) ON CONFLICT (revisionId) DO UPDATE SET revisionId = @revisionId, noteId = @noteId, type = @type, mime = @mime, isProtected = @isProtected, title = @title, blobId = @blobId, dateLastEdited = @dateLastEdited, dateCreated = @dateCreated, utcDateLastEdited = @utcDateLastEdited, utcDateCreated = @utcDateCreated, utcDateModified = @utcDateModified
+07:58:23.446 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 64ms
+07:58:23.449 200 GET /api/notes/385GY3FiqpYy/blob with 224 bytes took 0ms
+07:58:24.950 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:58:24.952 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+07:58:24.954 200 GET /api/notes/385GY3FiqpYy/blob with 219 bytes took 0ms
+07:58:25.953 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:58:25.956 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+07:58:25.958 200 GET /api/notes/385GY3FiqpYy/blob with 222 bytes took 1ms
+07:58:26.961 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:58:26.963 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+07:58:26.965 200 GET /api/notes/385GY3FiqpYy/blob with 225 bytes took 0ms
+07:58:27.963 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:58:27.965 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+07:58:27.967 200 GET /api/notes/385GY3FiqpYy/blob with 230 bytes took 0ms
+07:58:28.969 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:58:28.971 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+07:58:28.973 200 GET /api/notes/385GY3FiqpYy/blob with 232 bytes took 0ms
+07:58:29.972 204 POST /api/login/protected/touch with 0 bytes took 1ms
+07:58:29.973 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+07:58:29.975 200 GET /api/notes/385GY3FiqpYy/blob with 236 bytes took 0ms
+08:08:40.166 Expiring protected session
+08:08:40.166 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+08:08:40.168 JS Info: Frontend app reload: received request from backend to reload frontend
+08:08:40.172 Generated CSRF token X0BNEQic-2MnAzlApJ27CuNg5E1ze6Uh3-O0 with secret undefined
+08:08:40.290 200 GET /api/options with 6610 bytes took 0ms
+08:08:40.291 200 GET /api/tree with 11224 bytes took 0ms
+08:08:40.292 200 GET /api/keyboard-actions with 14263 bytes took 1ms
+08:08:40.292 200 GET /api/script/widgets with 2687 bytes took 0ms
+08:08:40.295 200 POST /api/tree/load with 5384 bytes took 0ms
+08:08:40.326 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 1ms
+08:08:40.362 200 POST /api/tree/load with 6677 bytes took 0ms
+08:08:40.370 200 POST /api/tree/load with 19619 bytes took 0ms
+08:08:40.692 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+08:08:40.692 200 GET /api/notes/385GY3FiqpYy/blob with 157 bytes took 0ms
+08:08:40.715 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+08:08:42.111 204 PUT /api/options with 0 bytes took 2ms
+08:08:43.105 200 GET /api/script/startup with 2 bytes took 0ms
+08:19:08.233 Table counts: notes: 275, revisions: 12, attachments: 19, branches: 289, attributes: 359, etapi_tokens: 0, blobs: 164
+08:19:08.240 All consistency checks passed with no errors detected (took 8ms)
+09:19:08.235 Table counts: notes: 275, revisions: 12, attachments: 19, branches: 289, attributes: 359, etapi_tokens: 0, blobs: 164
+09:19:08.238 All consistency checks passed with no errors detected (took 4ms)
+10:19:08.239 Table counts: notes: 275, revisions: 12, attachments: 19, branches: 289, attributes: 359, etapi_tokens: 0, blobs: 164
+10:19:08.242 All consistency checks passed with no errors detected (took 3ms)
+10:49:47.620 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 2ms
+10:49:47.623 200 GET /api/notes/PlfyCkEEJala/blob with 156 bytes took 1ms
+10:49:47.627 204 PUT /api/options with 0 bytes took 1ms
+10:49:47.734 200 POST /api/tree/load with 4388 bytes took 1ms
+10:49:51.661 Sending message to all clients: {"type":"protectedSessionLogin"}
+10:49:51.661 Slow 200 POST /api/login/protected with 16 bytes took 120ms
+10:49:51.663 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:49:51.664 200 GET /api/tree with 11215 bytes took 1ms
+10:49:51.665 200 POST /api/tree/load with 30406 bytes took 0ms
+10:49:51.675 200 GET /api/notes/PlfyCkEEJala/blob with 156 bytes took 0ms
+10:49:51.676 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 0ms
+10:49:51.967 204 POST /api/login/protected/touch with 0 bytes took 1ms
+10:49:51.967 200 GET /api/notes/2kKJAbj2zuUW/blob with 1240 bytes took 0ms
+10:49:51.969 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:49:51.984 Slow 200 GET /api/notes/kZX9udkPCT8D/blob with 1037 bytes took 15ms
+10:49:52.008 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:49:52.009 200 GET /api/notes/AYglMZCkAqqw/blob with 1055 bytes took 0ms
+10:49:52.017 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:49:52.017 200 GET /api/notes/7uobh7L0xRn8/blob with 156 bytes took 0ms
+10:49:52.018 200 POST /api/tree/load with 4894 bytes took 0ms
+10:49:52.021 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:49:52.021 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1924 bytes took 0ms
+10:49:55.505 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:49:55.505 200 GET /api/notes/7uobh7L0xRn8/blob with 156 bytes took 0ms
+10:49:55.506 200 GET /api/note-map/7uobh7L0xRn8/backlink-count with 11 bytes took 1ms
+10:49:55.507 200 GET /api/tree?subTreeNoteId=PlfyCkEEJala with 4387 bytes took 0ms
+10:49:55.508 204 PUT /api/options with 0 bytes took 1ms
+10:49:55.525 204 PUT /api/branches/root_PlfyCkEEJala/expanded/1 with 0 bytes took 1ms
+10:49:55.631 204 POST /api/login/protected/touch with 0 bytes took 1ms
+10:49:55.646 Slow 200 GET /api/notes/ue9rcGOGdMnI/blob with 1300 bytes took 14ms
+10:49:55.653 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:49:55.654 200 GET /api/notes/uLoqaGarL7nu/blob with 1334 bytes took 0ms
+10:49:55.656 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:49:55.676 Slow query took 20ms: SELECT *, LENGTH(content) AS contentLength FROM blobs WHERE blobId = ?
+10:49:55.677 Slow 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 21ms
+10:49:55.678 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:49:55.679 200 GET /api/notes/M5xUiLoKZNOf/blob with 1967 bytes took 1ms
+10:49:55.680 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:49:55.696 Slow 200 GET /api/notes/25ZG5mtGZhFt/blob with 2158 bytes took 16ms
+10:49:55.698 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:49:55.698 200 GET /api/notes/DCHknJe7ElEy/blob with 1237 bytes took 0ms
+10:49:55.700 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:49:55.700 200 GET /api/notes/Q6EGDAsgJqx0/blob with 2507 bytes took 0ms
+10:49:55.701 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:49:55.702 200 GET /api/notes/oLNIgf8fX9qG/blob with 277 bytes took 0ms
+10:49:57.993 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:49:57.994 200 GET /api/notes/uLoqaGarL7nu/blob with 1334 bytes took 1ms
+10:49:57.994 200 GET /api/note-map/uLoqaGarL7nu/backlink-count with 11 bytes took 0ms
+10:49:57.995 200 GET /api/tree?subTreeNoteId=7uobh7L0xRn8 with 4893 bytes took 0ms
+10:49:57.999 204 PUT /api/options with 0 bytes took 1ms
+10:49:58.030 204 PUT /api/branches/PlfyCkEEJala_7uobh7L0xRn8/expanded/1 with 0 bytes took 1ms
+10:50:06.783 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:50:06.784 200 GET /api/notes/7uobh7L0xRn8/blob with 156 bytes took 0ms
+10:50:06.784 200 GET /api/note-map/7uobh7L0xRn8/backlink-count with 11 bytes took 0ms
+10:50:06.795 204 PUT /api/options with 0 bytes took 1ms
+10:50:06.827 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:50:06.827 200 GET /api/notes/ue9rcGOGdMnI/blob with 1300 bytes took 0ms
+10:50:06.830 204 POST /api/login/protected/touch with 0 bytes took 1ms
+10:50:06.830 200 GET /api/notes/uLoqaGarL7nu/blob with 1334 bytes took 0ms
+10:50:06.838 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:50:06.839 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 1ms
+10:50:06.841 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:50:06.842 200 GET /api/notes/M5xUiLoKZNOf/blob with 1967 bytes took 1ms
+10:50:06.844 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:50:06.844 200 GET /api/notes/25ZG5mtGZhFt/blob with 2158 bytes took 0ms
+10:50:06.846 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:50:06.847 200 GET /api/notes/DCHknJe7ElEy/blob with 1237 bytes took 1ms
+10:50:06.856 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:50:06.857 200 GET /api/notes/Q6EGDAsgJqx0/blob with 2507 bytes took 1ms
+10:50:06.859 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:50:06.859 200 GET /api/notes/oLNIgf8fX9qG/blob with 277 bytes took 0ms
+10:50:08.493 204 POST /api/login/protected/touch with 0 bytes took 0ms
+10:50:08.494 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 0ms
+10:50:08.494 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+10:50:08.502 204 PUT /api/options with 0 bytes took 1ms
+11:00:09.166 204 PUT /api/branches/9iDZ7KfxdAmG_Qbgr2FOZRBHT/expanded/0 with 0 bytes took 2ms
+11:00:10.100 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/0 with 0 bytes took 1ms
+11:00:13.149 Expiring protected session
+11:00:13.149 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+11:00:13.151 JS Info: Frontend app reload: received request from backend to reload frontend
+11:00:13.188 Slow query took 23ms: SELECT name FROM sqlite_master WHERE type = 'table' AND name = 'options'
+11:00:13.189 Generated CSRF token weJXTtDt-Uffbpig9W7KQWEqz1S3d0lKZPGU with secret undefined
+11:00:13.406 200 GET /api/options with 6541 bytes took 0ms
+11:00:13.407 200 GET /api/tree with 12864 bytes took 0ms
+11:00:13.408 200 GET /api/keyboard-actions with 14263 bytes took 0ms
+11:00:13.409 200 GET /api/script/widgets with 2687 bytes took 0ms
+11:00:13.411 200 POST /api/tree/load with 5384 bytes took 1ms
+11:00:13.436 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+11:00:13.476 200 POST /api/tree/load with 6677 bytes took 1ms
+11:00:13.481 200 POST /api/tree/load with 19619 bytes took 0ms
+11:00:13.832 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+11:00:13.833 200 GET /api/notes/ncenxbDEDufV/blob with 158 bytes took 0ms
+11:00:13.850 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+11:00:15.103 204 PUT /api/options with 0 bytes took 2ms
+11:00:16.110 200 GET /api/script/startup with 2 bytes took 1ms
+11:13:10.334 Sending message to all clients: {"type":"protectedSessionLogin"}
+11:13:10.341 Slow 200 POST /api/login/protected with 16 bytes took 120ms
+11:13:10.343 200 GET /api/tree with 12836 bytes took 0ms
+11:13:10.344 204 POST /api/login/protected/touch with 0 bytes took 1ms
+11:13:10.345 200 POST /api/tree/load with 30202 bytes took 1ms
+11:13:10.356 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 0ms
+11:13:10.357 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+11:13:12.000 204 PUT /api/branches/PlfyCkEEJala_7uobh7L0xRn8/expanded/0 with 0 bytes took 1ms
+11:13:12.595 204 POST /api/login/protected/touch with 0 bytes took 0ms
+11:13:12.596 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1924 bytes took 0ms
+11:13:12.596 200 GET /api/note-map/H10Bt9HL1iJ1/backlink-count with 11 bytes took 0ms
+11:13:12.600 204 PUT /api/options with 0 bytes took 1ms
+11:19:08.252 Table counts: notes: 275, revisions: 12, attachments: 19, branches: 289, attributes: 359, etapi_tokens: 0, blobs: 164
+11:19:08.264 All consistency checks passed with no errors detected (took 15ms)
+11:23:13.484 Expiring protected session
+11:23:13.484 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+11:23:13.486 JS Info: Frontend app reload: received request from backend to reload frontend
+11:23:13.497 Generated CSRF token iMCNGKPQ-_uqowQmY7KQsx-1TzinIfckjRhA with secret undefined
+11:23:13.632 200 GET /api/options with 6528 bytes took 1ms
+11:23:13.632 200 GET /api/tree with 11809 bytes took 0ms
+11:23:13.633 200 GET /api/keyboard-actions with 14263 bytes took 0ms
+11:23:13.634 200 GET /api/script/widgets with 2687 bytes took 1ms
+11:23:13.638 200 POST /api/tree/load with 5384 bytes took 1ms
+11:23:13.663 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+11:23:13.698 200 POST /api/tree/load with 6677 bytes took 0ms
+11:23:13.707 200 POST /api/tree/load with 19619 bytes took 1ms
+11:23:14.026 200 GET /api/note-map/H10Bt9HL1iJ1/backlink-count with 11 bytes took 0ms
+11:23:14.027 200 GET /api/notes/H10Bt9HL1iJ1/blob with 158 bytes took 0ms
+11:23:14.043 200 GET /api/note-map/H10Bt9HL1iJ1/backlink-count with 11 bytes took 1ms
+11:23:15.107 204 PUT /api/options with 0 bytes took 0ms
+11:23:16.108 200 GET /api/script/startup with 2 bytes took 0ms
+12:14:40.991 200 GET /api/notes/iNbuLw4726Ic/blob with 155 bytes took 2ms
+12:14:40.995 200 GET /api/note-map/iNbuLw4726Ic/backlink-count with 11 bytes took 1ms
+12:14:40.999 204 PUT /api/options with 0 bytes took 2ms
+12:14:41.255 200 POST /api/tree/load with 2371 bytes took 1ms
+12:14:41.256 200 GET /api/notes/yVRCrXjIYKwL/blob with 155 bytes took 0ms
+12:14:41.257 200 GET /api/notes/9HbErF3XLQ56/blob with 6849 bytes took 0ms
+12:14:42.007 200 GET /api/note-map/9HbErF3XLQ56/backlink-count with 11 bytes took 0ms
+12:14:42.157 200 GET /api/tree?subTreeNoteId=iNbuLw4726Ic with 2371 bytes took 0ms
+12:14:42.203 204 PUT /api/options with 0 bytes took 1ms
+12:14:42.217 204 PUT /api/branches/root_iNbuLw4726Ic/expanded/1 with 0 bytes took 1ms
+12:19:08.259 Table counts: notes: 275, revisions: 12, attachments: 19, branches: 289, attributes: 359, etapi_tokens: 0, blobs: 164
+12:19:08.269 All consistency checks passed with no errors detected (took 11ms)
+12:24:43.108 204 PUT /api/branches/root_PlfyCkEEJala/expanded/0 with 0 bytes took 1ms
+12:46:11.791 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 1ms
+12:46:11.794 200 GET /api/notes/9iDZ7KfxdAmG/blob with 156 bytes took 1ms
+12:46:11.806 204 PUT /api/options with 0 bytes took 2ms
+12:46:11.854 200 POST /api/tree/load with 3102 bytes took 1ms
+12:46:15.530 Sending message to all clients: {"type":"protectedSessionLogin"}
+12:46:15.530 Slow 200 POST /api/login/protected with 16 bytes took 120ms
+12:46:15.532 200 GET /api/tree with 10233 bytes took 1ms
+12:46:15.532 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:46:15.534 200 POST /api/tree/load with 30099 bytes took 1ms
+12:46:15.543 200 GET /api/notes/9iDZ7KfxdAmG/blob with 156 bytes took 0ms
+12:46:15.544 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 0ms
+12:46:15.668 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:46:15.668 200 GET /api/notes/Qbgr2FOZRBHT/blob with 218 bytes took 0ms
+12:46:15.670 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:46:15.671 200 GET /api/notes/jQtcdrlQEWjD/blob with 191 bytes took 1ms
+12:46:15.675 204 POST /api/login/protected/touch with 0 bytes took 1ms
+12:46:15.675 200 GET /api/notes/wuWWW698bAlz/blob with 190 bytes took 0ms
+12:46:19.880 200 GET /api/notes/CstPkKIrC9eG/blob with 155 bytes took 0ms
+12:46:19.881 200 GET /api/note-map/CstPkKIrC9eG/backlink-count with 11 bytes took 1ms
+12:46:19.883 204 PUT /api/options with 0 bytes took 1ms
+12:46:20.010 200 POST /api/tree/load with 2391 bytes took 0ms
+12:46:20.011 200 GET /api/notes/1YwlA621c2Gq/blob with 155 bytes took 0ms
+12:46:20.012 200 POST /api/tree/load with 2641 bytes took 0ms
+12:46:20.128 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:46:20.129 200 GET /api/notes/PlfyCkEEJala/blob with 156 bytes took 1ms
+12:46:20.129 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 0ms
+12:46:20.182 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:46:20.182 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 0ms
+12:46:20.192 200 GET /api/tree?subTreeNoteId=PlfyCkEEJala with 4387 bytes took 1ms
+12:46:20.248 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:46:20.249 200 GET /api/notes/2kKJAbj2zuUW/blob with 1240 bytes took 0ms
+12:46:20.250 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:46:20.251 200 GET /api/notes/kZX9udkPCT8D/blob with 1037 bytes took 1ms
+12:46:20.252 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:46:20.252 200 GET /api/notes/AYglMZCkAqqw/blob with 1055 bytes took 0ms
+12:46:20.254 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:46:20.254 200 GET /api/notes/7uobh7L0xRn8/blob with 156 bytes took 0ms
+12:46:20.386 200 POST /api/tree/load with 4894 bytes took 1ms
+12:46:20.391 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:46:20.392 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1924 bytes took 0ms
+12:46:20.408 204 PUT /api/branches/root_PlfyCkEEJala/expanded/1 with 0 bytes took 0ms
+12:46:20.887 204 PUT /api/options with 0 bytes took 1ms
+12:46:22.575 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:46:22.576 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 0ms
+12:46:22.576 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+12:46:22.577 200 GET /api/tree?subTreeNoteId=7uobh7L0xRn8 with 4893 bytes took 0ms
+12:46:22.580 204 PUT /api/options with 0 bytes took 1ms
+12:46:22.616 204 PUT /api/branches/PlfyCkEEJala_7uobh7L0xRn8/expanded/1 with 0 bytes took 0ms
+12:47:21.507 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:47:21.508 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 0ms
+12:47:21.508 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+12:47:21.513 204 PUT /api/options with 0 bytes took 1ms
+12:47:22.011 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:47:22.012 200 GET /api/notes/uLoqaGarL7nu/blob with 1334 bytes took 0ms
+12:47:22.012 200 GET /api/note-map/uLoqaGarL7nu/backlink-count with 11 bytes took 0ms
+12:47:22.514 204 PUT /api/options with 0 bytes took 1ms
+12:47:26.783 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:47:26.783 200 GET /api/notes/ue9rcGOGdMnI/blob with 1300 bytes took 0ms
+12:47:26.784 200 GET /api/note-map/ue9rcGOGdMnI/backlink-count with 11 bytes took 1ms
+12:47:26.788 204 PUT /api/options with 0 bytes took 1ms
+12:57:25.891 204 PUT /api/branches/root_PlfyCkEEJala/expanded/0 with 0 bytes took 0ms
+12:57:27.228 200 GET /api/notes/O5pcv4EAX6hF/blob with 223 bytes took 1ms
+12:57:27.228 200 GET /api/note-map/O5pcv4EAX6hF/backlink-count with 11 bytes took 0ms
+12:57:27.231 204 PUT /api/options with 0 bytes took 1ms
+12:57:27.552 200 GET /api/notes/iNbuLw4726Ic/blob with 155 bytes took 0ms
+12:57:27.552 200 GET /api/note-map/iNbuLw4726Ic/backlink-count with 11 bytes took 0ms
+12:57:27.572 200 GET /api/notes/yVRCrXjIYKwL/blob with 155 bytes took 0ms
+12:57:27.575 200 GET /api/notes/9HbErF3XLQ56/blob with 6849 bytes took 0ms
+12:57:28.148 200 GET /api/note-map/9HbErF3XLQ56/backlink-count with 11 bytes took 1ms
+12:57:28.403 204 PUT /api/options with 0 bytes took 1ms
+12:57:45.023 Expiring protected session
+12:57:45.023 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+12:57:45.025 JS Info: Frontend app reload: received request from backend to reload frontend
+12:57:45.035 Generated CSRF token Hqeioi27-WHgXlE6_ChzO_1tiSq2OWIrxm8g with secret undefined
+12:57:45.162 200 GET /api/options with 6597 bytes took 0ms
+12:57:45.162 200 GET /api/tree with 10234 bytes took 0ms
+12:57:45.164 200 GET /api/keyboard-actions with 14263 bytes took 1ms
+12:57:45.165 200 GET /api/script/widgets with 2687 bytes took 1ms
+12:57:45.165 200 POST /api/tree/load with 5384 bytes took 0ms
+12:57:45.190 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+12:57:45.228 200 POST /api/tree/load with 6677 bytes took 0ms
+12:57:45.236 200 POST /api/tree/load with 19619 bytes took 1ms
+12:57:45.558 200 GET /api/notes/9HbErF3XLQ56/blob with 6849 bytes took 0ms
+12:57:45.559 200 GET /api/note-map/9HbErF3XLQ56/backlink-count with 11 bytes took 1ms
+12:57:45.575 200 GET /api/note-map/9HbErF3XLQ56/backlink-count with 11 bytes took 0ms
+12:57:46.168 204 PUT /api/options with 0 bytes took 0ms
+12:57:47.202 200 GET /api/script/startup with 2 bytes took 1ms
+13:18:29.871 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 2ms
+13:18:29.874 200 GET /api/notes/PlfyCkEEJala/blob with 156 bytes took 1ms
+13:18:29.878 204 PUT /api/options with 0 bytes took 2ms
+13:18:29.919 200 POST /api/tree/load with 4387 bytes took 1ms
+13:18:33.145 Sending message to all clients: {"type":"protectedSessionLogin"}
+13:18:33.146 Slow 200 POST /api/login/protected with 16 bytes took 120ms
+13:18:33.147 200 GET /api/tree with 10232 bytes took 0ms
+13:18:33.148 204 POST /api/login/protected/touch with 0 bytes took 0ms
+13:18:33.149 200 POST /api/tree/load with 29423 bytes took 1ms
+13:18:33.158 200 GET /api/notes/PlfyCkEEJala/blob with 156 bytes took 0ms
+13:18:33.158 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 0ms
+13:18:33.278 204 POST /api/login/protected/touch with 0 bytes took 0ms
+13:18:33.279 200 GET /api/notes/2kKJAbj2zuUW/blob with 1240 bytes took 1ms
+13:18:33.281 204 POST /api/login/protected/touch with 0 bytes took 1ms
+13:18:33.281 200 GET /api/notes/kZX9udkPCT8D/blob with 1037 bytes took 0ms
+13:18:33.282 204 POST /api/login/protected/touch with 0 bytes took 0ms
+13:18:33.283 200 GET /api/notes/AYglMZCkAqqw/blob with 1055 bytes took 0ms
+13:18:33.284 204 POST /api/login/protected/touch with 0 bytes took 0ms
+13:18:33.284 200 GET /api/notes/7uobh7L0xRn8/blob with 156 bytes took 0ms
+13:18:33.285 200 POST /api/tree/load with 4893 bytes took 0ms
+13:18:33.288 204 POST /api/login/protected/touch with 0 bytes took 1ms
+13:18:33.288 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1924 bytes took 0ms
+13:18:37.502 204 POST /api/login/protected/touch with 0 bytes took 0ms
+13:18:37.503 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1924 bytes took 1ms
+13:18:37.503 200 GET /api/note-map/H10Bt9HL1iJ1/backlink-count with 11 bytes took 0ms
+13:18:37.504 200 GET /api/tree?subTreeNoteId=PlfyCkEEJala with 5419 bytes took 0ms
+13:18:37.508 204 PUT /api/options with 0 bytes took 1ms
+13:18:37.540 204 PUT /api/branches/root_PlfyCkEEJala/expanded/1 with 0 bytes took 1ms
+13:19:08.264 Table counts: notes: 275, revisions: 12, attachments: 19, branches: 289, attributes: 359, etapi_tokens: 0, blobs: 164
+13:19:08.270 All consistency checks passed with no errors detected (took 6ms)
+13:28:39.117 204 PUT /api/branches/PlfyCkEEJala_7uobh7L0xRn8/expanded/0 with 0 bytes took 2ms
+13:28:39.119 204 PUT /api/branches/root_iNbuLw4726Ic/expanded/0 with 0 bytes took 0ms
+13:28:45.536 Expiring protected session
+13:28:45.536 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+13:28:45.538 JS Info: Frontend app reload: received request from backend to reload frontend
+13:28:45.551 Generated CSRF token bGXKJn4M-FwtkUrbaIIuBPC6WdEsVMv93ogw with secret undefined
+13:28:45.688 200 GET /api/options with 6528 bytes took 0ms
+13:28:45.689 200 GET /api/tree with 11809 bytes took 1ms
+13:28:45.690 200 GET /api/keyboard-actions with 14263 bytes took 1ms
+13:28:45.691 200 GET /api/script/widgets with 2687 bytes took 1ms
+13:28:45.692 200 POST /api/tree/load with 5384 bytes took 0ms
+13:28:45.717 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+13:28:45.758 200 POST /api/tree/load with 6677 bytes took 1ms
+13:28:45.765 200 POST /api/tree/load with 19619 bytes took 1ms
+13:28:46.078 200 GET /api/note-map/H10Bt9HL1iJ1/backlink-count with 11 bytes took 1ms
+13:28:46.078 200 GET /api/notes/H10Bt9HL1iJ1/blob with 158 bytes took 0ms
+13:28:46.091 200 GET /api/note-map/H10Bt9HL1iJ1/backlink-count with 11 bytes took 0ms
+13:28:47.110 204 PUT /api/options with 0 bytes took 2ms
+13:28:48.104 200 GET /api/script/startup with 2 bytes took 0ms
+13:36:59.719 Slow 200 POST /api/login/protected with 71 bytes took 62ms
+13:47:07.601 DB size: 2240 KB
+13:47:08.282 {
+  "appVersion": "0.63.5",
+  "dbVersion": 228,
+  "nodeVersion": "v18.15.0",
+  "syncVersion": 32,
+  "buildDate": "2024-03-28T07:11:39+01:00",
+  "buildRevision": "399458b52f250b22be22d980a78de0b3390d7521",
+  "dataDirectory": "C:\\Users\\Dreamer\\AppData\\Roaming\\trilium-data",
+  "clipperProtocolVersion": "1.0",
+  "utcDateTime": "2025-04-22T17:47:07.600Z"
+}
+13:47:08.282 CPU model: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz, logical cores: 16 freq: 2904 Mhz
+13:47:08.283 Trusted reverse proxy: false
+13:47:08.283 App HTTP server starting up at port 37840
+13:47:08.290 Listening on port 37840
+13:47:08.313 Becca (note cache) load took 22ms
+13:47:08.427 Registered global shortcut Ctrl+Alt+P for action createNoteIntoInbox
+13:47:08.852 Generated CSRF token uwheqbrN-dOlqecF0O_BLgXFN5zdD36JZlf0 with secret _csrf=WZ1V-gUP0GyF4xPaEiQHx6Ms; Path=/
+13:47:10.311 200 GET /api/options with 6597 bytes took 0ms
+13:47:10.312 200 GET /api/tree with 11809 bytes took 1ms
+13:47:10.314 200 GET /api/keyboard-actions with 14263 bytes took 0ms
+13:47:10.315 200 GET /api/script/widgets with 2687 bytes took 0ms
+13:47:10.316 200 POST /api/tree/load with 5384 bytes took 0ms
+13:47:10.348 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+13:47:10.386 200 POST /api/tree/load with 6677 bytes took 1ms
+13:47:10.533 200 POST /api/tree/load with 19619 bytes took 1ms
+13:47:10.876 200 GET /api/note-map/H10Bt9HL1iJ1/backlink-count with 11 bytes took 0ms
+13:47:10.877 200 GET /api/notes/H10Bt9HL1iJ1/blob with 158 bytes took 1ms
+13:47:12.348 Slow query took 34ms: SELECT COUNT(1) FROM notes
+13:47:12.374 Slow query took 25ms: SELECT COUNT(1) FROM attachments
+13:47:12.422 Slow query took 48ms: SELECT COUNT(1) FROM branches
+13:47:12.444 Table counts: notes: 275, revisions: 12, attachments: 19, branches: 289, attributes: 359, etapi_tokens: 0, blobs: 164
+13:47:12.596 Slow query took 143ms: SELECT id, entityId FROM entity_changes LEFT JOIN notes ON entityId = notes.noteId WHERE entity_changes.isErased = 0 AND entity_changes.entityName = 'notes' AND notes.noteId IS NULL
+13:47:12.665 Slow query took 50ms: SELECT notes.noteId, notes.type, notes.mime FROM notes JOIN blobs USING (blobId) WHERE isDeleted = 0 AND isProtected = 0 AND content IS NULL
+13:47:12.667 All consistency checks passed with no errors detected (took 353ms)
+13:47:12.669 200 GET /api/script/startup with 2 bytes took 1ms
+14:41:00.098 200 GET /api/notes/O5pcv4EAX6hF/blob with 223 bytes took 2ms
+14:41:00.102 200 GET /api/note-map/O5pcv4EAX6hF/backlink-count with 11 bytes took 0ms
+14:41:00.123 Slow 204 PUT /api/options with 0 bytes took 19ms
+14:41:00.381 200 GET /api/notes/iNbuLw4726Ic/blob with 155 bytes took 1ms
+14:41:00.381 200 GET /api/note-map/iNbuLw4726Ic/backlink-count with 11 bytes took 0ms
+14:41:00.403 200 POST /api/tree/load with 2371 bytes took 1ms
+14:41:00.405 200 GET /api/notes/yVRCrXjIYKwL/blob with 155 bytes took 0ms
+14:41:00.420 Slow 200 GET /api/notes/9HbErF3XLQ56/blob with 6849 bytes took 14ms
+14:41:01.095 204 PUT /api/options with 0 bytes took 1ms
+14:41:01.256 200 GET /api/note-map/9HbErF3XLQ56/backlink-count with 11 bytes took 0ms
+14:41:01.421 200 GET /api/tree?subTreeNoteId=iNbuLw4726Ic with 2371 bytes took 0ms
+14:41:01.472 204 PUT /api/branches/root_iNbuLw4726Ic/expanded/1 with 0 bytes took 2ms
+14:41:02.097 204 PUT /api/options with 0 bytes took 0ms
+14:47:08.297 Optimizing database
+14:47:08.298 Optimization finished in 1ms.
+14:47:08.329 Table counts: notes: 275, revisions: 12, attachments: 19, branches: 289, attributes: 359, etapi_tokens: 0, blobs: 164
+14:47:08.335 All consistency checks passed with no errors detected (took 7ms)
+14:51:03.103 204 PUT /api/branches/root_PlfyCkEEJala/expanded/0 with 0 bytes took 1ms
+15:47:08.341 Table counts: notes: 275, revisions: 12, attachments: 19, branches: 289, attributes: 359, etapi_tokens: 0, blobs: 164
+15:47:08.348 All consistency checks passed with no errors detected (took 9ms)
+15:56:10.172 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 1ms
+15:56:10.173 200 GET /api/notes/PlfyCkEEJala/blob with 156 bytes took 1ms
+15:56:10.188 204 PUT /api/options with 0 bytes took 2ms
+15:56:14.108 Sending message to all clients: {"type":"protectedSessionLogin"}
+15:56:14.109 Slow 200 POST /api/login/protected with 16 bytes took 135ms
+15:56:14.112 200 GET /api/tree with 10233 bytes took 1ms
+15:56:14.113 204 POST /api/login/protected/touch with 0 bytes took 1ms
+15:56:14.115 200 POST /api/tree/load with 29424 bytes took 2ms
+15:56:14.124 200 GET /api/notes/PlfyCkEEJala/blob with 156 bytes took 0ms
+15:56:14.124 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 0ms
+15:56:14.247 204 POST /api/login/protected/touch with 0 bytes took 0ms
+15:56:14.248 200 GET /api/notes/2kKJAbj2zuUW/blob with 1240 bytes took 0ms
+15:56:14.250 204 POST /api/login/protected/touch with 0 bytes took 0ms
+15:56:14.251 200 GET /api/notes/kZX9udkPCT8D/blob with 1037 bytes took 1ms
+15:56:14.252 204 POST /api/login/protected/touch with 0 bytes took 0ms
+15:56:14.254 200 GET /api/notes/AYglMZCkAqqw/blob with 1055 bytes took 1ms
+15:56:14.255 204 POST /api/login/protected/touch with 0 bytes took 0ms
+15:56:14.255 200 GET /api/notes/7uobh7L0xRn8/blob with 156 bytes took 0ms
+15:56:14.256 200 POST /api/tree/load with 4894 bytes took 0ms
+15:56:14.258 204 POST /api/login/protected/touch with 0 bytes took 0ms
+15:56:14.259 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1924 bytes took 0ms
+15:56:16.859 204 POST /api/login/protected/touch with 0 bytes took 0ms
+15:56:16.860 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 1ms
+15:56:16.860 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+15:56:16.861 200 GET /api/tree?subTreeNoteId=PlfyCkEEJala with 4387 bytes took 0ms
+15:56:16.864 204 PUT /api/options with 0 bytes took 0ms
+15:56:16.894 200 GET /api/tree?subTreeNoteId=7uobh7L0xRn8 with 4894 bytes took 1ms
+15:56:16.898 204 PUT /api/branches/root_PlfyCkEEJala/expanded/1 with 0 bytes took 0ms
+15:56:16.902 204 PUT /api/branches/PlfyCkEEJala_7uobh7L0xRn8/expanded/1 with 0 bytes took 0ms
+16:06:18.116 204 PUT /api/branches/root_iNbuLw4726Ic/expanded/0 with 0 bytes took 3ms
+16:06:40.713 Expiring protected session
+16:06:40.714 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+16:06:40.718 JS Info: Frontend app reload: received request from backend to reload frontend
+16:06:40.780 Generated CSRF token laKhkAYL-hOh2AaMQD438ACYVvFLvs6xWZHQ with secret undefined
+16:06:40.935 200 GET /api/options with 6541 bytes took 0ms
+16:06:40.936 200 GET /api/tree with 12864 bytes took 0ms
+16:06:40.944 200 GET /api/keyboard-actions with 14263 bytes took 8ms
+16:06:40.945 200 GET /api/script/widgets with 2687 bytes took 0ms
+16:06:40.947 200 POST /api/tree/load with 5384 bytes took 1ms
+16:06:40.970 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+16:06:41.007 200 POST /api/tree/load with 6677 bytes took 0ms
+16:06:41.014 200 POST /api/tree/load with 19619 bytes took 0ms
+16:06:41.352 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+16:06:41.352 200 GET /api/notes/ncenxbDEDufV/blob with 158 bytes took 0ms
+16:06:41.366 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+16:06:42.104 204 PUT /api/options with 0 bytes took 0ms
+16:06:43.099 200 GET /api/script/startup with 2 bytes took 0ms
+16:47:08.365 Table counts: notes: 275, revisions: 12, attachments: 19, branches: 289, attributes: 359, etapi_tokens: 0, blobs: 164
+16:47:08.397 All consistency checks passed with no errors detected (took 37ms)
+17:24:11.383 Sending message to all clients: {"type":"protectedSessionLogin"}
+17:24:11.385 Slow 200 POST /api/login/protected with 16 bytes took 124ms
+17:24:11.390 200 GET /api/tree with 12836 bytes took 2ms
+17:24:11.390 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:11.393 200 POST /api/tree/load with 30202 bytes took 1ms
+17:24:11.407 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 1ms
+17:24:11.409 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 1ms
+17:24:14.052 204 PUT /api/branches/root_PlfyCkEEJala/expanded/0 with 0 bytes took 1ms
+17:24:15.205 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:15.206 200 GET /api/notes/9iDZ7KfxdAmG/blob with 156 bytes took 1ms
+17:24:15.206 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 0ms
+17:24:15.208 204 PUT /api/options with 0 bytes took 1ms
+17:24:15.237 200 POST /api/tree/load with 3086 bytes took 1ms
+17:24:15.239 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:15.239 200 GET /api/notes/Qbgr2FOZRBHT/blob with 218 bytes took 0ms
+17:24:15.241 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:24:15.241 200 GET /api/notes/jQtcdrlQEWjD/blob with 191 bytes took 0ms
+17:24:15.242 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:15.243 200 GET /api/notes/wuWWW698bAlz/blob with 190 bytes took 0ms
+17:24:17.282 200 GET /api/tree?subTreeNoteId=9iDZ7KfxdAmG with 3086 bytes took 1ms
+17:24:17.503 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/1 with 0 bytes took 0ms
+17:24:18.018 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:18.018 200 GET /api/notes/Qbgr2FOZRBHT/blob with 218 bytes took 0ms
+17:24:18.019 200 GET /api/note-map/Qbgr2FOZRBHT/backlink-count with 11 bytes took 1ms
+17:24:18.021 204 PUT /api/options with 0 bytes took 1ms
+17:24:18.143 200 POST /api/tree/load with 3394 bytes took 0ms
+17:24:18.147 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:24:18.147 200 GET /api/notes/Se7jolEtqf8g/blob with 543 bytes took 0ms
+17:24:18.149 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:18.151 200 GET /api/notes/385GY3FiqpYy/blob with 236 bytes took 2ms
+17:24:19.256 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:19.256 200 GET /api/notes/385GY3FiqpYy/blob with 236 bytes took 0ms
+17:24:19.257 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+17:24:19.257 200 GET /api/tree?subTreeNoteId=Qbgr2FOZRBHT with 3394 bytes took 0ms
+17:24:19.260 204 PUT /api/options with 0 bytes took 0ms
+17:24:19.275 204 PUT /api/branches/9iDZ7KfxdAmG_Qbgr2FOZRBHT/expanded/1 with 0 bytes took 0ms
+17:24:23.208 Slow 204 PUT /api/notes/385GY3FiqpYy/attributes with 0 bytes took 23ms
+17:24:26.351 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:26.393 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 41ms
+17:24:26.396 200 GET /api/notes/385GY3FiqpYy/blob with 237 bytes took 0ms
+17:24:27.355 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:27.357 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:24:27.359 200 GET /api/notes/385GY3FiqpYy/blob with 239 bytes took 0ms
+17:24:28.545 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:28.547 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:24:28.550 200 GET /api/notes/385GY3FiqpYy/blob with 238 bytes took 1ms
+17:24:29.553 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:29.555 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:24:29.557 200 GET /api/notes/385GY3FiqpYy/blob with 239 bytes took 0ms
+17:24:30.555 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:30.557 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:24:30.560 200 GET /api/notes/385GY3FiqpYy/blob with 429 bytes took 1ms
+17:24:32.182 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:32.185 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 3ms
+17:24:32.188 200 GET /api/notes/385GY3FiqpYy/blob with 430 bytes took 1ms
+17:24:33.191 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:24:33.195 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 3ms
+17:24:33.198 200 GET /api/notes/385GY3FiqpYy/blob with 432 bytes took 0ms
+17:24:34.194 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:34.196 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:24:34.198 200 GET /api/notes/385GY3FiqpYy/blob with 573 bytes took 0ms
+17:24:35.955 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:35.957 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:24:35.959 200 GET /api/notes/385GY3FiqpYy/blob with 574 bytes took 1ms
+17:24:36.961 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:36.963 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:24:36.964 200 GET /api/notes/385GY3FiqpYy/blob with 576 bytes took 0ms
+17:24:37.967 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:37.969 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:24:37.971 200 GET /api/notes/385GY3FiqpYy/blob with 717 bytes took 0ms
+17:24:40.695 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:40.697 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:24:40.699 200 GET /api/notes/385GY3FiqpYy/blob with 737 bytes took 0ms
+17:24:41.701 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:24:41.702 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:24:41.704 200 GET /api/notes/385GY3FiqpYy/blob with 717 bytes took 0ms
+17:24:45.379 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:45.381 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:24:45.384 200 GET /api/notes/385GY3FiqpYy/blob with 696 bytes took 1ms
+17:24:46.384 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:46.386 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:24:46.389 200 GET /api/notes/385GY3FiqpYy/blob with 701 bytes took 0ms
+17:24:47.386 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:47.388 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:24:47.390 200 GET /api/notes/385GY3FiqpYy/blob with 704 bytes took 0ms
+17:24:48.392 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:48.394 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:24:48.396 200 GET /api/notes/385GY3FiqpYy/blob with 708 bytes took 0ms
+17:24:49.394 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:49.396 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:24:49.398 200 GET /api/notes/385GY3FiqpYy/blob with 702 bytes took 0ms
+17:24:50.399 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:50.401 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:24:50.403 200 GET /api/notes/385GY3FiqpYy/blob with 701 bytes took 1ms
+17:24:51.402 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:51.404 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:24:51.406 200 GET /api/notes/385GY3FiqpYy/blob with 698 bytes took 0ms
+17:24:52.412 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:24:52.415 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:24:52.418 200 GET /api/notes/385GY3FiqpYy/blob with 702 bytes took 0ms
+17:24:53.413 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:53.416 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:24:53.419 200 GET /api/notes/385GY3FiqpYy/blob with 704 bytes took 0ms
+17:24:55.648 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:55.650 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:24:55.652 200 GET /api/notes/385GY3FiqpYy/blob with 703 bytes took 0ms
+17:24:56.653 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:24:56.656 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:24:56.661 200 GET /api/notes/385GY3FiqpYy/blob with 704 bytes took 1ms
+17:25:01.432 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:01.435 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:01.438 200 GET /api/notes/385GY3FiqpYy/blob with 704 bytes took 0ms
+17:25:03.712 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:03.714 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:03.716 200 GET /api/notes/385GY3FiqpYy/blob with 705 bytes took 1ms
+17:25:04.722 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:25:04.723 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:25:04.725 200 GET /api/notes/385GY3FiqpYy/blob with 708 bytes took 0ms
+17:25:05.723 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:05.725 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:25:05.727 200 GET /api/notes/385GY3FiqpYy/blob with 712 bytes took 0ms
+17:25:06.729 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:06.731 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:25:06.734 200 GET /api/notes/385GY3FiqpYy/blob with 713 bytes took 1ms
+17:25:09.625 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:09.628 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:09.630 200 GET /api/notes/385GY3FiqpYy/blob with 719 bytes took 0ms
+17:25:10.632 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:10.637 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 4ms
+17:25:10.639 200 GET /api/notes/385GY3FiqpYy/blob with 717 bytes took 0ms
+17:25:11.641 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:11.646 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 4ms
+17:25:11.648 200 GET /api/notes/385GY3FiqpYy/blob with 722 bytes took 0ms
+17:25:12.650 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:12.652 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:12.654 200 GET /api/notes/385GY3FiqpYy/blob with 723 bytes took 0ms
+17:25:15.217 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:15.219 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:15.222 200 GET /api/notes/385GY3FiqpYy/blob with 743 bytes took 1ms
+17:25:16.910 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:16.912 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:16.914 200 GET /api/notes/385GY3FiqpYy/blob with 921 bytes took 1ms
+17:25:42.536 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:25:42.538 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:42.544 200 GET /api/notes/385GY3FiqpYy/blob with 900 bytes took 0ms
+17:25:43.538 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:43.539 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:25:44.763 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:44.765 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:44.768 200 GET /api/notes/385GY3FiqpYy/blob with 901 bytes took 0ms
+17:25:45.766 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:45.769 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:45.771 200 GET /api/notes/385GY3FiqpYy/blob with 900 bytes took 0ms
+17:25:46.774 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:25:46.774 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 0ms
+17:25:47.777 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:47.779 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:47.781 200 GET /api/notes/385GY3FiqpYy/blob with 902 bytes took 1ms
+17:25:48.779 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:48.979 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 200ms
+17:25:48.982 200 GET /api/notes/385GY3FiqpYy/blob with 900 bytes took 0ms
+17:25:49.785 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:25:49.807 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 22ms
+17:25:49.810 200 GET /api/notes/385GY3FiqpYy/blob with 895 bytes took 1ms
+17:25:50.795 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:25:50.797 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:25:50.799 200 GET /api/notes/385GY3FiqpYy/blob with 903 bytes took 0ms
+17:25:51.795 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:51.796 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:25:52.801 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:25:52.802 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:25:52.804 200 GET /api/notes/385GY3FiqpYy/blob with 895 bytes took 0ms
+17:25:53.805 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:53.807 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:53.809 200 GET /api/notes/385GY3FiqpYy/blob with 756 bytes took 0ms
+17:25:54.811 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:54.813 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:25:54.815 200 GET /api/notes/385GY3FiqpYy/blob with 743 bytes took 0ms
+17:25:55.817 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:55.819 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:55.820 200 GET /api/notes/385GY3FiqpYy/blob with 745 bytes took 0ms
+17:25:56.820 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:56.822 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:56.825 200 GET /api/notes/385GY3FiqpYy/blob with 750 bytes took 0ms
+17:25:57.821 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:57.823 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:25:57.825 200 GET /api/notes/385GY3FiqpYy/blob with 752 bytes took 0ms
+17:25:58.826 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:58.828 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:58.830 200 GET /api/notes/385GY3FiqpYy/blob with 758 bytes took 0ms
+17:25:59.831 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:59.833 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:25:59.835 200 GET /api/notes/385GY3FiqpYy/blob with 765 bytes took 0ms
+17:26:00.835 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:00.837 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:26:00.839 200 GET /api/notes/385GY3FiqpYy/blob with 767 bytes took 1ms
+17:26:02.722 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:02.724 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:26:02.727 200 GET /api/notes/385GY3FiqpYy/blob with 925 bytes took 0ms
+17:26:03.724 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:03.725 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:26:03.727 200 GET /api/notes/385GY3FiqpYy/blob with 954 bytes took 0ms
+17:26:15.161 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:26:15.161 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 0ms
+17:26:16.904 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:16.906 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:26:16.909 200 GET /api/notes/385GY3FiqpYy/blob with 955 bytes took 0ms
+17:26:17.908 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:17.910 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:26:17.912 200 GET /api/notes/385GY3FiqpYy/blob with 955 bytes took 0ms
+17:26:18.919 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:18.921 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:26:18.923 200 GET /api/notes/385GY3FiqpYy/blob with 960 bytes took 0ms
+17:26:19.927 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:19.929 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:26:19.931 200 GET /api/notes/385GY3FiqpYy/blob with 961 bytes took 0ms
+17:26:20.931 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:20.932 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:26:20.935 200 GET /api/notes/385GY3FiqpYy/blob with 1120 bytes took 1ms
+17:26:23.008 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:23.010 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:26:23.012 200 GET /api/notes/385GY3FiqpYy/blob with 1115 bytes took 0ms
+17:26:24.012 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:24.014 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:26:24.015 200 GET /api/notes/385GY3FiqpYy/blob with 1120 bytes took 0ms
+17:26:25.017 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:25.019 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:26:25.021 200 GET /api/notes/385GY3FiqpYy/blob with 1116 bytes took 0ms
+17:26:26.020 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:26.022 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:26:26.024 200 GET /api/notes/385GY3FiqpYy/blob with 1120 bytes took 1ms
+17:26:27.033 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:27.035 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:26:27.036 200 GET /api/notes/385GY3FiqpYy/blob with 1121 bytes took 0ms
+17:26:29.160 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:29.163 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:26:29.165 200 GET /api/notes/385GY3FiqpYy/blob with 1115 bytes took 1ms
+17:26:34.256 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:26:34.258 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:26:34.261 200 GET /api/notes/385GY3FiqpYy/blob with 1135 bytes took 0ms
+17:35:43.066 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:35:43.069 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 3ms
+17:35:43.076 200 GET /api/notes/385GY3FiqpYy/blob with 1312 bytes took 1ms
+17:35:44.869 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:35:44.870 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:35:45.876 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:35:45.877 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:35:46.879 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:35:46.881 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:35:46.884 200 GET /api/notes/385GY3FiqpYy/blob with 1309 bytes took 1ms
+17:35:47.898 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:35:47.900 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:35:47.903 200 GET /api/notes/385GY3FiqpYy/blob with 1310 bytes took 1ms
+17:35:48.901 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:35:48.903 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:35:48.905 200 GET /api/notes/385GY3FiqpYy/blob with 1315 bytes took 0ms
+17:35:49.906 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:35:49.908 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:35:49.909 200 GET /api/notes/385GY3FiqpYy/blob with 1308 bytes took 0ms
+17:35:50.912 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:35:50.914 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:35:50.916 200 GET /api/notes/385GY3FiqpYy/blob with 1308 bytes took 0ms
+17:35:51.929 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:35:51.930 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:35:51.932 200 GET /api/notes/385GY3FiqpYy/blob with 1312 bytes took 0ms
+17:35:52.929 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:35:52.931 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:35:52.933 200 GET /api/notes/385GY3FiqpYy/blob with 1311 bytes took 0ms
+17:35:53.944 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:35:53.954 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 8ms
+17:35:53.959 200 GET /api/notes/385GY3FiqpYy/blob with 1308 bytes took 1ms
+17:35:54.946 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:35:54.947 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:35:54.949 200 GET /api/notes/385GY3FiqpYy/blob with 1312 bytes took 0ms
+17:35:55.952 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:35:55.954 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:35:55.956 200 GET /api/notes/385GY3FiqpYy/blob with 1309 bytes took 0ms
+17:35:56.958 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:35:56.960 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:35:56.962 200 GET /api/notes/385GY3FiqpYy/blob with 1312 bytes took 0ms
+17:35:58.001 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:35:58.002 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:35:58.004 200 GET /api/notes/385GY3FiqpYy/blob with 1318 bytes took 0ms
+17:35:59.005 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:35:59.007 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:35:59.009 200 GET /api/notes/385GY3FiqpYy/blob with 1318 bytes took 0ms
+17:36:00.010 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:36:00.012 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:36:00.014 200 GET /api/notes/385GY3FiqpYy/blob with 1321 bytes took 0ms
+17:36:01.017 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:36:01.019 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:36:01.022 200 GET /api/notes/385GY3FiqpYy/blob with 1326 bytes took 1ms
+17:36:02.020 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:36:02.024 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 3ms
+17:36:02.028 200 GET /api/notes/385GY3FiqpYy/blob with 1330 bytes took 1ms
+17:36:03.026 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:36:03.027 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:36:04.032 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:36:04.196 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 163ms
+17:36:04.198 200 GET /api/notes/385GY3FiqpYy/blob with 1332 bytes took 0ms
+17:36:05.832 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:36:05.855 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 23ms
+17:36:05.857 200 GET /api/notes/385GY3FiqpYy/blob with 1312 bytes took 0ms
+17:36:58.314 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:36:58.316 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:36:58.320 200 GET /api/notes/385GY3FiqpYy/blob with 1469 bytes took 0ms
+17:36:59.321 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:36:59.323 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:36:59.325 200 GET /api/notes/385GY3FiqpYy/blob with 1464 bytes took 0ms
+17:37:00.328 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:37:00.330 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:37:00.332 200 GET /api/notes/385GY3FiqpYy/blob with 1467 bytes took 1ms
+17:37:01.333 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:37:01.335 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:37:01.338 200 GET /api/notes/385GY3FiqpYy/blob with 1475 bytes took 1ms
+17:37:02.341 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:37:02.344 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:37:02.348 200 GET /api/notes/385GY3FiqpYy/blob with 1500 bytes took 1ms
+17:37:53.429 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:37:53.431 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:37:53.435 200 GET /api/notes/385GY3FiqpYy/blob with 1501 bytes took 1ms
+17:37:54.434 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:37:54.436 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:37:54.438 200 GET /api/notes/385GY3FiqpYy/blob with 1503 bytes took 0ms
+17:37:55.899 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:37:55.901 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:37:55.903 200 GET /api/notes/385GY3FiqpYy/blob with 1504 bytes took 0ms
+17:37:56.904 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:37:56.906 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:37:56.908 200 GET /api/notes/385GY3FiqpYy/blob with 1506 bytes took 0ms
+17:37:59.890 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:37:59.892 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:37:59.896 200 GET /api/notes/385GY3FiqpYy/blob with 1507 bytes took 0ms
+17:38:00.894 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:38:00.896 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+17:38:00.898 200 GET /api/notes/385GY3FiqpYy/blob with 1509 bytes took 0ms
+17:38:01.993 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:38:01.994 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:38:01.996 200 GET /api/notes/385GY3FiqpYy/blob with 1510 bytes took 0ms
+17:38:02.995 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:38:02.997 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+17:38:02.999 200 GET /api/notes/385GY3FiqpYy/blob with 1512 bytes took 0ms
+17:47:08.376 Table counts: notes: 275, revisions: 14, attachments: 19, branches: 289, attributes: 359, etapi_tokens: 0, blobs: 166
+17:47:08.381 All consistency checks passed with no errors detected (took 5ms)
+17:48:03.108 204 PUT /api/branches/PlfyCkEEJala_7uobh7L0xRn8/expanded/0 with 0 bytes took 0ms
+17:48:12.354 Expiring protected session
+17:48:12.354 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+17:48:12.356 JS Info: Frontend app reload: received request from backend to reload frontend
+17:48:12.365 Generated CSRF token TiVNfohC-5Z0S43oezZwDQf0ySu_WINSb1Ps with secret undefined
+17:48:12.596 200 GET /api/options with 6541 bytes took 0ms
+17:48:12.596 200 GET /api/tree with 11224 bytes took 0ms
+17:48:12.607 Slow 200 GET /api/keyboard-actions with 14263 bytes took 10ms
+17:48:12.609 200 GET /api/script/widgets with 2687 bytes took 1ms
+17:48:12.612 200 POST /api/tree/load with 5384 bytes took 0ms
+17:48:12.637 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+17:48:12.671 200 POST /api/tree/load with 6677 bytes took 0ms
+17:48:12.673 200 POST /api/tree/load with 19619 bytes took 0ms
+17:48:13.037 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+17:48:13.038 200 GET /api/notes/385GY3FiqpYy/blob with 158 bytes took 0ms
+17:48:13.050 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+17:48:14.103 204 PUT /api/options with 0 bytes took 1ms
+17:48:15.101 200 GET /api/script/startup with 2 bytes took 0ms
+18:01:06.687 Sending message to all clients: {"type":"protectedSessionLogin"}
+18:01:06.688 Slow 200 POST /api/login/protected with 16 bytes took 126ms
+18:01:06.691 200 GET /api/tree with 11215 bytes took 1ms
+18:01:06.692 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:01:06.693 200 POST /api/tree/load with 28581 bytes took 1ms
+18:01:06.706 200 GET /api/notes/385GY3FiqpYy/blob with 1512 bytes took 1ms
+18:01:06.706 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+18:01:16.797 Created new note 'RUcO8OWVenhZ', branch '385GY3FiqpYy_RUcO8OWVenhZ' of type 'text', mime 'text/html'
+18:01:16.798 200 POST /api/notes/385GY3FiqpYy/children?target=into&targetBranchId= with 553 bytes took 9ms
+18:01:16.800 200 POST /api/tree/load with 3232 bytes took 1ms
+18:01:16.811 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:01:16.812 200 GET /api/notes/RUcO8OWVenhZ/blob with 156 bytes took 0ms
+18:01:16.812 200 GET /api/note-map/RUcO8OWVenhZ/backlink-count with 11 bytes took 0ms
+18:01:16.814 204 PUT /api/branches/Qbgr2FOZRBHT_385GY3FiqpYy/expanded/1 with 0 bytes took 0ms
+18:01:16.818 204 PUT /api/options with 0 bytes took 0ms
+18:01:19.210 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:01:19.211 200 GET /api/notes/385GY3FiqpYy/blob with 1512 bytes took 0ms
+18:01:19.211 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+18:01:19.214 204 PUT /api/options with 0 bytes took 0ms
+18:01:19.351 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:01:19.351 200 GET /api/notes/RUcO8OWVenhZ/blob with 156 bytes took 0ms
+18:01:21.004 Created new note 'VLUxfS3hcaC5', branch 'Qbgr2FOZRBHT_VLUxfS3hcaC5' of type 'text', mime 'text/html'
+18:01:21.005 200 POST /api/notes/Qbgr2FOZRBHT/children?target=into&targetBranchId= with 553 bytes took 3ms
+18:01:21.007 200 POST /api/tree/load with 3105 bytes took 1ms
+18:01:21.019 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:01:21.019 200 GET /api/notes/VLUxfS3hcaC5/blob with 156 bytes took 0ms
+18:01:21.020 200 GET /api/note-map/VLUxfS3hcaC5/backlink-count with 11 bytes took 0ms
+18:01:21.023 204 PUT /api/options with 0 bytes took 1ms
+18:01:22.155 200 GET /api/search-templates with 16 bytes took 1ms
+18:01:22.156 200 POST /api/tree/load with 6283 bytes took 1ms
+18:01:22.157 200 GET /api/search-templates with 16 bytes took 0ms
+18:01:24.875 200 POST /api/delete-notes-preview with 60 bytes took 1ms
+18:01:25.845 Sending message to all clients: {"type":"taskProgressCount","taskId":"acZt2IgFKU","taskType":"deleteNotes","data":null,"progressCount":0}
+18:01:25.846 Marking branches 385GY3FiqpYy_RUcO8OWVenhZ as deleted
+18:01:25.846 Deleting note 'RUcO8OWVenhZ'
+18:01:25.847 Marking notes RUcO8OWVenhZ as deleted
+18:01:25.847 Sending message to all clients: {"type":"taskSucceeded","taskId":"acZt2IgFKU","taskType":"deleteNotes","data":null}
+18:01:25.847 200 DELETE /api/branches/385GY3FiqpYy_RUcO8OWVenhZ?taskId=acZt2IgFKU&eraseNotes=false&last=true with 20 bytes took 2ms
+18:01:25.850 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:01:25.851 200 GET /api/notes/Qbgr2FOZRBHT/blob with 218 bytes took 1ms
+18:01:25.851 200 GET /api/note-map/Qbgr2FOZRBHT/backlink-count with 11 bytes took 0ms
+18:01:25.858 204 PUT /api/options with 0 bytes took 0ms
+18:01:25.983 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:01:25.984 200 GET /api/notes/Se7jolEtqf8g/blob with 543 bytes took 0ms
+18:01:25.986 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:01:25.986 200 GET /api/notes/385GY3FiqpYy/blob with 1512 bytes took 0ms
+18:01:25.990 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:01:25.991 200 GET /api/notes/VLUxfS3hcaC5/blob with 156 bytes took 0ms
+18:01:27.121 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:01:27.121 200 GET /api/notes/VLUxfS3hcaC5/blob with 156 bytes took 0ms
+18:01:27.122 200 GET /api/note-map/VLUxfS3hcaC5/backlink-count with 11 bytes took 1ms
+18:01:27.125 204 PUT /api/options with 0 bytes took 1ms
+18:01:39.513 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:01:39.515 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:01:39.517 200 GET /api/notes/VLUxfS3hcaC5/blob with 164 bytes took 0ms
+18:01:40.517 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:01:40.519 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:01:40.521 200 GET /api/notes/VLUxfS3hcaC5/blob with 165 bytes took 0ms
+18:01:41.521 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:01:41.522 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:01:41.524 200 GET /api/notes/VLUxfS3hcaC5/blob with 167 bytes took 0ms
+18:01:43.719 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:01:43.721 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:01:43.725 200 GET /api/notes/VLUxfS3hcaC5/blob with 168 bytes took 0ms
+18:01:44.723 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:01:44.725 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:01:44.727 200 GET /api/notes/VLUxfS3hcaC5/blob with 166 bytes took 0ms
+18:01:45.726 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:01:45.727 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:01:45.730 200 GET /api/notes/VLUxfS3hcaC5/blob with 165 bytes took 0ms
+18:01:46.729 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:01:46.731 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:01:46.733 200 GET /api/notes/VLUxfS3hcaC5/blob with 169 bytes took 0ms
+18:01:47.731 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:01:47.731 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 0ms
+18:01:48.733 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:01:48.734 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:01:48.737 200 GET /api/notes/VLUxfS3hcaC5/blob with 156 bytes took 0ms
+18:02:15.095 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:02:15.098 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:02:15.102 200 GET /api/notes/VLUxfS3hcaC5/blob with 164 bytes took 1ms
+18:02:16.099 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:02:16.102 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 3ms
+18:02:16.108 200 GET /api/notes/VLUxfS3hcaC5/blob with 156 bytes took 1ms
+18:02:22.070 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:02:22.072 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:02:22.076 200 GET /api/notes/VLUxfS3hcaC5/blob with 164 bytes took 1ms
+18:02:23.074 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:02:23.076 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:02:23.078 200 GET /api/notes/VLUxfS3hcaC5/blob with 165 bytes took 1ms
+18:02:24.075 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:02:24.076 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:02:24.078 200 GET /api/notes/VLUxfS3hcaC5/blob with 168 bytes took 0ms
+18:02:25.078 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:02:25.079 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:02:25.082 200 GET /api/notes/VLUxfS3hcaC5/blob with 171 bytes took 1ms
+18:02:26.083 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:02:26.084 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:02:26.087 200 GET /api/notes/VLUxfS3hcaC5/blob with 180 bytes took 1ms
+18:02:27.693 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:02:27.695 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:02:27.698 200 GET /api/notes/VLUxfS3hcaC5/blob with 176 bytes took 1ms
+18:02:28.700 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:02:28.703 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 3ms
+18:02:28.706 200 GET /api/notes/VLUxfS3hcaC5/blob with 178 bytes took 1ms
+18:02:29.703 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:02:29.705 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:02:29.707 200 GET /api/notes/VLUxfS3hcaC5/blob with 180 bytes took 0ms
+18:02:30.706 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:02:30.708 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:02:30.710 200 GET /api/notes/VLUxfS3hcaC5/blob with 165 bytes took 0ms
+18:02:31.708 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:02:31.710 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:02:31.712 200 GET /api/notes/VLUxfS3hcaC5/blob with 164 bytes took 0ms
+18:02:32.712 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:02:32.714 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:02:32.716 200 GET /api/notes/VLUxfS3hcaC5/blob with 165 bytes took 0ms
+18:02:33.715 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:02:33.717 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:02:33.719 200 GET /api/notes/VLUxfS3hcaC5/blob with 156 bytes took 0ms
+18:03:40.742 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:40.743 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:03:40.746 200 GET /api/notes/VLUxfS3hcaC5/blob with 164 bytes took 0ms
+18:03:41.745 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:41.746 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:03:41.749 200 GET /api/notes/VLUxfS3hcaC5/blob with 168 bytes took 1ms
+18:03:42.751 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:42.753 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:03:42.755 200 GET /api/notes/VLUxfS3hcaC5/blob with 176 bytes took 1ms
+18:03:43.761 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:03:43.764 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:03:43.769 200 GET /api/notes/VLUxfS3hcaC5/blob with 181 bytes took 0ms
+18:03:44.765 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:03:44.766 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:03:44.768 200 GET /api/notes/VLUxfS3hcaC5/blob with 183 bytes took 0ms
+18:03:45.768 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:45.770 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:03:45.772 200 GET /api/notes/VLUxfS3hcaC5/blob with 186 bytes took 1ms
+18:03:46.773 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:46.958 Slow 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 185ms
+18:03:46.962 200 GET /api/notes/VLUxfS3hcaC5/blob with 199 bytes took 1ms
+18:03:47.774 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:47.799 Slow 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 24ms
+18:03:47.802 200 GET /api/notes/VLUxfS3hcaC5/blob with 228 bytes took 0ms
+18:03:55.373 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:55.375 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:03:55.380 200 GET /api/notes/VLUxfS3hcaC5/blob with 223 bytes took 1ms
+18:03:56.377 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:56.378 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:03:56.380 200 GET /api/notes/VLUxfS3hcaC5/blob with 227 bytes took 0ms
+18:03:57.382 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:57.384 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:03:57.386 200 GET /api/notes/VLUxfS3hcaC5/blob with 229 bytes took 0ms
+18:03:58.386 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:03:58.387 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:03:58.389 200 GET /api/notes/VLUxfS3hcaC5/blob with 223 bytes took 0ms
+18:03:59.391 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:59.407 Slow 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 16ms
+18:03:59.411 200 GET /api/notes/VLUxfS3hcaC5/blob with 228 bytes took 0ms
+18:04:11.072 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:11.073 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:11.077 200 GET /api/notes/VLUxfS3hcaC5/blob with 223 bytes took 0ms
+18:04:12.075 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:04:12.076 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:12.078 200 GET /api/notes/VLUxfS3hcaC5/blob with 228 bytes took 0ms
+18:04:14.118 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:14.120 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:14.122 200 GET /api/notes/VLUxfS3hcaC5/blob with 223 bytes took 0ms
+18:04:15.123 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:15.125 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:15.127 200 GET /api/notes/VLUxfS3hcaC5/blob with 227 bytes took 0ms
+18:04:16.128 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:04:16.129 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:16.131 200 GET /api/notes/VLUxfS3hcaC5/blob with 232 bytes took 0ms
+18:04:17.130 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:04:17.131 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:17.134 200 GET /api/notes/VLUxfS3hcaC5/blob with 232 bytes took 0ms
+18:04:18.133 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:18.136 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:04:18.139 200 GET /api/notes/VLUxfS3hcaC5/blob with 238 bytes took 1ms
+18:04:19.136 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:19.137 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:19.139 200 GET /api/notes/VLUxfS3hcaC5/blob with 243 bytes took 0ms
+18:04:20.143 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:20.144 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:20.146 200 GET /api/notes/VLUxfS3hcaC5/blob with 245 bytes took 0ms
+18:04:21.149 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:21.154 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 4ms
+18:04:21.156 200 GET /api/notes/VLUxfS3hcaC5/blob with 287 bytes took 0ms
+18:04:24.034 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:04:24.035 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:24.037 200 GET /api/notes/VLUxfS3hcaC5/blob with 282 bytes took 0ms
+18:04:25.035 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:25.036 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:25.039 200 GET /api/notes/VLUxfS3hcaC5/blob with 288 bytes took 1ms
+18:04:26.037 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:26.039 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:04:26.041 200 GET /api/notes/VLUxfS3hcaC5/blob with 292 bytes took 1ms
+18:04:27.040 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:04:27.040 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 0ms
+18:04:28.042 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:28.043 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:28.046 200 GET /api/notes/VLUxfS3hcaC5/blob with 291 bytes took 0ms
+18:04:29.045 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:04:29.047 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:29.048 200 GET /api/notes/VLUxfS3hcaC5/blob with 293 bytes took 0ms
+18:04:30.049 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:30.049 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 0ms
+18:04:31.055 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:31.056 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:32.057 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:04:32.058 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:32.063 200 GET /api/notes/VLUxfS3hcaC5/blob with 334 bytes took 0ms
+18:04:45.228 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:45.230 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:45.233 200 GET /api/notes/VLUxfS3hcaC5/blob with 293 bytes took 0ms
+18:04:46.238 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:04:46.242 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 4ms
+18:04:46.244 200 GET /api/notes/VLUxfS3hcaC5/blob with 334 bytes took 1ms
+18:04:47.246 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:47.254 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 7ms
+18:04:47.260 200 GET /api/notes/VLUxfS3hcaC5/blob with 334 bytes took 0ms
+18:04:48.944 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:48.946 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:04:48.948 200 GET /api/notes/VLUxfS3hcaC5/blob with 329 bytes took 0ms
+18:04:49.949 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:49.950 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:49.953 200 GET /api/notes/VLUxfS3hcaC5/blob with 336 bytes took 1ms
+18:04:50.953 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:50.955 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:50.957 200 GET /api/notes/VLUxfS3hcaC5/blob with 338 bytes took 0ms
+18:04:51.957 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:51.958 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:51.961 200 GET /api/notes/VLUxfS3hcaC5/blob with 342 bytes took 0ms
+18:04:52.963 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:52.965 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:04:52.968 200 GET /api/notes/VLUxfS3hcaC5/blob with 337 bytes took 0ms
+18:04:53.965 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:04:53.967 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:04:53.969 200 GET /api/notes/VLUxfS3hcaC5/blob with 378 bytes took 0ms
+18:04:54.968 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:04:54.970 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:04:54.972 200 GET /api/notes/VLUxfS3hcaC5/blob with 375 bytes took 0ms
+18:04:56.105 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:04:56.112 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 6ms
+18:04:56.118 200 GET /api/notes/VLUxfS3hcaC5/blob with 381 bytes took 0ms
+18:05:01.017 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:01.020 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 3ms
+18:05:01.025 200 GET /api/notes/VLUxfS3hcaC5/blob with 377 bytes took 1ms
+18:05:02.019 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:02.038 Slow 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 18ms
+18:05:02.040 200 GET /api/notes/VLUxfS3hcaC5/blob with 383 bytes took 0ms
+18:05:03.025 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:03.027 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:03.029 200 GET /api/notes/VLUxfS3hcaC5/blob with 387 bytes took 0ms
+18:05:04.028 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:05:04.029 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:04.031 200 GET /api/notes/VLUxfS3hcaC5/blob with 432 bytes took 0ms
+18:05:05.032 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:05.034 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:05.036 200 GET /api/notes/VLUxfS3hcaC5/blob with 390 bytes took 0ms
+18:05:06.037 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:05:06.038 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:06.040 200 GET /api/notes/VLUxfS3hcaC5/blob with 385 bytes took 0ms
+18:05:07.041 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:07.043 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:07.045 200 GET /api/notes/VLUxfS3hcaC5/blob with 378 bytes took 0ms
+18:05:08.049 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:08.052 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:08.054 200 GET /api/notes/VLUxfS3hcaC5/blob with 377 bytes took 0ms
+18:05:09.051 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:09.053 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:09.055 200 GET /api/notes/VLUxfS3hcaC5/blob with 386 bytes took 1ms
+18:05:10.517 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:10.520 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:10.522 200 GET /api/notes/VLUxfS3hcaC5/blob with 382 bytes took 0ms
+18:05:11.520 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:11.523 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:11.531 200 GET /api/notes/VLUxfS3hcaC5/blob with 388 bytes took 0ms
+18:05:12.525 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:12.527 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:12.528 200 GET /api/notes/VLUxfS3hcaC5/blob with 392 bytes took 0ms
+18:05:13.530 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:05:13.531 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:13.533 200 GET /api/notes/VLUxfS3hcaC5/blob with 434 bytes took 0ms
+18:05:15.199 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:15.201 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:15.203 200 GET /api/notes/VLUxfS3hcaC5/blob with 429 bytes took 1ms
+18:05:16.202 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:16.204 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:16.206 200 GET /api/notes/VLUxfS3hcaC5/blob with 430 bytes took 1ms
+18:05:17.208 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:17.210 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:17.212 200 GET /api/notes/VLUxfS3hcaC5/blob with 434 bytes took 0ms
+18:05:18.211 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:18.212 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:18.214 200 GET /api/notes/VLUxfS3hcaC5/blob with 430 bytes took 0ms
+18:05:19.216 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:19.217 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 0ms
+18:05:20.558 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:20.569 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 9ms
+18:05:20.583 200 GET /api/notes/VLUxfS3hcaC5/blob with 429 bytes took 2ms
+18:05:21.599 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:21.791 Slow 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 191ms
+18:05:21.796 200 GET /api/notes/VLUxfS3hcaC5/blob with 430 bytes took 0ms
+18:05:22.602 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:05:22.624 Slow 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 21ms
+18:05:22.625 200 GET /api/notes/VLUxfS3hcaC5/blob with 432 bytes took 0ms
+18:05:23.604 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:23.605 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:23.608 200 GET /api/notes/VLUxfS3hcaC5/blob with 436 bytes took 0ms
+18:05:24.605 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:24.606 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:24.608 200 GET /api/notes/VLUxfS3hcaC5/blob with 439 bytes took 0ms
+18:05:25.610 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:25.612 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:25.613 200 GET /api/notes/VLUxfS3hcaC5/blob with 445 bytes took 0ms
+18:05:27.045 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:05:27.046 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:27.048 200 GET /api/notes/VLUxfS3hcaC5/blob with 445 bytes took 0ms
+18:05:28.262 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:28.264 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:28.266 200 GET /api/notes/VLUxfS3hcaC5/blob with 445 bytes took 0ms
+18:05:34.917 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:34.919 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:34.922 200 GET /api/notes/VLUxfS3hcaC5/blob with 435 bytes took 0ms
+18:05:35.927 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:35.935 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 7ms
+18:05:35.938 200 GET /api/notes/VLUxfS3hcaC5/blob with 438 bytes took 1ms
+18:05:36.930 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:05:36.931 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:36.933 200 GET /api/notes/VLUxfS3hcaC5/blob with 442 bytes took 0ms
+18:05:37.933 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:37.935 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:37.937 200 GET /api/notes/VLUxfS3hcaC5/blob with 445 bytes took 0ms
+18:05:45.687 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:45.689 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:45.692 200 GET /api/notes/VLUxfS3hcaC5/blob with 439 bytes took 0ms
+18:05:46.691 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:46.692 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:46.694 200 GET /api/notes/VLUxfS3hcaC5/blob with 442 bytes took 0ms
+18:05:48.024 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:48.026 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:48.028 200 GET /api/notes/VLUxfS3hcaC5/blob with 484 bytes took 0ms
+18:05:49.034 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:49.039 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 4ms
+18:05:49.041 200 GET /api/notes/VLUxfS3hcaC5/blob with 442 bytes took 0ms
+18:05:50.039 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:50.041 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:50.042 200 GET /api/notes/VLUxfS3hcaC5/blob with 484 bytes took 0ms
+18:05:51.045 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:05:51.046 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:51.048 200 GET /api/notes/VLUxfS3hcaC5/blob with 483 bytes took 0ms
+18:05:53.782 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:53.784 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:53.786 200 GET /api/notes/VLUxfS3hcaC5/blob with 478 bytes took 0ms
+18:05:54.791 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:54.793 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:54.798 200 GET /api/notes/VLUxfS3hcaC5/blob with 481 bytes took 1ms
+18:05:55.796 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:55.798 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:55.800 200 GET /api/notes/VLUxfS3hcaC5/blob with 493 bytes took 1ms
+18:05:56.800 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:56.802 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:05:56.804 200 GET /api/notes/VLUxfS3hcaC5/blob with 492 bytes took 0ms
+18:05:57.807 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:57.810 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 3ms
+18:05:57.812 200 GET /api/notes/VLUxfS3hcaC5/blob with 503 bytes took 0ms
+18:05:58.812 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:05:58.813 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:05:58.815 200 GET /api/notes/VLUxfS3hcaC5/blob with 502 bytes took 0ms
+18:06:00.206 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:00.208 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:00.209 200 GET /api/notes/VLUxfS3hcaC5/blob with 503 bytes took 0ms
+18:06:01.211 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:01.213 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:01.214 200 GET /api/notes/VLUxfS3hcaC5/blob with 502 bytes took 0ms
+18:06:05.388 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:06:05.389 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:05.392 200 GET /api/notes/VLUxfS3hcaC5/blob with 537 bytes took 0ms
+18:06:06.392 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:06.393 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:06.395 200 GET /api/notes/VLUxfS3hcaC5/blob with 538 bytes took 0ms
+18:06:09.239 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:09.240 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:09.242 200 GET /api/notes/VLUxfS3hcaC5/blob with 503 bytes took 0ms
+18:06:10.243 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:10.244 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:10.246 200 GET /api/notes/VLUxfS3hcaC5/blob with 502 bytes took 0ms
+18:06:11.247 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:11.249 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:11.251 200 GET /api/notes/VLUxfS3hcaC5/blob with 510 bytes took 0ms
+18:06:12.250 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:12.252 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:12.255 200 GET /api/notes/VLUxfS3hcaC5/blob with 503 bytes took 1ms
+18:06:13.252 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:13.254 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:13.256 200 GET /api/notes/VLUxfS3hcaC5/blob with 535 bytes took 0ms
+18:06:14.357 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:14.359 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:14.360 200 GET /api/notes/VLUxfS3hcaC5/blob with 507 bytes took 0ms
+18:06:15.517 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:15.519 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:15.521 200 GET /api/notes/VLUxfS3hcaC5/blob with 535 bytes took 0ms
+18:06:16.522 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:06:16.523 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:16.525 200 GET /api/notes/VLUxfS3hcaC5/blob with 535 bytes took 0ms
+18:06:17.525 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:17.526 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:17.528 200 GET /api/notes/VLUxfS3hcaC5/blob with 531 bytes took 0ms
+18:06:18.530 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:18.531 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:18.533 200 GET /api/notes/VLUxfS3hcaC5/blob with 535 bytes took 0ms
+18:06:19.536 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:19.537 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:20.540 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:20.542 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:20.544 200 GET /api/notes/VLUxfS3hcaC5/blob with 510 bytes took 0ms
+18:06:21.545 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:06:21.546 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:21.548 200 GET /api/notes/VLUxfS3hcaC5/blob with 538 bytes took 0ms
+18:06:25.275 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:25.278 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:25.279 200 GET /api/notes/VLUxfS3hcaC5/blob with 539 bytes took 0ms
+18:06:26.279 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:26.280 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:27.282 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:27.284 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:27.286 200 GET /api/notes/VLUxfS3hcaC5/blob with 543 bytes took 1ms
+18:06:28.288 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:28.290 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:28.292 200 GET /api/notes/VLUxfS3hcaC5/blob with 547 bytes took 0ms
+18:06:29.712 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:29.714 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:29.716 200 GET /api/notes/VLUxfS3hcaC5/blob with 583 bytes took 1ms
+18:06:30.723 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:06:30.727 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 3ms
+18:06:30.729 200 GET /api/notes/VLUxfS3hcaC5/blob with 547 bytes took 1ms
+18:06:31.724 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:31.726 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:31.728 200 GET /api/notes/VLUxfS3hcaC5/blob with 583 bytes took 0ms
+18:06:32.731 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:32.732 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:33.735 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:06:33.736 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:33.738 200 GET /api/notes/VLUxfS3hcaC5/blob with 554 bytes took 0ms
+18:06:36.194 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:36.195 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:36.197 200 GET /api/notes/VLUxfS3hcaC5/blob with 555 bytes took 0ms
+18:06:37.206 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:37.210 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 3ms
+18:06:37.212 200 GET /api/notes/VLUxfS3hcaC5/blob with 558 bytes took 1ms
+18:06:38.209 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:38.211 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:38.213 200 GET /api/notes/VLUxfS3hcaC5/blob with 560 bytes took 0ms
+18:06:39.223 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:06:39.230 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 6ms
+18:06:39.238 200 GET /api/notes/VLUxfS3hcaC5/blob with 554 bytes took 1ms
+18:06:40.222 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:40.223 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:40.225 200 GET /api/notes/VLUxfS3hcaC5/blob with 562 bytes took 0ms
+18:06:41.277 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:41.423 Slow 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 146ms
+18:06:41.425 200 GET /api/notes/VLUxfS3hcaC5/blob with 568 bytes took 0ms
+18:06:42.281 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:42.303 Slow 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 21ms
+18:06:42.305 200 GET /api/notes/VLUxfS3hcaC5/blob with 571 bytes took 1ms
+18:06:52.123 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:52.125 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:52.129 200 GET /api/notes/VLUxfS3hcaC5/blob with 565 bytes took 0ms
+18:06:53.129 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:06:53.130 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:53.132 200 GET /api/notes/VLUxfS3hcaC5/blob with 569 bytes took 0ms
+18:06:54.132 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:54.134 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:54.136 200 GET /api/notes/VLUxfS3hcaC5/blob with 574 bytes took 0ms
+18:06:55.751 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:55.754 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:55.756 200 GET /api/notes/VLUxfS3hcaC5/blob with 570 bytes took 0ms
+18:06:56.755 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:56.757 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:56.759 200 GET /api/notes/VLUxfS3hcaC5/blob with 573 bytes took 0ms
+18:06:57.758 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:57.760 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:06:57.762 200 GET /api/notes/VLUxfS3hcaC5/blob with 579 bytes took 0ms
+18:06:58.760 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:58.761 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:58.763 200 GET /api/notes/VLUxfS3hcaC5/blob with 580 bytes took 0ms
+18:06:59.762 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:06:59.764 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:06:59.766 200 GET /api/notes/VLUxfS3hcaC5/blob with 587 bytes took 0ms
+18:07:01.033 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:07:01.045 Slow 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 12ms
+18:07:01.057 200 GET /api/notes/VLUxfS3hcaC5/blob with 615 bytes took 3ms
+18:07:16.533 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:16.536 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:16.541 200 GET /api/notes/VLUxfS3hcaC5/blob with 931 bytes took 0ms
+18:07:30.132 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:30.136 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 4ms
+18:07:30.143 200 GET /api/notes/VLUxfS3hcaC5/blob with 1224 bytes took 0ms
+18:07:32.416 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:32.418 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:32.421 200 GET /api/notes/VLUxfS3hcaC5/blob with 1252 bytes took 1ms
+18:07:33.424 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:33.426 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:07:33.428 200 GET /api/notes/VLUxfS3hcaC5/blob with 1252 bytes took 0ms
+18:07:34.661 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:34.663 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:34.665 200 GET /api/notes/VLUxfS3hcaC5/blob with 1252 bytes took 1ms
+18:07:35.667 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:35.669 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:35.670 200 GET /api/notes/VLUxfS3hcaC5/blob with 931 bytes took 0ms
+18:07:35.690 JS Error: Uncaught error: Message: ResizeObserver loop limit exceeded, URL: http://127.0.0.1:37840/#root/9iDZ7KfxdAmG/Qbgr2FOZRBHT/VLUxfS3hcaC5?ntxId=uuss5a, Line: 0, Column: 0, Error object: null, Stack: null
+Stack: Error
+    at Object.T [as logError] (http://127.0.0.1:37840/assets/v0.63.5/app-dist/desktop.js:2:119744)
+    at Pi.window.onerror (http://127.0.0.1:37840/assets/v0.63.5/app-dist/desktop.js:2:669515)
+18:07:36.682 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:36.684 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:36.686 200 GET /api/notes/VLUxfS3hcaC5/blob with 921 bytes took 1ms
+18:07:37.685 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:37.687 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:07:37.689 200 GET /api/notes/VLUxfS3hcaC5/blob with 920 bytes took 0ms
+18:07:38.689 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:38.691 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:07:38.693 200 GET /api/notes/VLUxfS3hcaC5/blob with 922 bytes took 0ms
+18:07:39.705 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:39.707 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:39.708 200 GET /api/notes/VLUxfS3hcaC5/blob with 926 bytes took 0ms
+18:07:40.709 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:40.711 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:07:40.713 200 GET /api/notes/VLUxfS3hcaC5/blob with 929 bytes took 0ms
+18:07:41.715 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:41.717 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:07:41.719 200 GET /api/notes/VLUxfS3hcaC5/blob with 929 bytes took 0ms
+18:07:42.718 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:42.720 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:42.722 200 GET /api/notes/VLUxfS3hcaC5/blob with 932 bytes took 0ms
+18:07:43.723 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:43.725 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:43.727 200 GET /api/notes/VLUxfS3hcaC5/blob with 938 bytes took 0ms
+18:07:44.733 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:07:44.734 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:07:44.737 200 GET /api/notes/VLUxfS3hcaC5/blob with 938 bytes took 1ms
+18:07:45.737 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:45.739 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:45.741 200 GET /api/notes/VLUxfS3hcaC5/blob with 935 bytes took 1ms
+18:07:46.742 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:46.744 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:46.745 200 GET /api/notes/VLUxfS3hcaC5/blob with 937 bytes took 0ms
+18:07:51.821 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:51.823 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:07:51.826 200 GET /api/notes/VLUxfS3hcaC5/blob with 943 bytes took 0ms
+18:07:52.828 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:52.830 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:52.832 200 GET /api/notes/VLUxfS3hcaC5/blob with 939 bytes took 0ms
+18:07:53.833 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:53.835 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:53.838 200 GET /api/notes/VLUxfS3hcaC5/blob with 940 bytes took 0ms
+18:07:54.838 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:54.840 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:54.842 200 GET /api/notes/VLUxfS3hcaC5/blob with 941 bytes took 1ms
+18:07:55.842 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:55.844 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:07:55.846 200 GET /api/notes/VLUxfS3hcaC5/blob with 936 bytes took 0ms
+18:07:56.846 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:07:56.848 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:56.850 200 GET /api/notes/VLUxfS3hcaC5/blob with 937 bytes took 1ms
+18:07:57.851 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:07:57.853 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:07:57.855 200 GET /api/notes/VLUxfS3hcaC5/blob with 940 bytes took 1ms
+18:08:00.430 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:08:00.432 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:08:00.435 200 GET /api/notes/VLUxfS3hcaC5/blob with 936 bytes took 1ms
+18:08:01.434 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:08:01.436 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:08:01.438 200 GET /api/notes/VLUxfS3hcaC5/blob with 937 bytes took 0ms
+18:08:02.934 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:08:02.939 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 4ms
+18:08:02.941 200 GET /api/notes/VLUxfS3hcaC5/blob with 943 bytes took 0ms
+18:08:03.939 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:08:03.941 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:08:03.943 200 GET /api/notes/VLUxfS3hcaC5/blob with 940 bytes took 0ms
+18:10:23.306 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:10:23.308 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:10:23.311 200 GET /api/notes/VLUxfS3hcaC5/blob with 944 bytes took 0ms
+18:10:24.308 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:10:24.310 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:10:24.312 200 GET /api/notes/VLUxfS3hcaC5/blob with 939 bytes took 1ms
+18:10:25.311 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:10:25.313 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:10:25.315 200 GET /api/notes/VLUxfS3hcaC5/blob with 940 bytes took 0ms
+18:10:26.317 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:10:26.318 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:10:27.320 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:10:27.322 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:10:27.324 200 GET /api/notes/VLUxfS3hcaC5/blob with 976 bytes took 0ms
+18:10:28.324 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:10:28.326 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:10:28.328 200 GET /api/notes/VLUxfS3hcaC5/blob with 975 bytes took 1ms
+18:10:29.326 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:10:29.328 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:10:29.330 200 GET /api/notes/VLUxfS3hcaC5/blob with 947 bytes took 1ms
+18:10:30.332 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:10:30.530 Slow 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 198ms
+18:10:30.535 200 GET /api/notes/VLUxfS3hcaC5/blob with 949 bytes took 0ms
+18:10:31.334 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:10:31.357 Slow 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 23ms
+18:10:31.359 200 GET /api/notes/VLUxfS3hcaC5/blob with 954 bytes took 0ms
+18:10:32.340 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:10:32.341 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:10:32.343 200 GET /api/notes/VLUxfS3hcaC5/blob with 961 bytes took 0ms
+18:10:33.343 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:10:33.345 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:10:33.347 200 GET /api/notes/VLUxfS3hcaC5/blob with 967 bytes took 1ms
+18:10:34.346 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:10:34.347 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:10:34.349 200 GET /api/notes/VLUxfS3hcaC5/blob with 971 bytes took 0ms
+18:10:35.356 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:10:35.358 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:10:35.360 200 GET /api/notes/VLUxfS3hcaC5/blob with 977 bytes took 0ms
+18:10:36.362 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:10:36.364 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:10:36.366 200 GET /api/notes/VLUxfS3hcaC5/blob with 982 bytes took 0ms
+18:10:37.369 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:10:37.371 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:10:37.373 200 GET /api/notes/VLUxfS3hcaC5/blob with 990 bytes took 0ms
+18:10:54.835 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:10:54.837 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:10:54.840 200 GET /api/notes/VLUxfS3hcaC5/blob with 984 bytes took 0ms
+18:10:55.840 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:10:55.842 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:10:55.844 200 GET /api/notes/VLUxfS3hcaC5/blob with 978 bytes took 1ms
+18:10:56.852 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:10:56.854 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:10:56.856 200 GET /api/notes/VLUxfS3hcaC5/blob with 980 bytes took 0ms
+18:10:59.782 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:10:59.784 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:10:59.785 200 GET /api/notes/VLUxfS3hcaC5/blob with 981 bytes took 0ms
+18:11:00.794 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:00.798 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 3ms
+18:11:00.800 200 GET /api/notes/VLUxfS3hcaC5/blob with 986 bytes took 0ms
+18:11:01.797 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:01.799 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:11:01.801 200 GET /api/notes/VLUxfS3hcaC5/blob with 989 bytes took 0ms
+18:11:02.805 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:02.807 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:11:02.809 200 GET /api/notes/VLUxfS3hcaC5/blob with 995 bytes took 0ms
+18:11:03.811 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:11:03.812 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:11:03.814 200 GET /api/notes/VLUxfS3hcaC5/blob with 997 bytes took 0ms
+18:11:04.816 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:04.818 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:11:04.820 200 GET /api/notes/VLUxfS3hcaC5/blob with 999 bytes took 0ms
+18:11:05.830 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:11:05.838 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 7ms
+18:11:05.840 200 GET /api/notes/VLUxfS3hcaC5/blob with 1000 bytes took 0ms
+18:11:06.832 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:06.834 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:11:06.836 200 GET /api/notes/VLUxfS3hcaC5/blob with 1006 bytes took 1ms
+18:11:07.835 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:07.838 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:11:07.840 200 GET /api/notes/VLUxfS3hcaC5/blob with 1012 bytes took 0ms
+18:11:08.839 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:11:08.840 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:11:08.842 200 GET /api/notes/VLUxfS3hcaC5/blob with 1015 bytes took 0ms
+18:11:10.416 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:11:10.418 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:11:10.420 200 GET /api/notes/VLUxfS3hcaC5/blob with 1016 bytes took 0ms
+18:11:11.421 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:11:11.421 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 0ms
+18:11:12.425 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:12.427 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:11:12.429 200 GET /api/notes/VLUxfS3hcaC5/blob with 1015 bytes took 1ms
+18:11:13.428 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:11:13.430 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:11:13.432 200 GET /api/notes/VLUxfS3hcaC5/blob with 1021 bytes took 0ms
+18:11:14.431 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:14.433 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:11:14.435 200 GET /api/notes/VLUxfS3hcaC5/blob with 1023 bytes took 0ms
+18:11:15.438 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:11:15.439 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:11:15.441 200 GET /api/notes/VLUxfS3hcaC5/blob with 1025 bytes took 0ms
+18:11:19.544 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:19.546 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:11:19.549 200 GET /api/notes/VLUxfS3hcaC5/blob with 1026 bytes took 0ms
+18:11:20.549 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:20.551 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:11:20.552 200 GET /api/notes/VLUxfS3hcaC5/blob with 1030 bytes took 0ms
+18:11:21.553 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:21.555 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:11:22.566 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:22.568 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:11:22.570 200 GET /api/notes/VLUxfS3hcaC5/blob with 1035 bytes took 0ms
+18:11:23.570 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:23.572 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:11:23.574 200 GET /api/notes/VLUxfS3hcaC5/blob with 1040 bytes took 0ms
+18:11:38.704 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:38.706 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:11:38.709 200 GET /api/notes/VLUxfS3hcaC5/blob with 1042 bytes took 0ms
+18:11:40.285 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:11:40.289 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 3ms
+18:11:40.291 200 GET /api/notes/VLUxfS3hcaC5/blob with 1042 bytes took 0ms
+18:12:15.705 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:15.706 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:12:15.710 200 GET /api/notes/VLUxfS3hcaC5/blob with 1055 bytes took 0ms
+18:12:16.707 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:16.709 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:12:16.711 200 GET /api/notes/VLUxfS3hcaC5/blob with 1068 bytes took 0ms
+18:12:17.784 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:12:17.785 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:12:17.788 200 GET /api/notes/VLUxfS3hcaC5/blob with 1063 bytes took 0ms
+18:12:18.789 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:18.791 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:12:18.793 200 GET /api/notes/VLUxfS3hcaC5/blob with 1066 bytes took 0ms
+18:12:19.793 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:19.795 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:12:19.798 200 GET /api/notes/VLUxfS3hcaC5/blob with 1075 bytes took 0ms
+18:12:20.799 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:20.800 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:12:20.802 200 GET /api/notes/VLUxfS3hcaC5/blob with 1073 bytes took 0ms
+18:12:21.805 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:21.807 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:12:21.809 200 GET /api/notes/VLUxfS3hcaC5/blob with 1079 bytes took 0ms
+18:12:22.810 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:22.812 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:12:22.814 200 GET /api/notes/VLUxfS3hcaC5/blob with 1094 bytes took 1ms
+18:12:23.818 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:12:23.819 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:12:23.822 200 GET /api/notes/VLUxfS3hcaC5/blob with 1117 bytes took 1ms
+18:12:24.834 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:24.836 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:12:24.838 200 GET /api/notes/VLUxfS3hcaC5/blob with 1124 bytes took 0ms
+18:12:25.826 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:25.828 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:12:25.830 200 GET /api/notes/VLUxfS3hcaC5/blob with 1131 bytes took 0ms
+18:12:26.832 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:12:26.833 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:12:26.835 200 GET /api/notes/VLUxfS3hcaC5/blob with 1134 bytes took 0ms
+18:12:27.836 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:27.838 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:12:27.839 200 GET /api/notes/VLUxfS3hcaC5/blob with 1138 bytes took 0ms
+18:12:28.839 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:12:28.840 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:12:28.842 200 GET /api/notes/VLUxfS3hcaC5/blob with 1180 bytes took 0ms
+18:12:29.850 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:12:32.348 Slow 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2498ms
+18:12:32.353 200 GET /api/notes/VLUxfS3hcaC5/blob with 1180 bytes took 0ms
+18:12:47.038 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:47.075 Slow 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 37ms
+18:12:47.079 200 GET /api/notes/VLUxfS3hcaC5/blob with 1175 bytes took 1ms
+18:12:48.045 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:48.047 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:12:48.050 200 GET /api/notes/VLUxfS3hcaC5/blob with 1177 bytes took 1ms
+18:12:49.062 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:12:49.072 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 7ms
+18:12:49.076 200 GET /api/notes/VLUxfS3hcaC5/blob with 1182 bytes took 0ms
+18:12:50.064 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:50.066 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:12:50.068 200 GET /api/notes/VLUxfS3hcaC5/blob with 1190 bytes took 0ms
+18:12:51.073 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:51.075 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:12:51.076 200 GET /api/notes/VLUxfS3hcaC5/blob with 1189 bytes took 0ms
+18:12:52.076 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:52.078 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:12:52.080 200 GET /api/notes/VLUxfS3hcaC5/blob with 1191 bytes took 0ms
+18:12:53.079 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:53.081 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:12:53.083 200 GET /api/notes/VLUxfS3hcaC5/blob with 1194 bytes took 1ms
+18:12:54.083 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:54.084 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:12:55.097 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:12:55.099 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:12:55.101 200 GET /api/notes/VLUxfS3hcaC5/blob with 1235 bytes took 0ms
+18:12:56.103 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:12:56.105 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:12:56.107 200 GET /api/notes/VLUxfS3hcaC5/blob with 1231 bytes took 0ms
+18:12:57.108 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:12:57.110 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:12:57.113 200 GET /api/notes/VLUxfS3hcaC5/blob with 1237 bytes took 1ms
+18:12:58.112 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:58.114 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:12:58.116 200 GET /api/notes/VLUxfS3hcaC5/blob with 1242 bytes took 0ms
+18:12:59.117 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:12:59.120 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:12:59.123 200 GET /api/notes/VLUxfS3hcaC5/blob with 1246 bytes took 0ms
+18:13:00.120 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:13:00.122 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:13:00.124 200 GET /api/notes/VLUxfS3hcaC5/blob with 1251 bytes took 0ms
+18:13:01.126 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:13:01.127 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:13:01.129 200 GET /api/notes/VLUxfS3hcaC5/blob with 1252 bytes took 0ms
+18:13:02.128 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:13:02.130 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:13:02.131 200 GET /api/notes/VLUxfS3hcaC5/blob with 1293 bytes took 0ms
+18:13:03.132 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:13:03.134 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:13:03.136 200 GET /api/notes/VLUxfS3hcaC5/blob with 1290 bytes took 1ms
+18:13:04.140 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:13:04.141 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:13:04.143 200 GET /api/notes/VLUxfS3hcaC5/blob with 1292 bytes took 0ms
+18:13:05.143 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:13:05.145 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:13:05.147 200 GET /api/notes/VLUxfS3hcaC5/blob with 1296 bytes took 0ms
+18:13:06.150 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:13:06.151 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:13:06.153 200 GET /api/notes/VLUxfS3hcaC5/blob with 1300 bytes took 0ms
+18:13:07.155 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:13:07.157 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:13:07.159 200 GET /api/notes/VLUxfS3hcaC5/blob with 1306 bytes took 1ms
+18:13:10.134 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:13:10.137 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:13:10.139 200 GET /api/notes/VLUxfS3hcaC5/blob with 1302 bytes took 0ms
+18:13:11.142 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:13:11.144 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:13:11.146 200 GET /api/notes/VLUxfS3hcaC5/blob with 1304 bytes took 0ms
+18:13:12.145 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:13:12.147 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:13:12.149 200 GET /api/notes/VLUxfS3hcaC5/blob with 1306 bytes took 0ms
+18:13:17.161 Updating option 'zoomFactor' to '1.1'
+18:13:17.161 204 PUT /api/options with 0 bytes took 1ms
+18:13:17.209 Updating option 'zoomFactor' to '1.2'
+18:13:17.209 204 PUT /api/options with 0 bytes took 0ms
+18:13:17.501 Updating option 'zoomFactor' to '1.3'
+18:13:17.501 204 PUT /api/options with 0 bytes took 0ms
+18:13:18.065 Updating option 'zoomFactor' to '1.4'
+18:13:18.066 204 PUT /api/options with 0 bytes took 1ms
+18:13:18.159 Updating option 'zoomFactor' to '1.5'
+18:13:18.160 204 PUT /api/options with 0 bytes took 1ms
+18:13:18.185 Updating option 'zoomFactor' to '1.6'
+18:13:18.185 204 PUT /api/options with 0 bytes took 0ms
+18:13:18.488 Updating option 'zoomFactor' to '1.5'
+18:13:18.489 204 PUT /api/options with 0 bytes took 1ms
+18:13:18.537 Updating option 'zoomFactor' to '1.4'
+18:13:18.539 204 PUT /api/options with 0 bytes took 2ms
+18:13:18.838 Updating option 'zoomFactor' to '1.3'
+18:13:18.839 204 PUT /api/options with 0 bytes took 1ms
+18:13:18.863 Updating option 'zoomFactor' to '1.2'
+18:13:18.864 204 PUT /api/options with 0 bytes took 1ms
+18:13:18.883 Updating option 'zoomFactor' to '1.1'
+18:13:18.883 204 PUT /api/options with 0 bytes took 0ms
+18:13:19.132 Updating option 'zoomFactor' to '1'
+18:13:19.134 204 PUT /api/options with 0 bytes took 2ms
+18:13:19.167 Updating option 'zoomFactor' to '0.9'
+18:13:19.167 204 PUT /api/options with 0 bytes took 0ms
+18:13:19.184 Updating option 'zoomFactor' to '0.8'
+18:13:19.185 204 PUT /api/options with 0 bytes took 1ms
+18:13:19.222 Updating option 'zoomFactor' to '0.7'
+18:13:19.224 204 PUT /api/options with 0 bytes took 3ms
+18:13:19.689 Updating option 'zoomFactor' to '0.6'
+18:13:19.689 204 PUT /api/options with 0 bytes took 0ms
+18:13:20.328 Updating option 'zoomFactor' to '0.5'
+18:13:20.328 204 PUT /api/options with 0 bytes took 0ms
+18:13:20.619 Updating option 'zoomFactor' to '0.6'
+18:13:20.619 204 PUT /api/options with 0 bytes took 1ms
+18:13:20.936 Updating option 'zoomFactor' to '0.7'
+18:13:20.937 204 PUT /api/options with 0 bytes took 1ms
+18:13:28.070 Updating option 'zoomFactor' to '0.6'
+18:13:28.070 204 PUT /api/options with 0 bytes took 0ms
+18:13:28.776 Updating option 'zoomFactor' to '0.5'
+18:13:28.776 204 PUT /api/options with 0 bytes took 0ms
+18:13:28.970 Updating option 'zoomFactor' to '0.6'
+18:13:28.971 204 PUT /api/options with 0 bytes took 1ms
+18:13:29.087 Updating option 'zoomFactor' to '0.7'
+18:13:29.087 204 PUT /api/options with 0 bytes took 0ms
+18:13:29.568 Updating option 'zoomFactor' to '0.8'
+18:13:29.568 204 PUT /api/options with 0 bytes took 0ms
+18:14:09.754 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:14:09.756 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:14:09.761 200 GET /api/notes/VLUxfS3hcaC5/blob with 1305 bytes took 0ms
+18:14:10.759 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:14:10.761 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:14:10.763 200 GET /api/notes/VLUxfS3hcaC5/blob with 1303 bytes took 0ms
+18:14:11.763 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:14:11.765 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:14:11.768 200 GET /api/notes/VLUxfS3hcaC5/blob with 1305 bytes took 1ms
+18:14:12.764 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:14:12.766 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:14:12.768 200 GET /api/notes/VLUxfS3hcaC5/blob with 1307 bytes took 0ms
+18:16:13.225 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:16:13.227 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:16:13.231 200 GET /api/notes/VLUxfS3hcaC5/blob with 1308 bytes took 0ms
+18:16:14.228 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:16:14.229 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 1ms
+18:16:14.232 200 GET /api/notes/VLUxfS3hcaC5/blob with 1310 bytes took 1ms
+18:16:16.575 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:16:16.577 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:16:16.579 200 GET /api/notes/VLUxfS3hcaC5/blob with 1311 bytes took 1ms
+18:16:17.583 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:16:17.585 204 PUT /api/notes/VLUxfS3hcaC5/data with 0 bytes took 2ms
+18:16:17.586 200 GET /api/notes/VLUxfS3hcaC5/blob with 1313 bytes took 0ms
+18:26:19.108 204 PUT /api/branches/Qbgr2FOZRBHT_385GY3FiqpYy/expanded/0 with 0 bytes took 0ms
+18:26:43.021 Expiring protected session
+18:26:43.022 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+18:26:43.024 JS Info: Frontend app reload: received request from backend to reload frontend
+18:26:43.041 Generated CSRF token 0jsfRodJ-0LYJ7flM0PZ00OrIoofcWFSp5TE with secret undefined
+18:26:43.419 200 GET /api/options with 6539 bytes took 1ms
+18:26:43.422 200 GET /api/tree with 11502 bytes took 2ms
+18:26:43.425 200 GET /api/keyboard-actions with 14263 bytes took 2ms
+18:26:43.427 200 GET /api/script/widgets with 2687 bytes took 1ms
+18:26:43.430 200 POST /api/tree/load with 5384 bytes took 1ms
+18:26:43.517 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+18:26:43.559 200 POST /api/tree/load with 6677 bytes took 0ms
+18:26:43.599 200 POST /api/tree/load with 19619 bytes took 0ms
+18:26:43.984 200 GET /api/note-map/VLUxfS3hcaC5/backlink-count with 11 bytes took 0ms
+18:26:43.985 200 GET /api/notes/VLUxfS3hcaC5/blob with 158 bytes took 0ms
+18:26:44.008 200 GET /api/note-map/VLUxfS3hcaC5/backlink-count with 11 bytes took 0ms
+18:26:45.100 204 PUT /api/options with 0 bytes took 1ms
+18:26:46.098 200 GET /api/script/startup with 2 bytes took 1ms
+18:47:08.376 Table counts: notes: 277, revisions: 15, attachments: 19, branches: 291, attributes: 359, etapi_tokens: 0, blobs: 168
+18:47:08.384 All consistency checks passed with no errors detected (took 9ms)
+19:15:28.643 Slow 200 POST /api/login/protected with 71 bytes took 65ms
+19:15:31.615 Sending message to all clients: {"type":"protectedSessionLogin"}
+19:15:31.616 Slow 200 POST /api/login/protected with 16 bytes took 120ms
+19:15:31.619 200 GET /api/tree with 11490 bytes took 1ms
+19:15:31.619 204 POST /api/login/protected/touch with 0 bytes took 0ms
+19:15:31.621 200 POST /api/tree/load with 28856 bytes took 1ms
+19:15:31.635 200 GET /api/notes/VLUxfS3hcaC5/blob with 1313 bytes took 1ms
+19:15:31.635 200 GET /api/note-map/VLUxfS3hcaC5/backlink-count with 11 bytes took 0ms
+19:15:33.996 204 POST /api/login/protected/touch with 0 bytes took 1ms
+19:15:33.997 200 GET /api/notes/385GY3FiqpYy/blob with 1512 bytes took 0ms
+19:15:33.997 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+19:15:34.001 204 PUT /api/options with 0 bytes took 1ms
+19:15:36.036 204 POST /api/login/protected/touch with 0 bytes took 0ms
+19:15:36.040 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 4ms
+19:15:36.044 200 GET /api/notes/385GY3FiqpYy/blob with 1532 bytes took 0ms
+19:15:37.039 204 POST /api/login/protected/touch with 0 bytes took 0ms
+19:15:37.041 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+19:15:37.044 200 GET /api/notes/385GY3FiqpYy/blob with 1552 bytes took 0ms
+19:16:01.451 200 GET /api/notes/385GY3FiqpYy/blob with 1552 bytes took 1ms
+19:25:43.996 Expiring protected session
+19:25:43.998 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+19:25:44.001 JS Info: Frontend app reload: received request from backend to reload frontend
+19:25:44.027 Generated CSRF token Dvv65XJA-fWlAnKbnzijmBBuQyKZYnn-DmwY with secret undefined
+19:25:44.220 200 GET /api/options with 6539 bytes took 1ms
+19:25:44.221 200 GET /api/tree with 11502 bytes took 1ms
+19:25:44.222 200 GET /api/keyboard-actions with 14263 bytes took 1ms
+19:25:44.222 200 GET /api/script/widgets with 2687 bytes took 0ms
+19:25:44.224 200 POST /api/tree/load with 5384 bytes took 1ms
+19:25:44.251 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 1ms
+19:25:44.288 200 POST /api/tree/load with 6677 bytes took 1ms
+19:25:44.298 200 POST /api/tree/load with 19619 bytes took 0ms
+19:25:44.616 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+19:25:44.617 200 GET /api/notes/385GY3FiqpYy/blob with 158 bytes took 1ms
+19:25:44.633 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+19:25:46.108 204 PUT /api/options with 0 bytes took 4ms
+19:25:47.104 200 GET /api/script/startup with 2 bytes took 1ms
+19:43:45.529 Sending message to all clients: {"type":"protectedSessionLogin"}
+19:43:45.530 Slow 200 POST /api/login/protected with 16 bytes took 121ms
+19:43:45.533 200 GET /api/tree with 11490 bytes took 1ms
+19:43:45.534 204 POST /api/login/protected/touch with 0 bytes took 0ms
+19:43:45.536 200 POST /api/tree/load with 28856 bytes took 1ms
+19:43:45.548 200 GET /api/notes/385GY3FiqpYy/blob with 1552 bytes took 1ms
+19:43:45.549 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+19:47:08.432 Table counts: notes: 277, revisions: 16, attachments: 19, branches: 291, attributes: 359, etapi_tokens: 0, blobs: 169
+19:47:08.438 All consistency checks passed with no errors detected (took 8ms)
+19:54:14.502 Expiring protected session
+19:54:14.502 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+19:54:14.506 JS Info: Frontend app reload: received request from backend to reload frontend
+19:54:14.520 Generated CSRF token czQLAj0N-zCAYHDldZtVSk4tn3zkngZBkU00 with secret undefined
+19:54:14.684 200 GET /api/options with 6608 bytes took 1ms
+19:54:14.684 200 GET /api/tree with 11502 bytes took 0ms
+19:54:14.685 200 GET /api/keyboard-actions with 14263 bytes took 1ms
+19:54:14.686 200 GET /api/script/widgets with 2687 bytes took 1ms
+19:54:14.689 200 POST /api/tree/load with 5384 bytes took 1ms
+19:54:14.713 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+19:54:14.756 200 POST /api/tree/load with 6677 bytes took 0ms
+19:54:14.759 200 POST /api/tree/load with 19619 bytes took 0ms
+19:54:15.077 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 1ms
+19:54:15.077 200 GET /api/notes/385GY3FiqpYy/blob with 158 bytes took 0ms
+19:54:15.090 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+19:54:16.282 Slow 204 PUT /api/options with 0 bytes took 179ms
+19:54:17.108 200 GET /api/script/startup with 2 bytes took 0ms
+20:07:42.977 Sending message to all clients: {"type":"protectedSessionLogin"}
+20:07:42.978 Slow 200 POST /api/login/protected with 16 bytes took 122ms
+20:07:42.981 200 GET /api/tree with 11490 bytes took 1ms
+20:07:42.981 204 POST /api/login/protected/touch with 0 bytes took 0ms
+20:07:42.983 200 POST /api/tree/load with 28856 bytes took 1ms
+20:07:42.995 200 GET /api/notes/385GY3FiqpYy/blob with 1552 bytes took 1ms
+20:07:42.995 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+20:07:46.114 204 POST /api/login/protected/touch with 0 bytes took 0ms
+20:07:46.115 200 GET /api/notes/Se7jolEtqf8g/blob with 543 bytes took 1ms
+20:07:46.115 200 GET /api/note-map/Se7jolEtqf8g/backlink-count with 11 bytes took 0ms
+20:07:46.120 204 PUT /api/options with 0 bytes took 1ms
+20:07:46.252 200 POST /api/tree/load with 3813 bytes took 0ms
+20:07:46.255 204 POST /api/login/protected/touch with 0 bytes took 0ms
+20:07:46.256 200 GET /api/notes/Hc93Nrow9iAR/blob with 276 bytes took 1ms
+20:07:46.257 204 POST /api/login/protected/touch with 0 bytes took 0ms
+20:07:46.257 200 GET /api/notes/5iBIALC4Kpg1/blob with 156 bytes took 0ms
+20:07:48.926 204 POST /api/login/protected/touch with 0 bytes took 0ms
+20:07:48.941 Slow 200 GET /api/notes/385GY3FiqpYy/blob with 1552 bytes took 15ms
+20:07:48.943 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 1ms
+20:07:48.949 204 PUT /api/options with 0 bytes took 1ms
+20:07:50.565 204 POST /api/login/protected/touch with 0 bytes took 0ms
+20:07:50.583 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 18ms
+20:07:50.586 200 GET /api/notes/385GY3FiqpYy/blob with 1709 bytes took 0ms
+20:07:51.569 204 POST /api/login/protected/touch with 0 bytes took 1ms
+20:07:51.570 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+20:07:51.572 200 GET /api/notes/385GY3FiqpYy/blob with 1721 bytes took 0ms
+20:07:52.573 204 POST /api/login/protected/touch with 0 bytes took 0ms
+20:07:52.575 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+20:07:52.578 200 GET /api/notes/385GY3FiqpYy/blob with 1705 bytes took 1ms
+20:07:53.582 204 POST /api/login/protected/touch with 0 bytes took 1ms
+20:07:53.584 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+20:07:53.586 200 GET /api/notes/385GY3FiqpYy/blob with 1710 bytes took 0ms
+20:07:54.585 204 POST /api/login/protected/touch with 0 bytes took 0ms
+20:07:54.587 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+20:07:54.589 200 GET /api/notes/385GY3FiqpYy/blob with 1714 bytes took 0ms
+20:07:57.591 204 POST /api/login/protected/touch with 0 bytes took 0ms
+20:07:57.595 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 3ms
+20:07:57.597 200 GET /api/notes/385GY3FiqpYy/blob with 1715 bytes took 0ms
+20:07:58.599 204 POST /api/login/protected/touch with 0 bytes took 0ms
+20:07:58.601 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+20:07:58.603 200 GET /api/notes/385GY3FiqpYy/blob with 1717 bytes took 0ms
+20:07:59.607 204 POST /api/login/protected/touch with 0 bytes took 0ms
+20:07:59.609 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+20:07:59.611 200 GET /api/notes/385GY3FiqpYy/blob with 1719 bytes took 0ms
+20:18:14.887 Expiring protected session
+20:18:14.889 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+20:18:14.894 JS Info: Frontend app reload: received request from backend to reload frontend
+20:18:14.903 Generated CSRF token Wi68nuwN-PbSWXbTdZnpQ0p2TrDyzHA_yy98 with secret undefined
+20:18:15.040 200 GET /api/options with 6539 bytes took 0ms
+20:18:15.040 200 GET /api/tree with 11502 bytes took 0ms
+20:18:15.042 200 GET /api/keyboard-actions with 14263 bytes took 1ms
+20:18:15.043 200 GET /api/script/widgets with 2687 bytes took 1ms
+20:18:15.044 200 POST /api/tree/load with 5384 bytes took 0ms
+20:18:15.069 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+20:18:15.105 200 POST /api/tree/load with 6677 bytes took 0ms
+20:18:15.174 200 POST /api/tree/load with 19619 bytes took 1ms
+20:18:15.520 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+20:18:15.520 200 GET /api/notes/385GY3FiqpYy/blob with 158 bytes took 0ms
+20:18:15.544 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+20:18:16.108 204 PUT /api/options with 0 bytes took 1ms
+20:18:17.104 200 GET /api/script/startup with 2 bytes took 0ms
+20:47:08.391 Table counts: notes: 277, revisions: 17, attachments: 19, branches: 291, attributes: 359, etapi_tokens: 0, blobs: 170
+20:47:08.397 All consistency checks passed with no errors detected (took 6ms)
+21:47:08.398 Table counts: notes: 277, revisions: 17, attachments: 19, branches: 291, attributes: 359, etapi_tokens: 0, blobs: 170
+21:47:08.404 All consistency checks passed with no errors detected (took 7ms)
+22:47:08.401 Table counts: notes: 277, revisions: 17, attachments: 19, branches: 291, attributes: 359, etapi_tokens: 0, blobs: 170
+22:47:08.407 All consistency checks passed with no errors detected (took 7ms)
+23:47:08.295 Optimizing database
+23:47:08.317 Slow query took 21ms: PRAGMA optimize
+23:47:08.317 Optimization finished in 21ms.
+23:47:08.407 Table counts: notes: 277, revisions: 17, attachments: 19, branches: 291, attributes: 359, etapi_tokens: 0, blobs: 170
+23:47:08.415 All consistency checks passed with no errors detected (took 9ms)

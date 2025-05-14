@@ -1,0 +1,71 @@
+00:50:19.304 Table counts: notes: 294, revisions: 40, attachments: 19, branches: 308, attributes: 363, etapi_tokens: 0, blobs: 201
+00:50:19.308 All consistency checks passed with no errors detected (took 4ms)
+01:50:19.308 Table counts: notes: 294, revisions: 40, attachments: 19, branches: 308, attributes: 363, etapi_tokens: 0, blobs: 201
+01:50:19.312 All consistency checks passed with no errors detected (took 4ms)
+02:16:44.808 Slow 200 GET /api/quick-search/192. with 53 bytes took 28ms
+02:16:46.610 Created new note 'US8a7VFedyo1', branch 'IXVaU1CAsJbV_US8a7VFedyo1' of type 'search', mime 'application/json'
+02:16:46.628 Slow 200 POST /api/special-notes/search-note with 340 bytes took 23ms
+02:16:46.631 200 POST /api/tree/load with 5050 bytes took 1ms
+02:16:46.634 200 POST /api/tree/load with 5624 bytes took 0ms
+02:16:46.647 200 GET /api/search-note/US8a7VFedyo1 with 82 bytes took 9ms
+02:16:46.748 200 GET /api/note-map/US8a7VFedyo1/backlink-count with 11 bytes took 0ms
+02:16:46.757 204 PUT /api/options with 0 bytes took 1ms
+02:16:47.733 204 PUT /api/notes/US8a7VFedyo1/set-attribute with 0 bytes took 1ms
+02:16:47.739 200 PUT /api/notes/US8a7VFedyo1/title with 340 bytes took 0ms
+02:16:47.744 204 PUT /api/notes/US8a7VFedyo1/set-attribute with 0 bytes took 2ms
+02:16:47.749 200 PUT /api/notes/US8a7VFedyo1/title with 340 bytes took 0ms
+02:16:50.611 Slow 200 GET /api/quick-search/192.2 with 39 bytes took 12ms
+02:16:55.474 204 PUT /api/notes/US8a7VFedyo1/set-attribute with 0 bytes took 1ms
+02:16:55.479 200 PUT /api/notes/US8a7VFedyo1/title with 341 bytes took 1ms
+02:16:56.075 204 PUT /api/notes/US8a7VFedyo1/set-attribute with 0 bytes took 0ms
+02:16:56.081 200 PUT /api/notes/US8a7VFedyo1/title with 343 bytes took 1ms
+02:16:56.093 Slow 200 GET /api/search-note/US8a7VFedyo1 with 71 bytes took 10ms
+02:50:19.315 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+02:50:19.319 All consistency checks passed with no errors detected (took 4ms)
+03:50:19.331 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+03:50:19.335 All consistency checks passed with no errors detected (took 4ms)
+04:50:19.347 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+04:50:19.350 All consistency checks passed with no errors detected (took 4ms)
+05:50:19.361 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+05:50:19.365 All consistency checks passed with no errors detected (took 4ms)
+06:50:19.345 Created backup at C:\Users\Dreamer\AppData\Roaming\trilium-data\backup/backup-daily.db
+06:50:19.366 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+06:50:19.370 All consistency checks passed with no errors detected (took 4ms)
+07:50:19.366 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+07:50:19.371 All consistency checks passed with no errors detected (took 5ms)
+08:50:19.006 Optimizing database
+08:50:19.008 Optimization finished in 1ms.
+08:50:19.382 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+08:50:19.389 All consistency checks passed with no errors detected (took 7ms)
+09:50:19.391 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+09:50:19.395 All consistency checks passed with no errors detected (took 4ms)
+10:50:19.399 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+10:50:19.402 All consistency checks passed with no errors detected (took 3ms)
+11:50:19.412 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+11:50:19.416 All consistency checks passed with no errors detected (took 4ms)
+12:50:19.416 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+12:50:19.419 All consistency checks passed with no errors detected (took 3ms)
+13:50:19.429 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+13:50:19.432 All consistency checks passed with no errors detected (took 3ms)
+14:50:19.433 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+14:50:19.436 All consistency checks passed with no errors detected (took 4ms)
+15:50:19.447 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+15:50:19.450 All consistency checks passed with no errors detected (took 3ms)
+16:50:19.456 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+16:50:19.460 All consistency checks passed with no errors detected (took 4ms)
+17:50:19.471 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+17:50:19.474 All consistency checks passed with no errors detected (took 3ms)
+18:50:19.017 Optimizing database
+18:50:19.017 Optimization finished in 0ms.
+18:50:19.481 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+18:50:19.485 All consistency checks passed with no errors detected (took 4ms)
+19:50:19.491 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+19:50:19.495 All consistency checks passed with no errors detected (took 4ms)
+20:50:19.497 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+20:50:19.501 All consistency checks passed with no errors detected (took 4ms)
+21:50:19.512 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+21:50:19.515 All consistency checks passed with no errors detected (took 3ms)
+22:50:19.526 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+22:50:19.529 All consistency checks passed with no errors detected (took 3ms)
+23:50:19.541 Table counts: notes: 295, revisions: 40, attachments: 19, branches: 309, attributes: 366, etapi_tokens: 0, blobs: 201
+23:50:19.544 All consistency checks passed with no errors detected (took 3ms)

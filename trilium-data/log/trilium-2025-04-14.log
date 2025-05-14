@@ -1,0 +1,750 @@
+00:58:49.517 Slow query took 40ms: SELECT attachmentId FROM attachments WHERE utcDateScheduledForErasureSince < ?
+00:58:49.809 Table counts: notes: 234, revisions: 5, attachments: 16, branches: 249, attributes: 345, etapi_tokens: 0, blobs: 133
+00:58:49.836 All consistency checks passed with no errors detected (took 34ms)
+01:22:36.054 Slow query took 300ms: SELECT *, LENGTH(content) AS contentLength FROM blobs WHERE blobId = ?
+01:22:36.098 Slow 200 GET /api/notes/Qbgr2FOZRBHT/blob with 217 bytes took 344ms
+01:22:36.128 Slow 200 GET /api/note-map/Qbgr2FOZRBHT/backlink-count with 11 bytes took 27ms
+01:22:37.284 Slow query took 224ms: INSERT INTO options (name, value, isSynced, utcDateModified) VALUES (@name, @value, @isSynced, @utcDateModified) ON CONFLICT (name) DO UPDATE SET name = @name, value = @value, isSynced = @isSynced, utcDateModified = @utcDateModified
+01:22:37.539 Slow 204 PUT /api/options with 0 bytes took 579ms
+01:22:39.030 200 GET /api/notes/Se7jolEtqf8g/blob with 543 bytes took 1ms
+01:22:42.403 Slow query took 74ms: SELECT * FROM attachments WHERE ownerId = ? AND isDeleted = 0 ORDER BY position
+01:22:42.403 Created new note 'jQtcdrlQEWjD', branch '9iDZ7KfxdAmG_jQtcdrlQEWjD' of type 'text', mime 'text/html'
+01:22:42.404 Slow 200 POST /api/notes/9iDZ7KfxdAmG/children?target=into&targetBranchId= with 554 bytes took 141ms
+01:22:42.455 200 POST /api/tree/load with 1743 bytes took 0ms
+01:22:42.695 200 GET /api/notes/jQtcdrlQEWjD/blob with 155 bytes took 1ms
+01:22:42.695 200 GET /api/note-map/jQtcdrlQEWjD/backlink-count with 11 bytes took 0ms
+01:22:42.811 204 PUT /api/options with 0 bytes took 0ms
+01:22:45.662 Slow 200 PUT /api/notes/jQtcdrlQEWjD/title with 324 bytes took 16ms
+01:22:46.671 200 GET /api/notes/jQtcdrlQEWjD/blob with 155 bytes took 0ms
+01:22:55.049 204 PUT /api/notes/jQtcdrlQEWjD/data with 0 bytes took 1ms
+01:22:55.053 200 GET /api/notes/jQtcdrlQEWjD/blob with 176 bytes took 1ms
+01:22:56.736 204 PUT /api/notes/jQtcdrlQEWjD/data with 0 bytes took 2ms
+01:22:56.738 200 GET /api/notes/jQtcdrlQEWjD/blob with 182 bytes took 0ms
+01:22:57.738 204 PUT /api/notes/jQtcdrlQEWjD/data with 0 bytes took 2ms
+01:22:57.741 200 GET /api/notes/jQtcdrlQEWjD/blob with 181 bytes took 0ms
+01:22:58.850 204 PUT /api/notes/jQtcdrlQEWjD/data with 0 bytes took 1ms
+01:22:58.852 200 GET /api/notes/jQtcdrlQEWjD/blob with 182 bytes took 0ms
+01:22:59.984 Slow 204 PUT /api/notes/jQtcdrlQEWjD/data with 0 bytes took 134ms
+01:22:59.986 200 GET /api/notes/jQtcdrlQEWjD/blob with 188 bytes took 0ms
+01:23:01.887 204 PUT /api/notes/jQtcdrlQEWjD/data with 0 bytes took 1ms
+01:23:01.890 200 GET /api/notes/jQtcdrlQEWjD/blob with 184 bytes took 0ms
+01:23:02.890 204 PUT /api/notes/jQtcdrlQEWjD/data with 0 bytes took 1ms
+01:23:02.892 200 GET /api/notes/jQtcdrlQEWjD/blob with 186 bytes took 0ms
+01:23:03.893 204 PUT /api/notes/jQtcdrlQEWjD/data with 0 bytes took 1ms
+01:23:03.895 200 GET /api/notes/jQtcdrlQEWjD/blob with 192 bytes took 0ms
+01:23:04.897 204 PUT /api/notes/jQtcdrlQEWjD/data with 0 bytes took 2ms
+01:23:04.899 200 GET /api/notes/jQtcdrlQEWjD/blob with 191 bytes took 0ms
+01:23:31.273 204 PUT /api/branches/9iDZ7KfxdAmG_Qbgr2FOZRBHT/expanded/0 with 0 bytes took 0ms
+01:23:32.587 Created new note 'wuWWW698bAlz', branch '9iDZ7KfxdAmG_wuWWW698bAlz' of type 'text', mime 'text/html'
+01:23:32.587 200 POST /api/notes/9iDZ7KfxdAmG/children?target=into&targetBranchId= with 554 bytes took 2ms
+01:23:32.588 200 POST /api/tree/load with 1890 bytes took 0ms
+01:23:32.599 200 GET /api/notes/wuWWW698bAlz/blob with 155 bytes took 0ms
+01:23:32.600 200 GET /api/note-map/wuWWW698bAlz/backlink-count with 11 bytes took 0ms
+01:23:32.602 204 PUT /api/options with 0 bytes took 0ms
+01:23:34.510 Slow 200 PUT /api/notes/wuWWW698bAlz/title with 320 bytes took 26ms
+01:23:34.512 200 GET /api/notes/wuWWW698bAlz/blob with 155 bytes took 0ms
+01:23:35.596 200 PUT /api/notes/wuWWW698bAlz/title with 320 bytes took 1ms
+01:23:35.598 200 GET /api/notes/wuWWW698bAlz/blob with 155 bytes took 0ms
+01:23:36.600 200 PUT /api/notes/wuWWW698bAlz/title with 321 bytes took 1ms
+01:23:36.601 200 GET /api/notes/wuWWW698bAlz/blob with 155 bytes took 0ms
+01:23:37.603 200 PUT /api/notes/wuWWW698bAlz/title with 325 bytes took 0ms
+01:23:38.250 200 GET /api/notes/wuWWW698bAlz/blob with 155 bytes took 0ms
+01:23:42.546 204 PUT /api/notes/wuWWW698bAlz/data with 0 bytes took 1ms
+01:23:42.549 200 GET /api/notes/wuWWW698bAlz/blob with 163 bytes took 0ms
+01:23:44.614 204 PUT /api/notes/wuWWW698bAlz/data with 0 bytes took 1ms
+01:23:44.616 200 GET /api/notes/wuWWW698bAlz/blob with 155 bytes took 0ms
+01:23:45.616 204 PUT /api/notes/wuWWW698bAlz/data with 0 bytes took 0ms
+01:23:46.619 204 PUT /api/notes/wuWWW698bAlz/data with 0 bytes took 2ms
+01:23:46.620 200 GET /api/notes/wuWWW698bAlz/blob with 177 bytes took 0ms
+01:23:47.696 204 PUT /api/notes/wuWWW698bAlz/data with 0 bytes took 1ms
+01:23:47.698 200 GET /api/notes/wuWWW698bAlz/blob with 183 bytes took 0ms
+01:23:48.760 204 PUT /api/notes/wuWWW698bAlz/data with 0 bytes took 2ms
+01:23:48.762 200 GET /api/notes/wuWWW698bAlz/blob with 179 bytes took 0ms
+01:23:49.765 204 PUT /api/notes/wuWWW698bAlz/data with 0 bytes took 1ms
+01:23:49.767 200 GET /api/notes/wuWWW698bAlz/blob with 186 bytes took 1ms
+01:23:50.766 204 PUT /api/notes/wuWWW698bAlz/data with 0 bytes took 1ms
+01:23:50.768 200 GET /api/notes/wuWWW698bAlz/blob with 183 bytes took 0ms
+01:23:51.771 204 PUT /api/notes/wuWWW698bAlz/data with 0 bytes took 1ms
+01:23:51.773 200 GET /api/notes/wuWWW698bAlz/blob with 190 bytes took 0ms
+01:23:52.800 Slow 204 PUT /api/notes/wuWWW698bAlz/data with 0 bytes took 29ms
+01:23:52.802 200 GET /api/notes/wuWWW698bAlz/blob with 193 bytes took 0ms
+01:23:55.166 Slow 204 PUT /api/notes/wuWWW698bAlz/data with 0 bytes took 1343ms
+01:23:55.170 200 GET /api/notes/wuWWW698bAlz/blob with 190 bytes took 0ms
+01:24:17.730 200 GET /api/notes/wuWWW698bAlz/blob with 190 bytes took 0ms
+01:26:23.233 Created new note 'DIpRHsWthdce', branch 'VUnzzdj2DpD8_DIpRHsWthdce' of type 'text', mime 'text/html'
+01:26:23.602 Slow 200 GET /api/special-notes/inbox/2025-04-14 with 330 bytes took 912ms
+01:26:23.606 200 POST /api/tree/load with 7308 bytes took 1ms
+01:26:23.607 200 POST /api/tree/load with 6880 bytes took 0ms
+01:26:23.609 Created new note 'Wj17DMwWeM1L', branch 'DIpRHsWthdce_Wj17DMwWeM1L' of type 'text', mime 'text/html'
+01:26:23.738 Slow 200 POST /api/notes/DIpRHsWthdce/children?target=into with 554 bytes took 131ms
+01:26:23.741 200 POST /api/tree/load with 7584 bytes took 0ms
+01:26:28.069 200 GET /api/notes/wuWWW698bAlz/blob with 190 bytes took 1ms
+01:26:29.500 200 GET /api/notes/Wj17DMwWeM1L/blob with 155 bytes took 0ms
+01:26:29.500 200 GET /api/note-map/Wj17DMwWeM1L/backlink-count with 11 bytes took 0ms
+01:26:29.503 200 GET /api/tree?subTreeNoteId=gdjwOc9jyNIw with 12035 bytes took 1ms
+01:26:29.966 Slow 204 PUT /api/options with 0 bytes took 131ms
+01:26:30.825 200 GET /api/tree?subTreeNoteId=rexj0XmPVet6 with 6876 bytes took 1ms
+01:26:30.830 200 GET /api/tree?subTreeNoteId=hpZlzQY69WfI with 6279 bytes took 1ms
+01:26:30.831 200 GET /api/tree?subTreeNoteId=VUnzzdj2DpD8 with 8750 bytes took 0ms
+01:26:30.833 200 GET /api/tree?subTreeNoteId=DIpRHsWthdce with 7584 bytes took 1ms
+01:26:30.835 204 PUT /api/branches/root_gdjwOc9jyNIw/expanded/1 with 0 bytes took 0ms
+01:26:30.891 Slow 204 PUT /api/branches/gdjwOc9jyNIw_rexj0XmPVet6/expanded/1 with 0 bytes took 51ms
+01:26:30.894 204 PUT /api/branches/rexj0XmPVet6_hpZlzQY69WfI/expanded/1 with 0 bytes took 1ms
+01:26:30.896 204 PUT /api/branches/hpZlzQY69WfI_VUnzzdj2DpD8/expanded/1 with 0 bytes took 1ms
+01:26:30.897 204 PUT /api/branches/VUnzzdj2DpD8_DIpRHsWthdce/expanded/1 with 0 bytes took 0ms
+01:26:50.943 200 GET /api/app-info with 321 bytes took 1ms
+01:26:59.115 200 GET /api/special-notes/inbox/2025-04-14 with 330 bytes took 2ms
+01:26:59.117 Created new note 'BDgUIAuSnr90', branch 'DIpRHsWthdce_BDgUIAuSnr90' of type 'text', mime 'text/html'
+01:26:59.161 Slow 200 POST /api/notes/DIpRHsWthdce/children?target=into with 554 bytes took 46ms
+01:26:59.162 200 POST /api/tree/load with 7725 bytes took 0ms
+01:26:59.439 200 GET /api/notes/BDgUIAuSnr90/blob with 155 bytes took 0ms
+01:26:59.440 200 GET /api/note-map/BDgUIAuSnr90/backlink-count with 11 bytes took 0ms
+01:26:59.455 204 PUT /api/options with 0 bytes took 5ms
+01:27:00.825 200 GET /api/app-info with 321 bytes took 0ms
+01:27:21.834 200 POST /api/tree/load with 4777 bytes took 1ms
+01:27:22.138 200 GET /api/note-map/_options/backlink-count with 11 bytes took 0ms
+01:27:22.140 200 GET /api/tree?subTreeNoteId=_hidden with 26305 bytes took 0ms
+01:27:22.371 Slow 204 PUT /api/options with 0 bytes took 35ms
+01:27:22.372 204 PUT /api/branches/root__hidden/expanded/1 with 0 bytes took 1ms
+01:27:22.373 200 GET /api/tree?subTreeNoteId=_options with 8205 bytes took 1ms
+01:27:24.513 200 GET /api/note-map/_optionsSync/backlink-count with 11 bytes took 0ms
+01:27:24.604 200 GET /api/options with 7357 bytes took 9ms
+01:27:24.629 Slow 204 PUT /api/options with 0 bytes took 13ms
+01:27:28.911 204 PUT /api/branches/_hidden__options/expanded/1 with 0 bytes took 1ms
+01:27:32.623 200 GET /api/note-map/_optionsBackup/backlink-count with 11 bytes took 1ms
+01:27:32.626 200 GET /api/options with 7370 bytes took 2ms
+01:27:32.875 Slow 204 PUT /api/options with 0 bytes took 18ms
+01:27:33.113 Slow 200 GET /api/database/backups with 156 bytes took 238ms
+01:27:52.341 200 GET /api/note-map/_optionsEtapi/backlink-count with 11 bytes took 0ms
+01:27:52.342 200 GET /api/etapi-tokens with 2 bytes took 1ms
+01:27:52.342 200 GET /api/options with 7372 bytes took 0ms
+01:27:52.424 Slow 204 PUT /api/options with 0 bytes took 48ms
+01:27:57.747 200 GET /api/note-map/_optionsPassword/backlink-count with 11 bytes took 0ms
+01:27:57.748 200 GET /api/options with 7371 bytes took 0ms
+01:27:57.752 204 PUT /api/options with 0 bytes took 1ms
+01:27:59.153 200 GET /api/note-map/_optionsSpellcheck/backlink-count with 11 bytes took 0ms
+01:27:59.154 200 GET /api/options with 7374 bytes took 0ms
+01:27:59.198 Slow 204 PUT /api/options with 0 bytes took 41ms
+01:28:00.251 200 GET /api/note-map/_optionsBackup/backlink-count with 11 bytes took 0ms
+01:28:00.251 200 GET /api/options with 7376 bytes took 0ms
+01:28:00.321 Slow 204 PUT /api/options with 0 bytes took 68ms
+01:28:00.325 200 GET /api/database/backups with 156 bytes took 2ms
+01:28:00.974 200 GET /api/note-map/_optionsOther/backlink-count with 11 bytes took 0ms
+01:28:00.975 200 GET /api/options with 7372 bytes took 1ms
+01:28:01.057 200 GET /api/options with 7372 bytes took 1ms
+01:28:01.122 200 GET /api/options with 7372 bytes took 0ms
+01:28:01.127 200 GET /api/options with 7372 bytes took 1ms
+01:28:01.280 200 GET /api/options with 7372 bytes took 0ms
+01:28:01.284 204 PUT /api/options with 0 bytes took 3ms
+01:28:01.286 200 GET /api/options with 7371 bytes took 1ms
+01:28:01.451 200 GET /api/note-map/_optionsSync/backlink-count with 11 bytes took 1ms
+01:28:01.451 200 GET /api/options with 7371 bytes took 0ms
+01:28:02.383 Slow 204 PUT /api/options with 0 bytes took 100ms
+01:28:02.514 200 GET /api/note-map/_optionsAdvanced/backlink-count with 11 bytes took 0ms
+01:28:02.515 200 GET /api/options with 7370 bytes took 0ms
+01:28:02.518 200 GET /api/options with 7370 bytes took 0ms
+01:28:02.519 200 GET /api/options with 7370 bytes took 0ms
+01:28:02.617 Slow 200 GET /api/database/anonymized-databases with 2 bytes took 97ms
+01:28:02.618 200 GET /api/options with 7370 bytes took 0ms
+01:28:02.622 200 GET /api/options with 7370 bytes took 1ms
+01:28:03.303 Slow 204 PUT /api/options with 0 bytes took 16ms
+01:28:15.715 200 GET /api/note-map/_optionsAppearance/backlink-count with 11 bytes took 0ms
+01:28:15.716 200 GET /api/options with 7374 bytes took 0ms
+01:28:15.735 Slow 204 PUT /api/options with 0 bytes took 16ms
+01:28:15.737 200 GET /api/options/user-themes with 67 bytes took 1ms
+01:28:15.737 200 GET /api/options with 7376 bytes took 0ms
+01:28:15.757 200 GET /api/options with 7376 bytes took 1ms
+01:28:15.765 200 GET /api/options with 7376 bytes took 0ms
+01:28:15.766 200 GET /api/options with 7376 bytes took 0ms
+01:28:15.767 200 GET /api/options with 7376 bytes took 0ms
+01:28:17.077 200 GET /api/note-map/_optionsShortcuts/backlink-count with 11 bytes took 0ms
+01:28:17.132 Slow 200 GET /api/keyboard-actions with 14263 bytes took 54ms
+01:28:17.132 200 GET /api/options with 7376 bytes took 0ms
+01:28:17.177 Slow 204 PUT /api/options with 0 bytes took 44ms
+01:28:18.311 200 GET /api/note-map/_optionsTextNotes/backlink-count with 11 bytes took 0ms
+01:28:18.312 200 GET /api/options with 7375 bytes took 1ms
+01:28:18.341 Slow 204 PUT /api/options with 0 bytes took 26ms
+01:28:18.341 200 GET /api/options with 7375 bytes took 0ms
+01:28:18.512 200 GET /api/options with 7375 bytes took 1ms
+01:28:18.548 200 GET /api/options with 7375 bytes took 1ms
+01:28:19.123 200 GET /api/note-map/_optionsCodeNotes/backlink-count with 11 bytes took 1ms
+01:28:19.124 200 GET /api/options with 7375 bytes took 1ms
+01:28:19.127 200 GET /api/options with 7375 bytes took 0ms
+01:28:19.131 200 GET /api/options with 7375 bytes took 1ms
+01:28:19.132 200 GET /api/options with 7375 bytes took 0ms
+01:28:19.335 Slow 204 PUT /api/options with 0 bytes took 16ms
+01:28:22.966 200 GET /api/note-map/_optionsImages/backlink-count with 11 bytes took 0ms
+01:28:22.967 200 GET /api/options with 7375 bytes took 0ms
+01:28:23.055 Slow 204 PUT /api/options with 0 bytes took 85ms
+01:28:23.543 200 GET /api/note-map/_optionsSpellcheck/backlink-count with 11 bytes took 1ms
+01:28:23.543 200 GET /api/options with 7372 bytes took 0ms
+01:28:23.982 Slow 204 PUT /api/options with 0 bytes took 10ms
+01:28:24.132 200 GET /api/note-map/_optionsPassword/backlink-count with 11 bytes took 0ms
+01:28:24.133 200 GET /api/options with 7376 bytes took 0ms
+01:28:24.995 Slow 204 PUT /api/options with 0 bytes took 18ms
+01:28:25.131 200 GET /api/note-map/_optionsEtapi/backlink-count with 11 bytes took 1ms
+01:28:25.131 200 GET /api/etapi-tokens with 2 bytes took 0ms
+01:28:25.132 200 GET /api/options with 7374 bytes took 1ms
+01:28:25.982 204 PUT /api/options with 0 bytes took 1ms
+01:28:27.148 200 GET /api/note-map/_optionsBackup/backlink-count with 11 bytes took 0ms
+01:28:27.148 200 GET /api/options with 7371 bytes took 0ms
+01:28:27.211 Slow 204 PUT /api/options with 0 bytes took 59ms
+01:28:27.212 200 GET /api/database/backups with 156 bytes took 0ms
+01:28:34.439 Created backup at C:\Users\Dreamer\AppData\Roaming\trilium-data\backup/backup-now.db
+01:28:34.439 Slow 200 POST /api/database/backup-database with 89 bytes took 1300ms
+01:28:34.839 200 GET /api/options with 7372 bytes took 0ms
+01:28:34.841 200 GET /api/database/backups with 307 bytes took 0ms
+01:28:41.673 200 GET /api/note-map/_options/backlink-count with 11 bytes took 0ms
+01:28:41.768 Slow 204 PUT /api/options with 0 bytes took 89ms
+01:28:45.534 200 GET /api/note-map/_optionsSync/backlink-count with 11 bytes took 0ms
+01:28:45.535 200 GET /api/options with 7542 bytes took 0ms
+01:28:45.544 204 PUT /api/options with 0 bytes took 1ms
+01:28:52.788 200 GET /api/note-map/_optionsCodeNotes/backlink-count with 11 bytes took 0ms
+01:28:52.789 200 GET /api/options with 7555 bytes took 1ms
+01:28:52.790 200 GET /api/tree?subTreeNoteId=_optionsCodeNotes with 5079 bytes took 0ms
+01:28:52.794 204 PUT /api/options with 0 bytes took 1ms
+01:28:52.795 200 GET /api/options with 7560 bytes took 0ms
+01:28:52.811 200 GET /api/options with 7560 bytes took 0ms
+01:28:52.814 200 GET /api/options with 7560 bytes took 1ms
+01:28:53.110 Slow 204 PUT /api/branches/_options__optionsCodeNotes/expanded/1 with 0 bytes took 101ms
+01:29:01.901 Slow query took 46ms: SELECT attr.value AS date, notes.noteId FROM notes JOIN attributes attr USING(noteId) WHERE notes.isDeleted = 0 AND attr.isDeleted = 0 AND attr.type = 'label' AND attr.name = 'dateNote' AND attr.value LIKE '2025-04%'
+01:29:01.902 Slow 200 GET /api/special-notes/notes-for-month/2025-04 with 85 bytes took 47ms
+01:29:02.702 200 GET /api/note-map/_globalNoteMap/backlink-count with 11 bytes took 0ms
+01:29:03.176 Slow 204 PUT /api/options with 0 bytes took 40ms
+01:29:08.510 Updating option 'leftPaneVisible' to 'false'
+01:29:08.531 Slow 204 PUT /api/options with 0 bytes took 21ms
+01:29:11.120 Slow 200 POST /api/note-map/_options/link with 971 bytes took 213ms
+01:29:11.503 JS Error: Uncaught error: Message: ResizeObserver loop limit exceeded, URL: http://127.0.0.1:37840/#root/_hidden/_globalNoteMap?ntxId=R63hxM&hoistedNoteId=_options, Line: 0, Column: 0, Error object: null, Stack: null
+Stack: Error
+    at Object.T [as logError] (http://127.0.0.1:37840/assets/v0.63.5/app-dist/desktop.js:2:119744)
+    at Pi.window.onerror (http://127.0.0.1:37840/assets/v0.63.5/app-dist/desktop.js:2:669515)
+01:29:11.504 200 GET /api/options with 7549 bytes took 0ms
+01:29:11.505 200 GET /api/options with 7549 bytes took 0ms
+01:29:11.506 200 GET /api/options with 7549 bytes took 0ms
+01:29:11.506 200 GET /api/options with 7549 bytes took 0ms
+01:29:11.507 200 GET /api/options with 7549 bytes took 0ms
+01:29:11.583 200 GET /api/database/backups with 307 bytes took 1ms
+01:29:39.175 Updating option 'zoomFactor' to '1'
+01:29:39.176 204 PUT /api/options with 0 bytes took 1ms
+01:29:39.282 200 GET /api/options with 7545 bytes took 1ms
+01:29:39.283 200 GET /api/options with 7545 bytes took 1ms
+01:29:39.284 200 GET /api/options with 7545 bytes took 1ms
+01:29:39.284 200 GET /api/options with 7545 bytes took 0ms
+01:29:39.286 200 GET /api/options with 7545 bytes took 1ms
+01:29:39.290 200 GET /api/database/backups with 307 bytes took 1ms
+01:29:42.586 200 GET /api/special-notes/inbox/2025-04-14 with 330 bytes took 0ms
+01:29:42.726 Slow query took 138ms: INSERT OR REPLACE INTO entity_changes ( entityName, entityId, hash, isErased, utcDateChanged, isSynced, changeId, componentId, instanceId ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+01:29:42.728 Created new note 'FiCn3iVQHBuC', branch 'DIpRHsWthdce_FiCn3iVQHBuC' of type 'text', mime 'text/html'
+01:29:42.729 Slow 200 POST /api/notes/DIpRHsWthdce/children?target=into with 554 bytes took 141ms
+01:29:42.733 200 POST /api/tree/load with 7870 bytes took 1ms
+01:29:42.831 200 GET /api/notes/FiCn3iVQHBuC/blob with 155 bytes took 1ms
+01:29:42.831 200 GET /api/note-map/FiCn3iVQHBuC/backlink-count with 11 bytes took 0ms
+01:29:42.866 Slow 204 PUT /api/options with 0 bytes took 19ms
+01:29:46.186 200 GET /api/special-notes/inbox/2025-04-14 with 330 bytes took 0ms
+01:29:46.190 Created new note 'Ddtn8AEoUNOm', branch 'DIpRHsWthdce_Ddtn8AEoUNOm' of type 'text', mime 'text/html'
+01:29:46.256 Slow 200 POST /api/notes/DIpRHsWthdce/children?target=into with 554 bytes took 68ms
+01:29:46.259 200 POST /api/tree/load with 8016 bytes took 1ms
+01:29:46.329 200 GET /api/notes/Ddtn8AEoUNOm/blob with 155 bytes took 0ms
+01:29:46.329 200 GET /api/note-map/Ddtn8AEoUNOm/backlink-count with 11 bytes took 0ms
+01:29:46.404 Slow 204 PUT /api/options with 0 bytes took 70ms
+01:29:47.954 Slow 204 PUT /api/options with 0 bytes took 52ms
+01:29:48.961 200 GET /api/search/%23workspace%20%23!template with 2 bytes took 1ms
+01:29:49.072 Slow 204 PUT /api/options with 0 bytes took 59ms
+01:29:50.034 Slow 204 PUT /api/options with 0 bytes took 17ms
+01:29:51.506 200 GET /api/special-notes/inbox/2025-04-14 with 330 bytes took 1ms
+01:29:51.509 Created new note 'tP7KDfmhyOnN', branch 'DIpRHsWthdce_tP7KDfmhyOnN' of type 'text', mime 'text/html'
+01:29:51.550 Slow 200 POST /api/notes/DIpRHsWthdce/children?target=into with 554 bytes took 43ms
+01:29:51.552 200 POST /api/tree/load with 8162 bytes took 0ms
+01:29:51.613 200 GET /api/notes/tP7KDfmhyOnN/blob with 155 bytes took 0ms
+01:29:51.614 200 GET /api/note-map/tP7KDfmhyOnN/backlink-count with 11 bytes took 0ms
+01:29:51.665 Slow 204 PUT /api/options with 0 bytes took 21ms
+01:29:52.665 Slow 204 PUT /api/options with 0 bytes took 20ms
+01:29:55.941 200 GET /api/autocomplete?query=&activeNoteId=null with 3113 bytes took 1ms
+01:29:56.954 Updating option 'leftPaneVisible' to 'true'
+01:29:57.050 Slow 204 PUT /api/options with 0 bytes took 96ms
+01:29:57.333 200 GET /api/options with 6450 bytes took 0ms
+01:29:57.334 200 GET /api/options with 6450 bytes took 0ms
+01:29:57.335 200 GET /api/options with 6450 bytes took 0ms
+01:29:57.335 200 GET /api/options with 6450 bytes took 0ms
+01:29:57.336 200 GET /api/options with 6450 bytes took 0ms
+01:29:57.616 200 GET /api/database/backups with 307 bytes took 0ms
+01:29:57.642 Updating option 'leftPaneVisible' to 'false'
+01:29:57.673 Slow 204 PUT /api/options with 0 bytes took 31ms
+01:29:57.677 200 GET /api/options with 6451 bytes took 1ms
+01:29:57.677 200 GET /api/options with 6451 bytes took 0ms
+01:29:57.678 200 GET /api/options with 6451 bytes took 1ms
+01:29:57.678 200 GET /api/options with 6451 bytes took 0ms
+01:29:57.679 200 GET /api/options with 6451 bytes took 1ms
+01:29:57.680 200 GET /api/database/backups with 307 bytes took 1ms
+01:29:58.153 Updating option 'leftPaneVisible' to 'true'
+01:29:58.165 Slow 204 PUT /api/options with 0 bytes took 12ms
+01:29:58.215 200 GET /api/options with 6450 bytes took 0ms
+01:29:58.216 200 GET /api/options with 6450 bytes took 1ms
+01:29:58.216 200 GET /api/options with 6450 bytes took 0ms
+01:29:58.217 200 GET /api/options with 6450 bytes took 1ms
+01:29:58.217 200 GET /api/options with 6450 bytes took 0ms
+01:29:58.220 200 GET /api/database/backups with 307 bytes took 1ms
+01:30:02.821 204 PUT /api/branches/rexj0XmPVet6_hpZlzQY69WfI/expanded/0 with 0 bytes took 1ms
+01:30:03.151 204 PUT /api/branches/root_gdjwOc9jyNIw/expanded/0 with 0 bytes took 0ms
+01:30:07.417 200 GET /api/search/%23workspace%20%23!template with 2 bytes took 1ms
+01:30:07.557 Slow 204 PUT /api/options with 0 bytes took 131ms
+01:30:07.560 200 GET /api/search/%23workspace%20%23!template with 2 bytes took 0ms
+01:30:08.459 Slow 204 PUT /api/options with 0 bytes took 29ms
+01:30:08.505 200 GET /api/search/%23workspace%20%23!template with 2 bytes took 0ms
+01:30:08.521 200 GET /api/search/%23workspace%20%23!template with 2 bytes took 0ms
+01:30:09.435 204 PUT /api/options with 0 bytes took 0ms
+01:30:10.436 204 PUT /api/options with 0 bytes took 1ms
+01:30:11.438 204 PUT /api/options with 0 bytes took 0ms
+01:30:31.286 200 GET /api/note-map/_globalNoteMap/backlink-count with 11 bytes took 0ms
+01:30:31.290 204 PUT /api/options with 0 bytes took 1ms
+01:30:31.303 200 POST /api/note-map/root/link with 14163 bytes took 2ms
+01:30:31.306 JS Error: Uncaught error: Message: ResizeObserver loop limit exceeded, URL: http://127.0.0.1:37840/#root/_hidden/_globalNoteMap?ntxId=H5q4zw, Line: 0, Column: 0, Error object: null, Stack: null
+Stack: Error
+    at Object.T [as logError] (http://127.0.0.1:37840/assets/v0.63.5/app-dist/desktop.js:2:119744)
+    at Pi.window.onerror (http://127.0.0.1:37840/assets/v0.63.5/app-dist/desktop.js:2:669515)
+01:30:33.190 200 GET /api/search/%23workspace%20%23!template with 2 bytes took 1ms
+01:30:33.213 204 PUT /api/options with 0 bytes took 1ms
+01:30:41.946 200 GET /api/app-info with 321 bytes took 0ms
+05:03:30.018 DB size: 2043 KB
+05:03:30.689 {
+  "appVersion": "0.63.5",
+  "dbVersion": 228,
+  "nodeVersion": "v18.15.0",
+  "syncVersion": 32,
+  "buildDate": "2024-03-28T07:11:39+01:00",
+  "buildRevision": "399458b52f250b22be22d980a78de0b3390d7521",
+  "dataDirectory": "C:\\Users\\Dreamer\\AppData\\Roaming\\trilium-data",
+  "clipperProtocolVersion": "1.0",
+  "utcDateTime": "2025-04-14T09:03:30.002Z"
+}
+05:03:30.689 CPU model: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz, logical cores: 16 freq: 2904 Mhz
+05:03:30.689 Trusted reverse proxy: false
+05:03:30.689 App HTTP server starting up at port 37840
+05:03:30.697 Listening on port 37840
+05:03:30.720 Becca (note cache) load took 22ms
+05:03:30.974 Registered global shortcut Ctrl+Alt+P for action createNoteIntoInbox
+05:03:31.327 Generated CSRF token 5aJyL5SD-Cqy1IZfEXlO9SmtHPosGwfWWpz4 with secret _csrf=oTuQL9bFh81vcYICZxK2G-4f; Path=/
+05:03:32.609 Slow query took 23ms: SELECT content FROM blobs WHERE blobId = ?
+05:03:32.722 200 GET /api/options with 6454 bytes took 1ms
+05:03:32.724 200 GET /api/tree with 34429 bytes took 2ms
+05:03:32.725 200 GET /api/keyboard-actions with 14263 bytes took 0ms
+05:03:32.726 200 GET /api/script/widgets with 2687 bytes took 0ms
+05:03:32.728 200 POST /api/tree/load with 4731 bytes took 1ms
+05:03:32.815 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+05:03:32.822 200 POST /api/tree/load with 42 bytes took 0ms
+05:03:32.824 200 GET /api/tree?subTreeNoteId=_optionsCodeNotes with 5079 bytes took 1ms
+05:03:33.423 200 GET /api/notes/root/blob with 155 bytes took 1ms
+05:03:33.423 200 GET /api/note-map/root/backlink-count with 11 bytes took 0ms
+05:03:33.646 200 GET /api/notes/gdjwOc9jyNIw/blob with 2482 bytes took 0ms
+05:03:33.694 Slow query took 34ms: SELECT content FROM blobs WHERE blobId = ?
+05:03:33.700 200 GET /api/notes/PlfyCkEEJala/blob with 155 bytes took 1ms
+05:03:33.724 200 POST /api/tree/load with 2021 bytes took 0ms
+05:03:33.728 200 GET /api/notes/CstPkKIrC9eG/blob with 155 bytes took 1ms
+05:03:33.728 200 POST /api/tree/load with 1739 bytes took 0ms
+05:03:33.743 Slow 200 GET /api/notes/MewAjzMz38cv/blob with 248 bytes took 14ms
+05:03:33.745 200 GET /api/notes/9iDZ7KfxdAmG/blob with 155 bytes took 0ms
+05:03:34.748 Slow query took 23ms: SELECT COUNT(1) FROM notes
+05:03:34.788 Table counts: notes: 242, revisions: 5, attachments: 16, branches: 257, attributes: 347, etapi_tokens: 0, blobs: 135
+05:03:34.813 Slow query took 25ms: SELECT noteId as entityId FROM notes LEFT JOIN entity_changes ec ON ec.entityName = 'notes' AND ec.entityId = notes.noteId WHERE ec.id IS NULL
+05:03:34.898 Slow query took 84ms: SELECT id, entityId FROM entity_changes LEFT JOIN notes ON entityId = notes.noteId WHERE entity_changes.isErased = 0 AND entity_changes.entityName = 'notes' AND notes.noteId IS NULL
+05:03:34.949 Slow query took 31ms: SELECT notes.noteId, notes.type, notes.mime FROM notes JOIN blobs USING (blobId) WHERE isDeleted = 0 AND isProtected = 0 AND content IS NULL
+05:03:34.952 All consistency checks passed with no errors detected (took 228ms)
+05:03:34.953 200 GET /api/script/startup with 2 bytes took 0ms
+05:08:30.764 Slow query took 27ms: SELECT noteId FROM notes WHERE isDeleted = 1 AND utcDateModified <= ?
+05:13:33.420 204 PUT /api/branches/_hidden__lbRoot/expanded/0 with 0 bytes took 1ms
+05:13:33.421 204 PUT /api/branches/_lbRoot__lbAvailableLaunchers/expanded/0 with 0 bytes took 1ms
+05:13:33.421 204 PUT /api/branches/_lbRoot__lbVisibleLaunchers/expanded/0 with 0 bytes took 0ms
+05:13:33.423 204 PUT /api/branches/_hidden__options/expanded/0 with 0 bytes took 2ms
+05:13:33.423 204 PUT /api/branches/_options__optionsCodeNotes/expanded/0 with 0 bytes took 0ms
+05:13:33.631 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/0 with 0 bytes took 1ms
+05:13:33.631 204 PUT /api/branches/root__hidden/expanded/0 with 0 bytes took 0ms
+05:14:21.654 200 GET /api/notes/9iDZ7KfxdAmG/blob with 155 bytes took 0ms
+05:14:21.655 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 0ms
+05:14:21.701 Slow query took 44ms: INSERT OR REPLACE INTO entity_changes ( entityName, entityId, hash, isErased, utcDateChanged, isSynced, changeId, componentId, instanceId ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+05:14:21.702 Slow 204 PUT /api/options with 0 bytes took 46ms
+05:14:21.780 200 GET /api/notes/Qbgr2FOZRBHT/blob with 217 bytes took 0ms
+05:14:21.783 200 GET /api/notes/jQtcdrlQEWjD/blob with 191 bytes took 0ms
+05:14:21.784 200 GET /api/notes/wuWWW698bAlz/blob with 190 bytes took 0ms
+05:14:21.811 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 0ms
+05:14:22.031 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/1 with 0 bytes took 0ms
+05:14:22.564 200 GET /api/note-map/Qbgr2FOZRBHT/backlink-count with 11 bytes took 0ms
+05:14:22.674 Slow 204 PUT /api/options with 0 bytes took 15ms
+05:14:22.695 200 POST /api/tree/load with 2182 bytes took 0ms
+05:14:22.698 200 GET /api/notes/Se7jolEtqf8g/blob with 543 bytes took 1ms
+06:03:30.718 Optimizing database
+06:03:30.720 Optimization finished in 2ms.
+06:03:30.750 Table counts: notes: 242, revisions: 5, attachments: 16, branches: 257, attributes: 347, etapi_tokens: 0, blobs: 135
+06:03:30.763 All consistency checks passed with no errors detected (took 14ms)
+07:03:30.760 Table counts: notes: 242, revisions: 5, attachments: 16, branches: 257, attributes: 347, etapi_tokens: 0, blobs: 135
+07:03:30.766 All consistency checks passed with no errors detected (took 7ms)
+07:40:06.178 DB size: 2043 KB
+07:40:06.872 {
+  "appVersion": "0.63.5",
+  "dbVersion": 228,
+  "nodeVersion": "v18.15.0",
+  "syncVersion": 32,
+  "buildDate": "2024-03-28T07:11:39+01:00",
+  "buildRevision": "399458b52f250b22be22d980a78de0b3390d7521",
+  "dataDirectory": "C:\\Users\\Dreamer\\AppData\\Roaming\\trilium-data",
+  "clipperProtocolVersion": "1.0",
+  "utcDateTime": "2025-04-14T11:40:06.163Z"
+}
+07:40:06.873 CPU model: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz, logical cores: 16 freq: 2904 Mhz
+07:40:06.873 Trusted reverse proxy: false
+07:40:06.873 App HTTP server starting up at port 37840
+07:40:06.881 Listening on port 37840
+07:40:07.010 Becca (note cache) load took 128ms
+07:40:07.043 Slow query took 31ms: INSERT INTO branches (branchId, noteId, parentNoteId, prefix, notePosition, isExpanded, isDeleted, utcDateModified) VALUES (@branchId, @noteId, @parentNoteId, @prefix, @notePosition, @isExpanded, @isDeleted, @utcDateModified) ON CONFLICT (branchId) DO UPDATE SET branchId = @branchId, noteId = @noteId, parentNoteId = @parentNoteId, prefix = @prefix, notePosition = @notePosition, isExpanded = @isExpanded, isDeleted = @isDeleted, utcDateModified = @utcDateModified
+07:40:07.123 Slow query took 50ms: INSERT OR REPLACE INTO entity_changes ( entityName, entityId, hash, isErased, utcDateChanged, isSynced, changeId, componentId, instanceId ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+07:40:07.462 Registered global shortcut Ctrl+Alt+P for action createNoteIntoInbox
+07:40:08.801 Generated CSRF token 16OCNsju-CwEzbKNzkufsZ32Ia1AxRJo4Y_o with secret _csrf=SZX9hRtKWCKM5PgQoFoYlC2L; Path=/
+07:40:11.125 Slow query took 114ms: SELECT COUNT(1) FROM notes
+07:40:11.151 Slow query took 26ms: SELECT COUNT(1) FROM branches
+07:40:11.185 Slow query took 34ms: SELECT COUNT(1) FROM blobs
+07:40:11.185 Table counts: notes: 242, revisions: 5, attachments: 16, branches: 257, attributes: 347, etapi_tokens: 0, blobs: 135
+07:40:11.290 Slow query took 104ms: SELECT noteId as entityId FROM notes LEFT JOIN entity_changes ec ON ec.entityName = 'notes' AND ec.entityId = notes.noteId WHERE ec.id IS NULL
+07:40:11.337 Slow query took 47ms: SELECT id, entityId FROM entity_changes LEFT JOIN notes ON entityId = notes.noteId WHERE entity_changes.isErased = 0 AND entity_changes.entityName = 'notes' AND notes.noteId IS NULL
+07:40:11.374 Slow query took 24ms: SELECT blobId as entityId FROM blobs LEFT JOIN entity_changes ec ON ec.entityName = 'blobs' AND ec.entityId = blobs.blobId WHERE ec.id IS NULL
+07:40:11.400 Slow query took 25ms: SELECT branchId as entityId FROM branches LEFT JOIN entity_changes ec ON ec.entityName = 'branches' AND ec.entityId = branches.branchId WHERE ec.id IS NULL
+07:40:11.435 Slow query took 31ms: SELECT branchId, noteId FROM branches JOIN notes USING (noteId) WHERE notes.isDeleted = 1 AND branches.isDeleted = 0
+07:40:11.464 All consistency checks passed with no errors detected (took 453ms)
+07:40:13.225 200 GET /api/options with 6595 bytes took 1ms
+07:40:13.226 200 GET /api/tree with 7618 bytes took 1ms
+07:40:13.227 200 GET /api/keyboard-actions with 14263 bytes took 0ms
+07:40:13.228 200 GET /api/script/widgets with 2687 bytes took 0ms
+07:40:13.348 200 POST /api/tree/load with 4732 bytes took 1ms
+07:40:13.708 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+07:40:13.831 200 POST /api/tree/load with 6026 bytes took 0ms
+07:40:14.133 200 POST /api/tree/load with 18968 bytes took 1ms
+07:40:14.756 200 GET /api/notes/Qbgr2FOZRBHT/blob with 217 bytes took 1ms
+07:40:14.757 200 GET /api/note-map/Qbgr2FOZRBHT/backlink-count with 11 bytes took 0ms
+07:40:15.125 200 POST /api/tree/load with 2182 bytes took 0ms
+07:40:15.141 200 GET /api/notes/Se7jolEtqf8g/blob with 543 bytes took 0ms
+07:40:15.710 200 GET /api/script/startup with 2 bytes took 1ms
+07:40:16.353 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/0 with 0 bytes took 0ms
+07:40:18.845 Slow query took 72ms: INSERT INTO notes (noteId, title, isProtected, type, mime, blobId, isDeleted, dateCreated, dateModified, utcDateCreated, utcDateModified) VALUES (@noteId, @title, @isProtected, @type, @mime, @blobId, @isDeleted, @dateCreated, @dateModified, @utcDateCreated, @utcDateModified) ON CONFLICT (noteId) DO UPDATE SET noteId = @noteId, title = @title, isProtected = @isProtected, type = @type, mime = @mime, blobId = @blobId, isDeleted = @isDeleted, dateCreated = @dateCreated, dateModified = @dateModified, utcDateCreated = @utcDateCreated, utcDateModified = @utcDateModified
+07:40:18.886 Created new note 'bziGA01rJbDl', branch 'root_bziGA01rJbDl' of type 'text', mime 'text/html'
+07:40:18.887 Slow 200 POST /api/notes/root/children?target=into&targetBranchId= with 538 bytes took 116ms
+07:40:18.888 200 POST /api/tree/load with 1308 bytes took 0ms
+07:40:18.891 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/1 with 0 bytes took 0ms
+07:40:18.902 200 GET /api/notes/bziGA01rJbDl/blob with 155 bytes took 1ms
+07:40:18.903 200 GET /api/note-map/bziGA01rJbDl/backlink-count with 11 bytes took 0ms
+07:40:18.907 204 PUT /api/options with 0 bytes took 1ms
+07:40:21.154 Slow 200 PUT /api/notes/bziGA01rJbDl/title with 320 bytes took 16ms
+07:40:21.171 200 GET /api/notes/bziGA01rJbDl/blob with 155 bytes took 0ms
+07:40:22.131 200 PUT /api/notes/bziGA01rJbDl/title with 323 bytes took 1ms
+07:40:23.359 Created new note 'eallKNGwKfO8', branch 'bziGA01rJbDl_eallKNGwKfO8' of type 'text', mime 'text/html'
+07:40:23.361 200 POST /api/notes/bziGA01rJbDl/children?target=into&targetBranchId= with 554 bytes took 4ms
+07:40:23.363 200 POST /api/tree/load with 1579 bytes took 0ms
+07:40:23.393 200 GET /api/notes/eallKNGwKfO8/blob with 155 bytes took 0ms
+07:40:23.394 200 GET /api/note-map/eallKNGwKfO8/backlink-count with 11 bytes took 0ms
+07:40:23.395 204 PUT /api/branches/root_bziGA01rJbDl/expanded/1 with 0 bytes took 0ms
+07:40:23.398 204 PUT /api/options with 0 bytes took 1ms
+07:40:25.815 200 PUT /api/notes/eallKNGwKfO8/title with 320 bytes took 1ms
+07:40:25.819 200 GET /api/notes/eallKNGwKfO8/blob with 155 bytes took 1ms
+07:40:26.816 200 PUT /api/notes/eallKNGwKfO8/title with 321 bytes took 1ms
+07:40:27.820 200 PUT /api/notes/eallKNGwKfO8/title with 326 bytes took 1ms
+07:40:27.822 200 GET /api/notes/eallKNGwKfO8/blob with 155 bytes took 0ms
+07:40:30.811 204 PUT /api/notes/eallKNGwKfO8/data with 0 bytes took 2ms
+07:40:30.813 200 GET /api/notes/eallKNGwKfO8/blob with 163 bytes took 0ms
+07:40:31.813 204 PUT /api/notes/eallKNGwKfO8/data with 0 bytes took 1ms
+07:40:31.815 200 GET /api/notes/eallKNGwKfO8/blob with 155 bytes took 0ms
+07:40:32.893 204 PUT /api/notes/eallKNGwKfO8/data with 0 bytes took 1ms
+07:40:32.894 200 GET /api/notes/eallKNGwKfO8/blob with 175 bytes took 0ms
+07:40:33.895 204 PUT /api/notes/eallKNGwKfO8/data with 0 bytes took 2ms
+07:40:33.897 200 GET /api/notes/eallKNGwKfO8/blob with 183 bytes took 0ms
+07:40:34.898 204 PUT /api/notes/eallKNGwKfO8/data with 0 bytes took 2ms
+07:40:34.900 200 GET /api/notes/eallKNGwKfO8/blob with 183 bytes took 0ms
+07:40:35.899 204 PUT /api/notes/eallKNGwKfO8/data with 0 bytes took 1ms
+07:40:35.902 200 GET /api/notes/eallKNGwKfO8/blob with 185 bytes took 0ms
+07:40:36.901 204 PUT /api/notes/eallKNGwKfO8/data with 0 bytes took 2ms
+07:40:36.903 200 GET /api/notes/eallKNGwKfO8/blob with 186 bytes took 0ms
+07:40:37.904 204 PUT /api/notes/eallKNGwKfO8/data with 0 bytes took 1ms
+07:40:37.906 200 GET /api/notes/eallKNGwKfO8/blob with 188 bytes took 0ms
+07:40:39.610 204 PUT /api/notes/eallKNGwKfO8/data with 0 bytes took 1ms
+07:40:39.646 200 GET /api/notes/eallKNGwKfO8/blob with 189 bytes took 0ms
+07:40:40.614 204 PUT /api/notes/eallKNGwKfO8/data with 0 bytes took 2ms
+07:40:40.616 200 GET /api/notes/eallKNGwKfO8/blob with 191 bytes took 1ms
+07:40:41.615 204 PUT /api/notes/eallKNGwKfO8/data with 0 bytes took 2ms
+07:40:41.616 200 GET /api/notes/eallKNGwKfO8/blob with 193 bytes took 0ms
+07:40:42.619 204 PUT /api/notes/eallKNGwKfO8/data with 0 bytes took 0ms
+07:40:43.623 204 PUT /api/notes/eallKNGwKfO8/data with 0 bytes took 1ms
+07:40:43.626 200 GET /api/notes/eallKNGwKfO8/blob with 197 bytes took 1ms
+07:40:44.627 204 PUT /api/notes/eallKNGwKfO8/data with 0 bytes took 2ms
+07:40:44.629 200 GET /api/notes/eallKNGwKfO8/blob with 200 bytes took 1ms
+07:40:47.757 Created new note 'EEfpBuxwzWE1', branch 'bziGA01rJbDl_EEfpBuxwzWE1' of type 'text', mime 'text/html'
+07:40:47.758 200 POST /api/notes/bziGA01rJbDl/children?target=into&targetBranchId= with 554 bytes took 2ms
+07:40:47.759 200 POST /api/tree/load with 1724 bytes took 0ms
+07:40:47.771 200 GET /api/notes/EEfpBuxwzWE1/blob with 155 bytes took 0ms
+07:40:47.772 200 GET /api/note-map/EEfpBuxwzWE1/backlink-count with 11 bytes took 1ms
+07:40:47.774 204 PUT /api/options with 0 bytes took 1ms
+07:40:49.476 Slow query took 22ms: INSERT INTO notes (noteId, title, isProtected, type, mime, blobId, isDeleted, dateCreated, dateModified, utcDateCreated, utcDateModified) VALUES (@noteId, @title, @isProtected, @type, @mime, @blobId, @isDeleted, @dateCreated, @dateModified, @utcDateCreated, @utcDateModified) ON CONFLICT (noteId) DO UPDATE SET noteId = @noteId, title = @title, isProtected = @isProtected, type = @type, mime = @mime, blobId = @blobId, isDeleted = @isDeleted, dateCreated = @dateCreated, dateModified = @dateModified, utcDateCreated = @utcDateCreated, utcDateModified = @utcDateModified
+07:40:49.477 Slow 200 PUT /api/notes/EEfpBuxwzWE1/title with 320 bytes took 23ms
+07:40:49.479 200 GET /api/notes/EEfpBuxwzWE1/blob with 155 bytes took 1ms
+07:40:50.456 200 PUT /api/notes/EEfpBuxwzWE1/title with 322 bytes took 1ms
+07:40:50.771 200 GET /api/notes/EEfpBuxwzWE1/blob with 155 bytes took 0ms
+07:40:51.898 204 PUT /api/notes/EEfpBuxwzWE1/data with 0 bytes took 1ms
+07:40:51.900 200 GET /api/notes/EEfpBuxwzWE1/blob with 163 bytes took 0ms
+07:40:52.905 204 PUT /api/notes/EEfpBuxwzWE1/data with 0 bytes took 2ms
+07:40:52.907 200 GET /api/notes/EEfpBuxwzWE1/blob with 175 bytes took 0ms
+07:40:53.909 204 PUT /api/notes/EEfpBuxwzWE1/data with 0 bytes took 3ms
+07:40:53.912 200 GET /api/notes/EEfpBuxwzWE1/blob with 178 bytes took 0ms
+07:40:54.913 204 PUT /api/notes/EEfpBuxwzWE1/data with 0 bytes took 2ms
+07:40:54.915 200 GET /api/notes/EEfpBuxwzWE1/blob with 184 bytes took 0ms
+07:40:55.914 204 PUT /api/notes/EEfpBuxwzWE1/data with 0 bytes took 2ms
+07:40:55.916 200 GET /api/notes/EEfpBuxwzWE1/blob with 183 bytes took 1ms
+07:40:56.921 204 PUT /api/notes/EEfpBuxwzWE1/data with 0 bytes took 2ms
+07:40:56.923 200 GET /api/notes/EEfpBuxwzWE1/blob with 200 bytes took 0ms
+07:41:01.395 204 PUT /api/notes/EEfpBuxwzWE1/data with 0 bytes took 2ms
+07:41:01.398 200 GET /api/notes/EEfpBuxwzWE1/blob with 195 bytes took 0ms
+07:41:02.399 204 PUT /api/notes/EEfpBuxwzWE1/data with 0 bytes took 2ms
+07:41:02.401 200 GET /api/notes/EEfpBuxwzWE1/blob with 199 bytes took 0ms
+07:41:03.404 204 PUT /api/notes/EEfpBuxwzWE1/data with 0 bytes took 2ms
+07:41:03.406 200 GET /api/notes/EEfpBuxwzWE1/blob with 200 bytes took 0ms
+07:41:06.309 204 PUT /api/notes/EEfpBuxwzWE1/data with 0 bytes took 2ms
+07:41:06.311 200 GET /api/notes/EEfpBuxwzWE1/blob with 206 bytes took 0ms
+07:41:07.313 204 PUT /api/notes/EEfpBuxwzWE1/data with 0 bytes took 2ms
+07:41:07.315 200 GET /api/notes/EEfpBuxwzWE1/blob with 204 bytes took 0ms
+07:41:08.317 204 PUT /api/notes/EEfpBuxwzWE1/data with 0 bytes took 2ms
+07:41:08.321 200 GET /api/notes/EEfpBuxwzWE1/blob with 209 bytes took 1ms
+07:51:10.137 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/0 with 0 bytes took 4ms
+08:40:06.894 Optimizing database
+08:40:06.959 Slow query took 65ms: PRAGMA optimize
+08:40:06.959 Optimization finished in 65ms.
+08:40:07.110 Slow query took 98ms: SELECT attachmentId FROM attachments WHERE utcDateScheduledForErasureSince < ?
+08:40:07.166 Table counts: notes: 245, revisions: 5, attachments: 16, branches: 260, attributes: 347, etapi_tokens: 0, blobs: 137
+08:40:07.220 Slow query took 43ms: SELECT id, entityId FROM entity_changes JOIN attachments ON entityId = attachments.attachmentId WHERE entity_changes.isErased = 1 AND entity_changes.entityName = 'attachments'
+08:40:07.267 Slow query took 46ms: SELECT id, entityId FROM entity_changes JOIN etapi_tokens ON entityId = etapi_tokens.etapiTokenId WHERE entity_changes.isErased = 1 AND entity_changes.entityName = 'etapi_tokens'
+08:40:07.306 Slow query took 37ms: SELECT page_count * page_size / 1000 as size FROM pragma_page_count(), pragma_page_size()
+08:40:07.343 Slow query took 36ms: SELECT attachments.attachmentId, blobs.blobId FROM attachments LEFT JOIN blobs USING (blobId) WHERE blobs.blobId IS NULL
+08:40:07.387 All consistency checks passed with no errors detected (took 223ms)
+09:40:07.637 Slow query took 168ms: SELECT COUNT(1) FROM revisions
+09:40:07.798 Table counts: notes: 245, revisions: 5, attachments: 16, branches: 260, attributes: 347, etapi_tokens: 0, blobs: 137
+09:40:07.886 All consistency checks passed with no errors detected (took 418ms)
+09:59:56.484 Slow 200 GET /api/tree?subTreeNoteId=PlfyCkEEJala with 2152 bytes took 16ms
+09:59:56.742 Slow 204 PUT /api/branches/root_PlfyCkEEJala/expanded/1 with 0 bytes took 45ms
+09:59:57.498 Slow 200 GET /api/notes/kZX9udkPCT8D/blob with 1036 bytes took 38ms
+09:59:57.500 200 GET /api/note-map/kZX9udkPCT8D/backlink-count with 11 bytes took 1ms
+09:59:57.515 Slow 204 PUT /api/options with 0 bytes took 15ms
+10:00:02.475 Slow query took 20ms: INSERT INTO recent_notes (noteId, notePath, utcDateCreated) VALUES (@noteId, @notePath, @utcDateCreated) ON CONFLICT (noteId) DO UPDATE SET noteId = @noteId, notePath = @notePath, utcDateCreated = @utcDateCreated
+10:09:59.112 204 PUT /api/branches/root_bziGA01rJbDl/expanded/0 with 0 bytes took 3ms
+10:10:41.013 204 PUT /api/branches/root_PlfyCkEEJala/expanded/0 with 0 bytes took 0ms
+10:10:42.651 Created new note 'cSdoTWXM8Ank', branch 'root_cSdoTWXM8Ank' of type 'text', mime 'text/html'
+10:10:42.652 Slow 200 POST /api/notes/root/children?target=into&targetBranchId= with 538 bytes took 61ms
+10:10:42.654 200 POST /api/tree/load with 1438 bytes took 0ms
+10:10:42.658 204 PUT /api/branches/root_PlfyCkEEJala/expanded/1 with 0 bytes took 0ms
+10:10:42.671 200 GET /api/notes/cSdoTWXM8Ank/blob with 155 bytes took 1ms
+10:10:42.672 200 GET /api/note-map/cSdoTWXM8Ank/backlink-count with 11 bytes took 1ms
+10:10:42.673 204 PUT /api/options with 0 bytes took 1ms
+10:10:43.821 200 PUT /api/notes/cSdoTWXM8Ank/title with 320 bytes took 1ms
+10:10:43.834 200 GET /api/notes/cSdoTWXM8Ank/blob with 155 bytes took 0ms
+10:10:44.823 200 PUT /api/notes/cSdoTWXM8Ank/title with 323 bytes took 0ms
+10:10:45.050 200 GET /api/notes/cSdoTWXM8Ank/blob with 155 bytes took 1ms
+10:10:46.795 Slow query took 33ms: INSERT INTO notes (noteId, title, isProtected, type, mime, blobId, isDeleted, dateCreated, dateModified, utcDateCreated, utcDateModified) VALUES (@noteId, @title, @isProtected, @type, @mime, @blobId, @isDeleted, @dateCreated, @dateModified, @utcDateCreated, @utcDateModified) ON CONFLICT (noteId) DO UPDATE SET noteId = @noteId, title = @title, isProtected = @isProtected, type = @type, mime = @mime, blobId = @blobId, isDeleted = @isDeleted, dateCreated = @dateCreated, dateModified = @dateModified, utcDateCreated = @utcDateCreated, utcDateModified = @utcDateModified
+10:10:46.796 Created new note '2XMZ8KcN70O7', branch 'cSdoTWXM8Ank_2XMZ8KcN70O7' of type 'text', mime 'text/html'
+10:10:46.797 Slow 200 POST /api/notes/cSdoTWXM8Ank/children?target=into&targetBranchId= with 554 bytes took 35ms
+10:10:46.799 200 POST /api/tree/load with 1709 bytes took 0ms
+10:10:46.809 200 GET /api/notes/2XMZ8KcN70O7/blob with 155 bytes took 0ms
+10:10:46.810 200 GET /api/note-map/2XMZ8KcN70O7/backlink-count with 11 bytes took 0ms
+10:10:46.811 204 PUT /api/branches/root_cSdoTWXM8Ank/expanded/1 with 0 bytes took 0ms
+10:10:46.812 204 PUT /api/options with 0 bytes took 1ms
+10:10:48.244 200 PUT /api/notes/2XMZ8KcN70O7/title with 320 bytes took 0ms
+10:10:48.247 200 GET /api/notes/2XMZ8KcN70O7/blob with 155 bytes took 0ms
+10:10:49.246 200 PUT /api/notes/2XMZ8KcN70O7/title with 324 bytes took 0ms
+10:10:50.249 200 PUT /api/notes/2XMZ8KcN70O7/title with 329 bytes took 1ms
+10:10:50.251 200 GET /api/notes/2XMZ8KcN70O7/blob with 155 bytes took 0ms
+10:10:51.251 200 PUT /api/notes/2XMZ8KcN70O7/title with 335 bytes took 1ms
+10:10:52.418 Created new note 'jAKqT69ZxTfw', branch '2XMZ8KcN70O7_jAKqT69ZxTfw' of type 'text', mime 'text/html'
+10:10:52.419 Slow 200 POST /api/notes/2XMZ8KcN70O7/children?target=into&targetBranchId= with 554 bytes took 25ms
+10:10:52.421 200 POST /api/tree/load with 1992 bytes took 0ms
+10:10:52.433 200 GET /api/notes/jAKqT69ZxTfw/blob with 155 bytes took 1ms
+10:10:52.433 200 GET /api/note-map/jAKqT69ZxTfw/backlink-count with 11 bytes took 0ms
+10:10:52.435 204 PUT /api/branches/cSdoTWXM8Ank_2XMZ8KcN70O7/expanded/1 with 0 bytes took 1ms
+10:10:52.435 204 PUT /api/options with 0 bytes took 0ms
+10:10:53.916 200 PUT /api/notes/jAKqT69ZxTfw/title with 320 bytes took 1ms
+10:10:53.918 200 GET /api/notes/jAKqT69ZxTfw/blob with 155 bytes took 0ms
+10:10:54.805 200 PUT /api/notes/jAKqT69ZxTfw/title with 322 bytes took 1ms
+10:20:56.100 204 PUT /api/branches/root_PlfyCkEEJala/expanded/0 with 0 bytes took 1ms
+10:29:06.020 200 GET /api/notes/jAKqT69ZxTfw/blob with 155 bytes took 1ms
+10:29:06.812 Slow query took 46ms: INSERT INTO revisions (revisionId, noteId, type, mime, isProtected, title, blobId, dateLastEdited, dateCreated, utcDateLastEdited, utcDateCreated, utcDateModified) VALUES (@revisionId, @noteId, @type, @mime, @isProtected, @title, @blobId, @dateLastEdited, @dateCreated, @utcDateLastEdited, @utcDateCreated, @utcDateModified) ON CONFLICT (revisionId) DO UPDATE SET revisionId = @revisionId, noteId = @noteId, type = @type, mime = @mime, isProtected = @isProtected, title = @title, blobId = @blobId, dateLastEdited = @dateLastEdited, dateCreated = @dateCreated, utcDateLastEdited = @utcDateLastEdited, utcDateCreated = @utcDateCreated, utcDateModified = @utcDateModified
+10:29:06.816 Slow 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 184ms
+10:29:06.819 200 GET /api/notes/jAKqT69ZxTfw/blob with 163 bytes took 1ms
+10:29:07.872 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 2ms
+10:29:07.874 200 GET /api/notes/jAKqT69ZxTfw/blob with 155 bytes took 0ms
+10:29:08.878 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 2ms
+10:29:08.879 200 GET /api/notes/jAKqT69ZxTfw/blob with 264 bytes took 0ms
+10:29:11.595 Slow 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 485ms
+10:29:11.597 200 GET /api/notes/jAKqT69ZxTfw/blob with 265 bytes took 0ms
+10:29:12.170 Slow 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 55ms
+10:29:12.175 200 GET /api/notes/jAKqT69ZxTfw/blob with 271 bytes took 0ms
+10:29:14.220 Slow 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 27ms
+10:29:14.222 200 GET /api/notes/jAKqT69ZxTfw/blob with 275 bytes took 1ms
+10:29:17.209 Slow 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 19ms
+10:29:17.211 200 GET /api/notes/jAKqT69ZxTfw/blob with 276 bytes took 0ms
+10:29:18.195 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 3ms
+10:29:18.197 200 GET /api/notes/jAKqT69ZxTfw/blob with 287 bytes took 1ms
+10:29:21.469 Slow 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 54ms
+10:29:21.471 200 GET /api/notes/jAKqT69ZxTfw/blob with 288 bytes took 0ms
+10:29:22.434 Slow 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 16ms
+10:29:22.436 200 GET /api/notes/jAKqT69ZxTfw/blob with 492 bytes took 0ms
+10:29:31.378 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 3ms
+10:29:31.381 200 GET /api/notes/jAKqT69ZxTfw/blob with 493 bytes took 0ms
+10:29:32.390 Slow 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 12ms
+10:29:32.392 200 GET /api/notes/jAKqT69ZxTfw/blob with 456 bytes took 0ms
+10:29:36.289 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 2ms
+10:29:36.292 200 GET /api/notes/jAKqT69ZxTfw/blob with 455 bytes took 0ms
+10:29:37.334 Slow 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 44ms
+10:29:37.336 200 GET /api/notes/jAKqT69ZxTfw/blob with 456 bytes took 0ms
+10:29:38.293 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 1ms
+10:29:39.944 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 2ms
+10:29:39.947 200 GET /api/notes/jAKqT69ZxTfw/blob with 455 bytes took 1ms
+10:29:40.966 Slow 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 21ms
+10:29:40.968 200 GET /api/notes/jAKqT69ZxTfw/blob with 454 bytes took 1ms
+10:29:41.950 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 2ms
+10:29:41.952 200 GET /api/notes/jAKqT69ZxTfw/blob with 456 bytes took 0ms
+10:29:43.456 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 3ms
+10:29:43.458 200 GET /api/notes/jAKqT69ZxTfw/blob with 455 bytes took 1ms
+10:29:44.534 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 2ms
+10:29:44.535 200 GET /api/notes/jAKqT69ZxTfw/blob with 454 bytes took 0ms
+10:29:45.569 Slow 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 35ms
+10:29:45.570 200 GET /api/notes/jAKqT69ZxTfw/blob with 269 bytes took 0ms
+10:29:51.175 Slow 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 23ms
+10:29:51.178 200 GET /api/notes/jAKqT69ZxTfw/blob with 271 bytes took 0ms
+10:29:52.157 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 2ms
+10:29:52.202 200 GET /api/notes/jAKqT69ZxTfw/blob with 278 bytes took 1ms
+10:29:55.309 Slow 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 16ms
+10:29:55.311 200 GET /api/notes/jAKqT69ZxTfw/blob with 294 bytes took 0ms
+10:29:57.300 Slow 204 PUT /api/notes/jAKqT69ZxTfw/data with 0 bytes took 39ms
+10:29:57.302 200 GET /api/notes/jAKqT69ZxTfw/blob with 292 bytes took 0ms
+10:29:58.328 200 GET /api/notes/jAKqT69ZxTfw/blob with 292 bytes took 0ms
+10:40:07.466 Table counts: notes: 248, revisions: 6, attachments: 16, branches: 263, attributes: 347, etapi_tokens: 0, blobs: 138
+10:40:07.471 All consistency checks passed with no errors detected (took 5ms)
+11:40:07.479 Table counts: notes: 248, revisions: 6, attachments: 16, branches: 263, attributes: 347, etapi_tokens: 0, blobs: 138
+11:40:07.485 All consistency checks passed with no errors detected (took 6ms)
+12:40:07.484 Table counts: notes: 248, revisions: 6, attachments: 16, branches: 263, attributes: 347, etapi_tokens: 0, blobs: 138
+12:40:07.490 All consistency checks passed with no errors detected (took 7ms)
+13:40:07.497 Table counts: notes: 248, revisions: 6, attachments: 16, branches: 263, attributes: 347, etapi_tokens: 0, blobs: 138
+13:40:07.535 All consistency checks passed with no errors detected (took 39ms)
+14:40:07.353 Slow query took 86ms: SELECT value FROM options WHERE name = 'dbVersion'
+14:40:07.509 Table counts: notes: 248, revisions: 6, attachments: 16, branches: 263, attributes: 347, etapi_tokens: 0, blobs: 138
+14:40:07.515 All consistency checks passed with no errors detected (took 8ms)
+15:40:07.514 Table counts: notes: 248, revisions: 6, attachments: 16, branches: 263, attributes: 347, etapi_tokens: 0, blobs: 138
+15:40:07.520 All consistency checks passed with no errors detected (took 6ms)
+15:42:28.750 Slow query took 21ms: SELECT *, LENGTH(content) AS contentLength FROM blobs WHERE blobId = ?
+15:42:28.751 Slow 200 GET /api/notes/9iDZ7KfxdAmG/blob with 155 bytes took 22ms
+15:42:28.770 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 0ms
+15:42:28.829 Slow 204 PUT /api/options with 0 bytes took 58ms
+15:42:28.830 200 GET /api/notes/Qbgr2FOZRBHT/blob with 217 bytes took 0ms
+15:42:28.832 200 GET /api/notes/jQtcdrlQEWjD/blob with 191 bytes took 0ms
+15:42:28.833 200 GET /api/notes/wuWWW698bAlz/blob with 190 bytes took 0ms
+15:42:32.545 200 GET /api/notes/CstPkKIrC9eG/blob with 155 bytes took 1ms
+15:42:32.545 200 GET /api/note-map/CstPkKIrC9eG/backlink-count with 11 bytes took 0ms
+15:42:32.569 Slow 204 PUT /api/options with 0 bytes took 22ms
+15:42:32.610 200 GET /api/note-map/CstPkKIrC9eG/backlink-count with 11 bytes took 0ms
+15:42:32.634 Slow 200 GET /api/tree?subTreeNoteId=CstPkKIrC9eG with 2000 bytes took 14ms
+15:42:32.663 200 GET /api/notes/1YwlA621c2Gq/blob with 155 bytes took 1ms
+15:42:32.664 200 POST /api/tree/load with 2250 bytes took 0ms
+15:42:32.905 204 PUT /api/branches/root_CstPkKIrC9eG/expanded/1 with 0 bytes took 2ms
+15:42:33.588 Slow 204 PUT /api/options with 0 bytes took 38ms
+15:42:35.507 200 GET /api/tree?subTreeNoteId=1YwlA621c2Gq with 2249 bytes took 0ms
+15:42:35.723 204 PUT /api/branches/CstPkKIrC9eG_1YwlA621c2Gq/expanded/1 with 0 bytes took 0ms
+15:42:36.107 200 GET /api/notes/8WGVbl2jwplL/blob with 273 bytes took 0ms
+15:42:36.107 200 GET /api/note-map/8WGVbl2jwplL/backlink-count with 11 bytes took 0ms
+15:42:36.112 204 PUT /api/options with 0 bytes took 1ms
+15:42:36.658 200 GET /api/notes/AyeFj4Fgy8CM/blob with 304 bytes took 0ms
+15:42:36.659 200 GET /api/note-map/AyeFj4Fgy8CM/backlink-count with 11 bytes took 1ms
+15:42:37.118 204 PUT /api/options with 0 bytes took 3ms
+15:42:38.458 200 GET /api/notes/9iDZ7KfxdAmG/blob with 155 bytes took 1ms
+15:42:38.458 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 0ms
+15:42:38.475 Slow 204 PUT /api/options with 0 bytes took 14ms
+15:42:38.476 200 GET /api/notes/Qbgr2FOZRBHT/blob with 217 bytes took 1ms
+15:42:38.477 200 GET /api/notes/jQtcdrlQEWjD/blob with 191 bytes took 0ms
+15:42:38.478 200 GET /api/notes/wuWWW698bAlz/blob with 190 bytes took 0ms
+15:42:40.378 200 GET /api/notes/bziGA01rJbDl/blob with 155 bytes took 1ms
+15:42:40.378 200 GET /api/note-map/bziGA01rJbDl/backlink-count with 11 bytes took 0ms
+15:42:40.380 204 PUT /api/options with 0 bytes took 0ms
+15:42:40.499 200 GET /api/notes/eallKNGwKfO8/blob with 200 bytes took 0ms
+15:42:40.501 200 GET /api/notes/EEfpBuxwzWE1/blob with 209 bytes took 0ms
+15:42:43.913 200 GET /api/notes/CstPkKIrC9eG/blob with 155 bytes took 0ms
+15:42:43.914 200 GET /api/note-map/CstPkKIrC9eG/backlink-count with 11 bytes took 0ms
+15:42:43.916 204 PUT /api/options with 0 bytes took 1ms
+15:42:44.024 200 GET /api/notes/1YwlA621c2Gq/blob with 155 bytes took 0ms
+15:42:44.577 200 GET /api/notes/PlfyCkEEJala/blob with 155 bytes took 0ms
+15:42:44.577 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 0ms
+15:42:44.639 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 0ms
+15:42:44.699 200 GET /api/notes/2kKJAbj2zuUW/blob with 1240 bytes took 1ms
+15:42:44.715 200 GET /api/notes/kZX9udkPCT8D/blob with 1036 bytes took 1ms
+15:42:44.848 204 PUT /api/branches/root_PlfyCkEEJala/expanded/1 with 0 bytes took 0ms
+15:42:44.852 200 GET /api/notes/AYglMZCkAqqw/blob with 1054 bytes took 1ms
+15:42:44.942 Slow 204 PUT /api/options with 0 bytes took 23ms
+15:42:47.186 200 GET /api/notes/AYglMZCkAqqw/blob with 1054 bytes took 0ms
+15:42:47.187 200 GET /api/note-map/AYglMZCkAqqw/backlink-count with 11 bytes took 0ms
+15:42:47.211 Slow 204 PUT /api/options with 0 bytes took 21ms
+15:42:48.028 200 GET /api/notes/kZX9udkPCT8D/blob with 1036 bytes took 1ms
+15:42:48.028 200 GET /api/note-map/kZX9udkPCT8D/backlink-count with 11 bytes took 0ms
+15:42:48.193 204 PUT /api/options with 0 bytes took 1ms
+15:42:48.458 200 GET /api/notes/2kKJAbj2zuUW/blob with 1240 bytes took 0ms
+15:42:48.459 200 GET /api/note-map/2kKJAbj2zuUW/backlink-count with 11 bytes took 1ms
+15:42:48.985 200 GET /api/notes/PlfyCkEEJala/blob with 155 bytes took 0ms
+15:42:48.986 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 1ms
+15:42:49.002 200 GET /api/notes/AYglMZCkAqqw/blob with 1054 bytes took 0ms
+15:42:49.194 204 PUT /api/options with 0 bytes took 1ms
+15:42:57.210 Created new note 'M9qcLM1aMgbQ', branch 'uEgi7I7TPMmX_M9qcLM1aMgbQ' of type 'search', mime 'application/json'
+15:42:57.395 Slow query took 33ms: INSERT INTO attributes (attributeId, noteId, type, name, position, value, isInheritable, utcDateModified, isDeleted) VALUES (@attributeId, @noteId, @type, @name, @position, @value, @isInheritable, @utcDateModified, @isDeleted) ON CONFLICT (attributeId) DO UPDATE SET attributeId = @attributeId, noteId = @noteId, type = @type, name = @name, position = @position, value = @value, isInheritable = @isInheritable, utcDateModified = @utcDateModified, isDeleted = @isDeleted
+15:42:57.426 Slow 200 POST /api/special-notes/search-note with 336 bytes took 412ms
+15:42:57.457 200 POST /api/tree/load with 4289 bytes took 1ms
+15:42:57.460 200 POST /api/tree/load with 4855 bytes took 0ms
+15:42:57.627 Slow 200 GET /api/search-note/M9qcLM1aMgbQ with 2951 bytes took 167ms
+15:42:57.783 200 GET /api/note-map/M9qcLM1aMgbQ/backlink-count with 11 bytes took 0ms
+15:42:57.784 200 POST /api/tree/load with 5680 bytes took 1ms
+15:42:57.789 204 PUT /api/options with 0 bytes took 1ms
+15:42:57.800 200 POST /api/tree/load with 5889 bytes took 1ms
+15:42:58.775 Slow 204 PUT /api/notes/M9qcLM1aMgbQ/set-attribute with 0 bytes took 27ms
+15:42:58.788 Slow 204 PUT /api/notes/M9qcLM1aMgbQ/set-attribute with 0 bytes took 13ms
+15:42:58.790 200 PUT /api/notes/M9qcLM1aMgbQ/title with 336 bytes took 1ms
+15:42:58.793 200 PUT /api/notes/M9qcLM1aMgbQ/title with 336 bytes took 0ms
+15:42:59.754 204 PUT /api/notes/M9qcLM1aMgbQ/set-attribute with 0 bytes took 1ms
+15:42:59.759 200 PUT /api/notes/M9qcLM1aMgbQ/title with 337 bytes took 1ms
+15:43:00.759 204 PUT /api/notes/M9qcLM1aMgbQ/set-attribute with 0 bytes took 1ms
+15:43:00.764 200 PUT /api/notes/M9qcLM1aMgbQ/title with 342 bytes took 1ms
+15:43:01.177 Slow 200 GET /api/search-note/M9qcLM1aMgbQ with 204 bytes took 351ms
+15:43:01.489 200 POST /api/tree/load with 11600 bytes took 0ms
+15:43:01.493 200 POST /api/tree/load with 5429 bytes took 1ms
+15:43:09.155 200 GET /api/notes/Se7jolEtqf8g/blob with 543 bytes took 0ms
+15:43:09.155 200 GET /api/note-map/Se7jolEtqf8g/backlink-count with 11 bytes took 0ms
+15:43:09.157 200 GET /api/tree?subTreeNoteId=Qbgr2FOZRBHT with 2440 bytes took 1ms
+15:43:09.182 Slow 204 PUT /api/options with 0 bytes took 22ms
+15:43:09.272 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/1 with 0 bytes took 0ms
+15:43:09.273 204 PUT /api/branches/9iDZ7KfxdAmG_Qbgr2FOZRBHT/expanded/1 with 0 bytes took 0ms
+15:46:02.793 DB size: 2052 KB
+15:46:03.577 {
+  "appVersion": "0.63.5",
+  "dbVersion": 228,
+  "nodeVersion": "v18.15.0",
+  "syncVersion": 32,
+  "buildDate": "2024-03-28T07:11:39+01:00",
+  "buildRevision": "399458b52f250b22be22d980a78de0b3390d7521",
+  "dataDirectory": "C:\\Users\\Dreamer\\AppData\\Roaming\\trilium-data",
+  "clipperProtocolVersion": "1.0",
+  "utcDateTime": "2025-04-14T19:46:02.791Z"
+}
+15:46:03.578 CPU model: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz, logical cores: 16 freq: 2904 Mhz
+15:46:03.578 Trusted reverse proxy: false
+15:46:03.578 App HTTP server starting up at port 37840
+15:46:03.586 Listening on port 37840
+15:46:03.594 Becca (note cache) load took 8ms
+15:46:03.894 Registered global shortcut Ctrl+Alt+P for action createNoteIntoInbox
+15:46:04.211 Generated CSRF token zv6zTSrh-nhT28MvEyr-TMi27CCZe9yyUakk with secret _csrf=OoyDXWt1LEczNgCeNK1sR7Px; Path=/
+15:46:05.277 200 GET /api/options with 6770 bytes took 0ms
+15:46:05.278 200 GET /api/tree with 10189 bytes took 1ms
+15:46:05.280 200 GET /api/keyboard-actions with 14263 bytes took 0ms
+15:46:05.281 200 GET /api/script/widgets with 2687 bytes took 1ms
+15:46:05.283 200 POST /api/tree/load with 4989 bytes took 1ms
+15:46:05.317 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 1ms
+15:46:05.359 200 POST /api/tree/load with 6283 bytes took 1ms
+15:46:05.361 200 POST /api/tree/load with 19225 bytes took 0ms
+15:46:06.376 200 GET /api/notes/Se7jolEtqf8g/blob with 543 bytes took 1ms
+15:46:06.377 200 GET /api/note-map/Se7jolEtqf8g/backlink-count with 11 bytes took 0ms
+15:46:07.595 Table counts: notes: 249, revisions: 6, attachments: 16, branches: 264, attributes: 350, etapi_tokens: 0, blobs: 138
+15:46:07.602 All consistency checks passed with no errors detected (took 7ms)
+15:46:08.108 200 GET /api/script/startup with 2 bytes took 1ms

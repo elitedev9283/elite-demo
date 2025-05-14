@@ -1,0 +1,1 @@
+otpauth://totp/Google:jackyuen618%40gmail.com?secret=erbvuhye36jw3wxl7cqgle4dc7akrbdz&issuer=Google

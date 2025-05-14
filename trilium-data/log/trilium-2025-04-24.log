@@ -1,0 +1,668 @@
+00:47:08.905 Table counts: notes: 283, revisions: 24, attachments: 19, branches: 297, attributes: 359, etapi_tokens: 0, blobs: 180
+00:47:08.923 All consistency checks passed with no errors detected (took 19ms)
+01:47:08.535 Slow query took 53ms: INSERT INTO options (name, value, isSynced, utcDateModified) VALUES (@name, @value, @isSynced, @utcDateModified) ON CONFLICT (name) DO UPDATE SET name = @name, value = @value, isSynced = @isSynced, utcDateModified = @utcDateModified
+01:47:09.226 Created backup at C:\Users\Dreamer\AppData\Roaming\trilium-data\backup/backup-daily.db
+01:47:09.228 Table counts: notes: 283, revisions: 24, attachments: 19, branches: 297, attributes: 359, etapi_tokens: 0, blobs: 180
+01:47:09.285 All consistency checks passed with no errors detected (took 58ms)
+02:23:28.365 Sending message to all clients: {"type":"protectedSessionLogin"}
+02:23:28.366 Slow 200 POST /api/login/protected with 16 bytes took 123ms
+02:23:28.446 Slow 200 GET /api/tree with 12592 bytes took 17ms
+02:23:28.447 204 POST /api/login/protected/touch with 0 bytes took 1ms
+02:23:28.449 200 POST /api/tree/load with 29958 bytes took 1ms
+02:23:28.523 Slow 200 GET /api/notes/385GY3FiqpYy/blob with 2541 bytes took 54ms
+02:23:28.524 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+02:23:30.621 204 POST /api/login/protected/touch with 0 bytes took 1ms
+02:23:30.710 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 89ms
+02:23:30.714 200 GET /api/notes/385GY3FiqpYy/blob with 2547 bytes took 1ms
+02:23:31.630 204 POST /api/login/protected/touch with 0 bytes took 1ms
+02:23:31.632 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+02:23:31.635 200 GET /api/notes/385GY3FiqpYy/blob with 2544 bytes took 1ms
+02:23:32.637 204 POST /api/login/protected/touch with 0 bytes took 0ms
+02:23:32.651 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 14ms
+02:23:32.653 200 GET /api/notes/385GY3FiqpYy/blob with 2545 bytes took 0ms
+02:23:35.143 204 POST /api/login/protected/touch with 0 bytes took 1ms
+02:23:35.146 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 3ms
+02:23:35.150 200 GET /api/notes/385GY3FiqpYy/blob with 2565 bytes took 1ms
+02:23:36.148 204 POST /api/login/protected/touch with 0 bytes took 0ms
+02:23:36.160 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 12ms
+02:23:36.164 200 GET /api/notes/385GY3FiqpYy/blob with 2585 bytes took 0ms
+02:23:39.295 204 POST /api/login/protected/touch with 0 bytes took 0ms
+02:23:39.298 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+02:23:39.302 200 GET /api/notes/385GY3FiqpYy/blob with 2586 bytes took 0ms
+02:23:40.301 204 POST /api/login/protected/touch with 0 bytes took 0ms
+02:23:40.319 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 18ms
+02:23:40.321 200 GET /api/notes/385GY3FiqpYy/blob with 2591 bytes took 0ms
+02:23:41.309 204 POST /api/login/protected/touch with 0 bytes took 1ms
+02:23:41.333 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 24ms
+02:23:41.336 200 GET /api/notes/385GY3FiqpYy/blob with 2593 bytes took 1ms
+02:23:43.302 204 POST /api/login/protected/touch with 0 bytes took 0ms
+02:23:43.380 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 77ms
+02:23:43.383 200 GET /api/notes/385GY3FiqpYy/blob with 2594 bytes took 1ms
+02:23:44.311 204 POST /api/login/protected/touch with 0 bytes took 0ms
+02:23:44.314 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 3ms
+02:23:44.322 200 GET /api/notes/385GY3FiqpYy/blob with 2595 bytes took 1ms
+02:23:45.318 204 POST /api/login/protected/touch with 0 bytes took 1ms
+02:23:45.320 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+02:23:45.323 200 GET /api/notes/385GY3FiqpYy/blob with 2596 bytes took 0ms
+02:23:47.702 204 POST /api/login/protected/touch with 0 bytes took 0ms
+02:23:47.704 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+02:23:47.707 200 GET /api/notes/385GY3FiqpYy/blob with 2597 bytes took 1ms
+02:23:51.901 204 POST /api/login/protected/touch with 0 bytes took 0ms
+02:23:51.903 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 1ms
+02:23:51.907 200 GET /api/notes/385GY3FiqpYy/blob with 2597 bytes took 0ms
+02:23:54.587 204 POST /api/login/protected/touch with 0 bytes took 0ms
+02:23:54.589 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+02:23:54.592 200 GET /api/notes/385GY3FiqpYy/blob with 2617 bytes took 0ms
+02:23:55.593 204 POST /api/login/protected/touch with 0 bytes took 0ms
+02:23:55.596 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+02:23:55.598 200 GET /api/notes/385GY3FiqpYy/blob with 2637 bytes took 0ms
+02:23:56.600 204 POST /api/login/protected/touch with 0 bytes took 1ms
+02:23:56.602 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 2ms
+02:23:56.604 200 GET /api/notes/385GY3FiqpYy/blob with 2657 bytes took 0ms
+02:34:21.032 Expiring protected session
+02:34:21.033 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+02:34:21.047 JS Info: Frontend app reload: received request from backend to reload frontend
+02:34:21.248 Generated CSRF token E4J2axYb-7hMtkRgmNqijsR12LZO3HiDS3ak with secret undefined
+02:34:23.461 Slow 200 GET /api/options with 6608 bytes took 48ms
+02:34:23.461 200 GET /api/tree with 12604 bytes took 0ms
+02:34:23.493 Slow 200 GET /api/keyboard-actions with 14263 bytes took 31ms
+02:34:23.495 200 GET /api/script/widgets with 2687 bytes took 1ms
+02:34:23.496 200 POST /api/tree/load with 5646 bytes took 0ms
+02:34:23.538 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+02:34:23.595 200 POST /api/tree/load with 6939 bytes took 0ms
+02:34:23.599 200 POST /api/tree/load with 19881 bytes took 1ms
+02:34:24.466 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+02:34:24.467 200 GET /api/notes/385GY3FiqpYy/blob with 158 bytes took 0ms
+02:34:24.494 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+02:34:25.101 204 PUT /api/options with 0 bytes took 1ms
+02:34:26.111 200 GET /api/script/startup with 2 bytes took 0ms
+02:47:08.913 Table counts: notes: 283, revisions: 25, attachments: 19, branches: 297, attributes: 359, etapi_tokens: 0, blobs: 181
+02:47:08.926 All consistency checks passed with no errors detected (took 14ms)
+03:47:08.931 Table counts: notes: 283, revisions: 25, attachments: 19, branches: 297, attributes: 359, etapi_tokens: 0, blobs: 181
+03:47:08.969 Slow query took 27ms: SELECT noteId, type FROM notes WHERE isDeleted = 0 AND type NOT IN ('text', 'code', 'render', 'file', 'image', 'search', 'relationMap', 'book', 'noteMap', 'mermaid', 'canvas', 'webView', 'launcher', 'doc', 'contentWidget')
+03:47:08.972 All consistency checks passed with no errors detected (took 43ms)
+04:47:08.943 Table counts: notes: 283, revisions: 25, attachments: 19, branches: 297, attributes: 359, etapi_tokens: 0, blobs: 181
+04:47:08.961 All consistency checks passed with no errors detected (took 19ms)
+05:47:08.311 Optimizing database
+05:47:08.682 Slow query took 314ms: PRAGMA optimize
+05:47:08.682 Optimization finished in 350ms.
+05:47:09.349 Slow query took 41ms: SELECT noteId FROM notes WHERE isDeleted = 1 AND utcDateModified <= ?
+05:47:09.372 Slow query took 23ms: SELECT blobs.blobId FROM blobs LEFT JOIN notes ON notes.blobId = blobs.blobId LEFT JOIN attachments ON attachments.blobId = blobs.blobId LEFT JOIN revisions ON revisions.blobId = blobs.blobId WHERE notes.noteId IS NULL AND attachments.attachmentId IS NULL AND revisions.revisionId IS NULL
+05:47:09.420 Table counts: notes: 283, revisions: 25, attachments: 19, branches: 297, attributes: 359, etapi_tokens: 0, blobs: 181
+05:47:09.567 Slow query took 147ms: SELECT noteId as entityId FROM notes LEFT JOIN entity_changes ec ON ec.entityName = 'notes' AND ec.entityId = notes.noteId WHERE ec.id IS NULL
+05:47:09.720 Slow query took 56ms: SELECT parentNoteId FROM branches JOIN notes ON notes.noteId = branches.parentNoteId WHERE notes.isDeleted = 0 AND notes.type == 'search' AND branches.isDeleted = 0
+05:47:09.748 Slow query took 27ms: UPDATE branches SET isExpanded = 1 WHERE noteId = 'root'
+05:47:09.840 All consistency checks passed with no errors detected (took 421ms)
+06:29:16.901 Sending message to all clients: {"type":"protectedSessionLogin"}
+06:29:16.902 Slow 200 POST /api/login/protected with 16 bytes took 172ms
+06:29:16.946 200 GET /api/tree with 12592 bytes took 5ms
+06:29:16.959 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:29:16.960 200 POST /api/tree/load with 29958 bytes took 1ms
+06:29:17.040 Slow 200 GET /api/notes/385GY3FiqpYy/blob with 2657 bytes took 19ms
+06:29:17.042 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 1ms
+06:39:25.287 Expiring protected session
+06:39:25.288 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+06:39:25.291 JS Info: Frontend app reload: received request from backend to reload frontend
+06:39:25.424 Slow query took 38ms: SELECT name FROM sqlite_master WHERE type = 'table' AND name = 'options'
+06:39:25.424 Generated CSRF token KzGhNGQ8-h-cTVWkT7Lp7-tkjURBF5P3om2c with secret undefined
+06:39:25.929 200 GET /api/options with 6608 bytes took 0ms
+06:39:25.930 200 GET /api/tree with 12604 bytes took 0ms
+06:39:25.939 200 GET /api/keyboard-actions with 14263 bytes took 9ms
+06:39:25.940 200 GET /api/script/widgets with 2687 bytes took 1ms
+06:39:25.941 200 POST /api/tree/load with 5646 bytes took 0ms
+06:39:25.965 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+06:39:25.999 200 POST /api/tree/load with 6939 bytes took 0ms
+06:39:26.003 200 POST /api/tree/load with 19881 bytes took 1ms
+06:39:26.489 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+06:39:26.489 200 GET /api/notes/385GY3FiqpYy/blob with 158 bytes took 0ms
+06:39:26.504 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+06:39:27.152 Slow 204 PUT /api/options with 0 bytes took 43ms
+06:39:28.104 200 GET /api/script/startup with 2 bytes took 1ms
+06:39:55.931 Sending message to all clients: {"type":"protectedSessionLogin"}
+06:39:55.932 Slow 200 POST /api/login/protected with 16 bytes took 125ms
+06:39:55.933 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:39:55.978 200 GET /api/tree with 12592 bytes took 1ms
+06:39:56.012 200 POST /api/tree/load with 29958 bytes took 0ms
+06:39:56.021 200 GET /api/notes/385GY3FiqpYy/blob with 2657 bytes took 0ms
+06:39:56.022 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 1ms
+06:39:58.617 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:39:58.628 Slow 200 GET /api/notes/jQtcdrlQEWjD/blob with 191 bytes took 11ms
+06:39:58.629 200 GET /api/note-map/jQtcdrlQEWjD/backlink-count with 11 bytes took 0ms
+06:39:58.629 204 PUT /api/options with 0 bytes took 0ms
+06:39:59.167 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:39:59.167 200 GET /api/notes/Se7jolEtqf8g/blob with 543 bytes took 0ms
+06:39:59.168 200 GET /api/note-map/Se7jolEtqf8g/backlink-count with 11 bytes took 0ms
+06:39:59.296 200 POST /api/tree/load with 4075 bytes took 7ms
+06:39:59.298 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:39:59.299 200 GET /api/notes/Hc93Nrow9iAR/blob with 276 bytes took 1ms
+06:39:59.300 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:39:59.301 200 GET /api/notes/5iBIALC4Kpg1/blob with 156 bytes took 1ms
+06:39:59.555 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:39:59.555 200 GET /api/notes/Qbgr2FOZRBHT/blob with 218 bytes took 0ms
+06:39:59.555 200 GET /api/note-map/Qbgr2FOZRBHT/backlink-count with 11 bytes took 0ms
+06:39:59.625 204 PUT /api/options with 0 bytes took 1ms
+06:39:59.687 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:39:59.688 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:39:59.689 200 GET /api/notes/385GY3FiqpYy/blob with 2657 bytes took 1ms
+06:39:59.693 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:39:59.707 200 GET /api/notes/VLUxfS3hcaC5/blob with 1767 bytes took 0ms
+06:40:01.804 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:40:01.804 200 GET /api/notes/PlfyCkEEJala/blob with 156 bytes took 0ms
+06:40:01.804 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 0ms
+06:40:01.807 204 PUT /api/options with 0 bytes took 0ms
+06:40:01.951 Slow 200 POST /api/tree/load with 5012 bytes took 32ms
+06:40:01.961 204 POST /api/login/protected/touch with 0 bytes took 1ms
+06:40:01.963 200 GET /api/notes/2kKJAbj2zuUW/blob with 1240 bytes took 1ms
+06:40:01.970 204 POST /api/login/protected/touch with 0 bytes took 1ms
+06:40:01.986 Slow 200 GET /api/notes/kZX9udkPCT8D/blob with 1037 bytes took 14ms
+06:40:01.999 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:40:01.999 200 GET /api/notes/AYglMZCkAqqw/blob with 1055 bytes took 0ms
+06:40:02.003 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:40:02.004 200 GET /api/notes/D5j0UYACCaXW/blob with 3044 bytes took 1ms
+06:40:02.005 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:40:02.005 200 GET /api/notes/7uobh7L0xRn8/blob with 156 bytes took 0ms
+06:40:02.006 200 POST /api/tree/load with 5302 bytes took 0ms
+06:40:02.009 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:40:02.009 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1924 bytes took 0ms
+06:40:04.046 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:40:04.046 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 0ms
+06:40:04.047 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+06:40:04.169 200 GET /api/tree?subTreeNoteId=PlfyCkEEJala with 5012 bytes took 0ms
+06:40:04.171 204 PUT /api/options with 0 bytes took 0ms
+06:40:04.173 200 GET /api/tree?subTreeNoteId=7uobh7L0xRn8 with 5302 bytes took 1ms
+06:40:04.210 Slow 204 PUT /api/branches/root_PlfyCkEEJala/expanded/1 with 0 bytes took 32ms
+06:40:04.225 Slow 204 PUT /api/branches/PlfyCkEEJala_7uobh7L0xRn8/expanded/1 with 0 bytes took 15ms
+06:40:06.541 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:40:06.595 Slow query took 28ms: INSERT INTO blobs (blobId, content, dateModified, utcDateModified) VALUES (@blobId, @content, @dateModified, @utcDateModified) ON CONFLICT (blobId) DO UPDATE SET blobId = @blobId, content = @content, dateModified = @dateModified, utcDateModified = @utcDateModified
+06:40:06.629 Slow query took 34ms: INSERT OR REPLACE INTO entity_changes ( entityName, entityId, hash, isErased, utcDateChanged, isSynced, componentId, changeId, instanceId ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+06:40:06.630 Slow 204 PUT /api/notes/ncenxbDEDufV/data with 0 bytes took 88ms
+06:40:06.634 200 GET /api/notes/ncenxbDEDufV/blob with 2307 bytes took 0ms
+06:40:07.547 204 POST /api/login/protected/touch with 0 bytes took 0ms
+06:40:07.549 204 PUT /api/notes/ncenxbDEDufV/data with 0 bytes took 2ms
+06:40:07.552 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 1ms
+06:47:09.424 Table counts: notes: 283, revisions: 26, attachments: 19, branches: 297, attributes: 359, etapi_tokens: 0, blobs: 181
+06:47:09.459 All consistency checks passed with no errors detected (took 36ms)
+06:50:08.123 204 PUT /api/branches/9iDZ7KfxdAmG_Qbgr2FOZRBHT/expanded/0 with 0 bytes took 1ms
+06:50:09.105 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/0 with 0 bytes took 0ms
+06:50:25.494 Expiring protected session
+06:50:25.494 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+06:50:25.496 JS Info: Frontend app reload: received request from backend to reload frontend
+06:50:25.509 Generated CSRF token CMOAewPZ-XbwXC7HMJrGJJy5MIdClbvPWME8 with secret undefined
+06:50:25.919 200 GET /api/options with 6539 bytes took 1ms
+06:50:25.920 200 GET /api/tree with 14098 bytes took 1ms
+06:50:25.921 200 GET /api/keyboard-actions with 14263 bytes took 1ms
+06:50:25.922 200 GET /api/script/widgets with 2687 bytes took 1ms
+06:50:25.923 200 POST /api/tree/load with 5646 bytes took 0ms
+06:50:25.975 Slow 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 20ms
+06:50:25.999 200 POST /api/tree/load with 6939 bytes took 1ms
+06:50:26.002 200 POST /api/tree/load with 19881 bytes took 1ms
+06:50:26.461 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+06:50:26.462 200 GET /api/notes/ncenxbDEDufV/blob with 158 bytes took 0ms
+06:50:26.478 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 1ms
+06:50:27.339 Slow 204 PUT /api/options with 0 bytes took 238ms
+06:50:28.116 200 GET /api/script/startup with 2 bytes took 1ms
+07:30:44.017 Sending message to all clients: {"type":"protectedSessionLogin"}
+07:30:44.018 Slow 200 POST /api/login/protected with 16 bytes took 134ms
+07:30:44.023 200 GET /api/tree with 14155 bytes took 2ms
+07:30:44.023 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:30:44.037 200 POST /api/tree/load with 31521 bytes took 1ms
+07:30:44.042 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 1ms
+07:30:44.042 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+07:30:45.824 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:30:45.824 200 GET /api/notes/9iDZ7KfxdAmG/blob with 156 bytes took 0ms
+07:30:45.825 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 0ms
+07:30:45.842 Slow 204 PUT /api/options with 0 bytes took 15ms
+07:30:45.851 200 POST /api/tree/load with 3493 bytes took 0ms
+07:30:45.853 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:30:45.854 200 GET /api/notes/Qbgr2FOZRBHT/blob with 218 bytes took 1ms
+07:30:45.870 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:30:45.871 200 GET /api/notes/jQtcdrlQEWjD/blob with 191 bytes took 1ms
+07:30:45.873 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:30:45.874 200 GET /api/notes/wuWWW698bAlz/blob with 190 bytes took 0ms
+07:30:47.621 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:30:47.622 200 GET /api/notes/Qbgr2FOZRBHT/blob with 218 bytes took 0ms
+07:30:47.622 200 GET /api/note-map/Qbgr2FOZRBHT/backlink-count with 11 bytes took 0ms
+07:30:47.623 200 GET /api/tree?subTreeNoteId=9iDZ7KfxdAmG with 3493 bytes took 0ms
+07:30:47.627 204 PUT /api/options with 0 bytes took 2ms
+07:30:47.648 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/1 with 0 bytes took 0ms
+07:30:47.753 200 POST /api/tree/load with 3930 bytes took 0ms
+07:30:47.758 204 POST /api/login/protected/touch with 0 bytes took 1ms
+07:30:47.776 Slow 200 GET /api/notes/Se7jolEtqf8g/blob with 543 bytes took 18ms
+07:30:47.787 204 POST /api/login/protected/touch with 0 bytes took 1ms
+07:30:47.787 200 GET /api/notes/385GY3FiqpYy/blob with 2657 bytes took 0ms
+07:30:47.794 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:30:47.794 200 GET /api/notes/VLUxfS3hcaC5/blob with 1767 bytes took 0ms
+07:30:49.837 204 POST /api/login/protected/touch with 0 bytes took 0ms
+07:30:49.838 200 GET /api/notes/385GY3FiqpYy/blob with 2657 bytes took 0ms
+07:30:49.838 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+07:30:49.839 200 GET /api/tree?subTreeNoteId=Qbgr2FOZRBHT with 3930 bytes took 0ms
+07:30:49.859 Slow 204 PUT /api/options with 0 bytes took 16ms
+07:30:49.887 204 PUT /api/branches/9iDZ7KfxdAmG_Qbgr2FOZRBHT/expanded/1 with 0 bytes took 1ms
+07:40:50.139 Slow 204 PUT /api/branches/PlfyCkEEJala_7uobh7L0xRn8/expanded/0 with 0 bytes took 33ms
+07:40:51.100 204 PUT /api/branches/root_PlfyCkEEJala/expanded/0 with 0 bytes took 0ms
+07:40:56.345 Expiring protected session
+07:40:56.345 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+07:40:56.348 JS Info: Frontend app reload: received request from backend to reload frontend
+07:40:56.358 Generated CSRF token M9Y92PFy-FyIcY5EtY0rH8WzX7lMo06Bd8-w with secret undefined
+07:40:56.535 200 GET /api/options with 6539 bytes took 0ms
+07:40:56.536 200 GET /api/tree with 12604 bytes took 1ms
+07:40:56.537 200 GET /api/keyboard-actions with 14263 bytes took 1ms
+07:40:56.537 200 GET /api/script/widgets with 2687 bytes took 0ms
+07:40:56.539 200 POST /api/tree/load with 5646 bytes took 0ms
+07:40:56.588 Slow 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 13ms
+07:40:56.613 200 POST /api/tree/load with 6939 bytes took 0ms
+07:40:56.619 200 POST /api/tree/load with 19881 bytes took 1ms
+07:40:56.941 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+07:40:57.032 Slow 200 GET /api/notes/385GY3FiqpYy/blob with 158 bytes took 90ms
+07:40:57.043 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+07:40:58.109 204 PUT /api/options with 0 bytes took 2ms
+07:40:59.125 Slow 200 GET /api/script/startup with 2 bytes took 15ms
+07:47:09.430 Table counts: notes: 283, revisions: 26, attachments: 19, branches: 297, attributes: 359, etapi_tokens: 0, blobs: 181
+07:47:09.435 All consistency checks passed with no errors detected (took 5ms)
+08:47:09.449 Table counts: notes: 283, revisions: 26, attachments: 19, branches: 297, attributes: 359, etapi_tokens: 0, blobs: 181
+08:47:09.456 All consistency checks passed with no errors detected (took 8ms)
+09:47:09.451 Table counts: notes: 283, revisions: 26, attachments: 19, branches: 297, attributes: 359, etapi_tokens: 0, blobs: 181
+09:47:09.455 All consistency checks passed with no errors detected (took 4ms)
+10:45:34.493 Slow 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/0 with 0 bytes took 42ms
+10:45:36.423 Slow query took 21ms: INSERT INTO notes (noteId, title, isProtected, type, mime, blobId, isDeleted, dateCreated, dateModified, utcDateCreated, utcDateModified) VALUES (@noteId, @title, @isProtected, @type, @mime, @blobId, @isDeleted, @dateCreated, @dateModified, @utcDateCreated, @utcDateModified) ON CONFLICT (noteId) DO UPDATE SET noteId = @noteId, title = @title, isProtected = @isProtected, type = @type, mime = @mime, blobId = @blobId, isDeleted = @isDeleted, dateCreated = @dateCreated, dateModified = @dateModified, utcDateCreated = @utcDateCreated, utcDateModified = @utcDateModified
+10:45:36.503 Slow query took 52ms: INSERT INTO branches (branchId, noteId, parentNoteId, prefix, notePosition, isExpanded, isDeleted, utcDateModified) VALUES (@branchId, @noteId, @parentNoteId, @prefix, @notePosition, @isExpanded, @isDeleted, @utcDateModified) ON CONFLICT (branchId) DO UPDATE SET branchId = @branchId, noteId = @noteId, parentNoteId = @parentNoteId, prefix = @prefix, notePosition = @notePosition, isExpanded = @isExpanded, isDeleted = @isDeleted, utcDateModified = @utcDateModified
+10:45:36.583 Created new note '3cyjI6VuZ2L7', branch 'root_3cyjI6VuZ2L7' of type 'text', mime 'text/html'
+10:45:36.585 Slow 200 POST /api/notes/root/children?target=into&targetBranchId= with 539 bytes took 391ms
+10:45:36.588 200 POST /api/tree/load with 2222 bytes took 0ms
+10:45:36.600 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/1 with 0 bytes took 1ms
+10:45:36.617 200 GET /api/notes/3cyjI6VuZ2L7/blob with 155 bytes took 1ms
+10:45:36.618 200 GET /api/note-map/3cyjI6VuZ2L7/backlink-count with 11 bytes took 0ms
+10:45:36.633 Slow 204 PUT /api/options with 0 bytes took 14ms
+10:45:37.901 200 PUT /api/notes/3cyjI6VuZ2L7/title with 320 bytes took 1ms
+10:45:37.905 200 GET /api/notes/3cyjI6VuZ2L7/blob with 155 bytes took 1ms
+10:45:38.911 200 PUT /api/notes/3cyjI6VuZ2L7/title with 324 bytes took 7ms
+10:45:38.914 200 GET /api/notes/3cyjI6VuZ2L7/blob with 155 bytes took 1ms
+10:45:39.178 200 PUT /api/notes/3cyjI6VuZ2L7/title with 325 bytes took 1ms
+10:45:44.380 200 GET /api/notes/3cyjI6VuZ2L7/blob with 155 bytes took 1ms
+10:45:44.380 200 GET /api/note-map/3cyjI6VuZ2L7/backlink-count with 11 bytes took 0ms
+10:45:44.413 Slow 204 PUT /api/options with 0 bytes took 30ms
+10:45:47.363 200 GET /api/notes/3cyjI6VuZ2L7/blob with 155 bytes took 1ms
+10:45:47.364 200 GET /api/note-map/3cyjI6VuZ2L7/backlink-count with 11 bytes took 1ms
+10:45:47.387 Slow 204 PUT /api/options with 0 bytes took 20ms
+10:45:49.778 Created new note 'SRn850bOmavF', branch '3cyjI6VuZ2L7_SRn850bOmavF' of type 'text', mime 'text/html'
+10:45:49.793 Slow 200 POST /api/notes/3cyjI6VuZ2L7/children?target=into&targetBranchId= with 554 bytes took 31ms
+10:45:49.800 200 POST /api/tree/load with 2495 bytes took 0ms
+10:45:49.810 200 GET /api/notes/SRn850bOmavF/blob with 155 bytes took 0ms
+10:45:49.811 200 GET /api/note-map/SRn850bOmavF/backlink-count with 11 bytes took 1ms
+10:45:49.812 204 PUT /api/branches/root_3cyjI6VuZ2L7/expanded/1 with 0 bytes took 0ms
+10:45:49.813 204 PUT /api/options with 0 bytes took 1ms
+10:45:52.408 Slow 200 PUT /api/notes/SRn850bOmavF/title with 320 bytes took 11ms
+10:45:52.414 200 GET /api/notes/SRn850bOmavF/blob with 155 bytes took 1ms
+10:45:53.425 Slow 200 PUT /api/notes/SRn850bOmavF/title with 323 bytes took 24ms
+10:45:53.428 200 GET /api/notes/SRn850bOmavF/blob with 155 bytes took 0ms
+10:45:54.405 200 PUT /api/notes/SRn850bOmavF/title with 320 bytes took 1ms
+10:45:55.434 Slow 200 PUT /api/notes/SRn850bOmavF/title with 321 bytes took 24ms
+10:45:55.437 200 GET /api/notes/SRn850bOmavF/blob with 155 bytes took 0ms
+10:45:56.411 200 PUT /api/notes/SRn850bOmavF/title with 323 bytes took 1ms
+10:45:57.443 Slow 200 PUT /api/notes/SRn850bOmavF/title with 323 bytes took 13ms
+10:45:57.446 200 GET /api/notes/SRn850bOmavF/blob with 155 bytes took 0ms
+10:45:58.418 200 PUT /api/notes/SRn850bOmavF/title with 326 bytes took 2ms
+10:45:59.477 Slow 200 PUT /api/notes/SRn850bOmavF/title with 329 bytes took 58ms
+10:45:59.480 200 GET /api/notes/SRn850bOmavF/blob with 155 bytes took 0ms
+10:46:01.047 Slow 204 PUT /api/notes/SRn850bOmavF/data with 0 bytes took 29ms
+10:46:01.089 Slow 200 GET /api/notes/SRn850bOmavF/blob with 297 bytes took 39ms
+10:47:09.462 Table counts: notes: 285, revisions: 26, attachments: 19, branches: 299, attributes: 359, etapi_tokens: 0, blobs: 182
+10:47:09.466 All consistency checks passed with no errors detected (took 4ms)
+10:56:01.140 Slow 204 PUT /api/branches/9iDZ7KfxdAmG_Qbgr2FOZRBHT/expanded/0 with 0 bytes took 17ms
+10:56:02.109 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/0 with 0 bytes took 2ms
+11:47:09.477 Table counts: notes: 285, revisions: 26, attachments: 19, branches: 299, attributes: 359, etapi_tokens: 0, blobs: 182
+11:47:09.487 All consistency checks passed with no errors detected (took 11ms)
+12:47:09.525 Slow query took 32ms: SELECT attachmentId FROM attachments WHERE utcDateScheduledForErasureSince < ?
+12:47:09.526 Table counts: notes: 285, revisions: 26, attachments: 19, branches: 299, attributes: 359, etapi_tokens: 0, blobs: 182
+12:47:09.700 All consistency checks passed with no errors detected (took 175ms)
+12:51:10.756 Slow 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 10ms
+12:51:10.814 Slow query took 22ms: SELECT *, LENGTH(content) AS contentLength FROM blobs WHERE blobId = ?
+12:51:10.814 Slow 200 GET /api/notes/9iDZ7KfxdAmG/blob with 156 bytes took 57ms
+12:51:11.359 Slow query took 122ms: INSERT INTO options (name, value, isSynced, utcDateModified) VALUES (@name, @value, @isSynced, @utcDateModified) ON CONFLICT (name) DO UPDATE SET name = @name, value = @value, isSynced = @isSynced, utcDateModified = @utcDateModified
+12:51:11.575 Slow 204 PUT /api/options with 0 bytes took 390ms
+12:51:11.833 Slow 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/1 with 0 bytes took 258ms
+12:51:24.862 Sending message to all clients: {"type":"protectedSessionLogin"}
+12:51:24.863 Slow 200 POST /api/login/protected with 16 bytes took 363ms
+12:51:24.965 Slow 200 GET /api/tree with 12438 bytes took 100ms
+12:51:24.966 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:24.994 Slow 200 POST /api/tree/load with 30495 bytes took 27ms
+12:51:25.049 Slow 200 GET /api/notes/9iDZ7KfxdAmG/blob with 156 bytes took 24ms
+12:51:25.050 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 0ms
+12:51:25.233 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:25.261 Slow 200 GET /api/notes/Qbgr2FOZRBHT/blob with 218 bytes took 28ms
+12:51:25.269 204 POST /api/login/protected/touch with 0 bytes took 1ms
+12:51:25.285 200 GET /api/notes/jQtcdrlQEWjD/blob with 191 bytes took 0ms
+12:51:25.287 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:25.287 200 GET /api/notes/wuWWW698bAlz/blob with 190 bytes took 0ms
+12:51:28.526 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:28.526 200 GET /api/notes/PlfyCkEEJala/blob with 156 bytes took 0ms
+12:51:28.527 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 1ms
+12:51:28.527 204 PUT /api/options with 0 bytes took 0ms
+12:51:28.698 200 POST /api/tree/load with 5142 bytes took 1ms
+12:51:28.740 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:28.741 200 GET /api/notes/2kKJAbj2zuUW/blob with 1240 bytes took 0ms
+12:51:28.754 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:28.755 200 GET /api/notes/kZX9udkPCT8D/blob with 1037 bytes took 1ms
+12:51:28.906 Slow 204 POST /api/login/protected/touch with 0 bytes took 64ms
+12:51:28.907 200 GET /api/notes/AYglMZCkAqqw/blob with 1055 bytes took 1ms
+12:51:28.909 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:28.909 200 GET /api/notes/D5j0UYACCaXW/blob with 3044 bytes took 0ms
+12:51:28.911 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:28.911 200 GET /api/notes/7uobh7L0xRn8/blob with 156 bytes took 0ms
+12:51:28.912 200 POST /api/tree/load with 5432 bytes took 0ms
+12:51:28.933 204 POST /api/login/protected/touch with 0 bytes took 1ms
+12:51:28.935 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1924 bytes took 1ms
+12:51:30.281 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:30.282 200 GET /api/notes/7uobh7L0xRn8/blob with 156 bytes took 0ms
+12:51:30.283 200 GET /api/note-map/7uobh7L0xRn8/backlink-count with 11 bytes took 0ms
+12:51:30.320 200 GET /api/tree?subTreeNoteId=PlfyCkEEJala with 5142 bytes took 1ms
+12:51:30.380 Slow 204 PUT /api/options with 0 bytes took 36ms
+12:51:30.465 204 PUT /api/branches/root_PlfyCkEEJala/expanded/1 with 0 bytes took 0ms
+12:51:30.470 204 POST /api/login/protected/touch with 0 bytes took 1ms
+12:51:30.493 Slow query took 23ms: SELECT *, LENGTH(content) AS contentLength FROM blobs WHERE blobId = ?
+12:51:30.493 Slow 200 GET /api/notes/ue9rcGOGdMnI/blob with 1300 bytes took 23ms
+12:51:30.496 204 POST /api/login/protected/touch with 0 bytes took 1ms
+12:51:30.496 200 GET /api/notes/uLoqaGarL7nu/blob with 1334 bytes took 0ms
+12:51:30.497 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:30.510 Slow 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 12ms
+12:51:30.512 204 POST /api/login/protected/touch with 0 bytes took 1ms
+12:51:30.512 200 GET /api/notes/M5xUiLoKZNOf/blob with 1967 bytes took 0ms
+12:51:30.514 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:30.514 200 GET /api/notes/25ZG5mtGZhFt/blob with 2158 bytes took 0ms
+12:51:30.516 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:30.518 200 GET /api/notes/DCHknJe7ElEy/blob with 1237 bytes took 0ms
+12:51:30.722 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:30.723 200 GET /api/notes/Q6EGDAsgJqx0/blob with 2507 bytes took 1ms
+12:51:30.724 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:30.724 200 GET /api/notes/oLNIgf8fX9qG/blob with 277 bytes took 0ms
+12:51:32.054 204 POST /api/login/protected/touch with 0 bytes took 1ms
+12:51:32.054 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 0ms
+12:51:32.054 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+12:51:32.055 200 GET /api/tree?subTreeNoteId=7uobh7L0xRn8 with 5431 bytes took 0ms
+12:51:32.082 Slow 204 PUT /api/options with 0 bytes took 23ms
+12:51:32.161 204 PUT /api/branches/PlfyCkEEJala_7uobh7L0xRn8/expanded/1 with 0 bytes took 1ms
+12:51:35.178 204 POST /api/login/protected/touch with 0 bytes took 1ms
+12:51:35.405 Slow 204 PUT /api/notes/ncenxbDEDufV/data with 0 bytes took 227ms
+12:51:35.447 200 GET /api/notes/ncenxbDEDufV/blob with 2307 bytes took 0ms
+12:51:36.867 204 POST /api/login/protected/touch with 0 bytes took 0ms
+12:51:36.878 Slow 204 PUT /api/notes/ncenxbDEDufV/data with 0 bytes took 11ms
+12:51:36.881 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 0ms
+13:01:38.119 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/0 with 0 bytes took 5ms
+13:01:38.121 204 PUT /api/branches/root_3cyjI6VuZ2L7/expanded/0 with 0 bytes took 0ms
+13:02:01.984 Expiring protected session
+13:02:01.984 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+13:02:02.007 JS Info: Frontend app reload: received request from backend to reload frontend
+13:02:05.296 Generated CSRF token 2XQGOcNt-FAsSbzw0NdA2HnJ93-loygXuFd0 with secret undefined
+13:02:10.456 200 GET /api/options with 6539 bytes took 2ms
+13:02:10.459 200 GET /api/tree with 14503 bytes took 2ms
+13:02:10.505 Slow 200 GET /api/keyboard-actions with 14263 bytes took 26ms
+13:02:10.516 Slow 200 GET /api/script/widgets with 2687 bytes took 10ms
+13:02:10.618 200 POST /api/tree/load with 5777 bytes took 0ms
+13:02:10.962 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 1ms
+13:02:11.118 200 POST /api/tree/load with 7070 bytes took 0ms
+13:02:11.211 200 POST /api/tree/load with 20012 bytes took 1ms
+13:02:11.955 Slow 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 12ms
+13:02:11.969 200 GET /api/notes/ncenxbDEDufV/blob with 158 bytes took 1ms
+13:02:11.984 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+13:02:12.000 Slow 204 PUT /api/options with 0 bytes took 13ms
+13:02:13.189 200 GET /api/script/startup with 2 bytes took 1ms
+13:21:13.775 Sending message to all clients: {"type":"protectedSessionLogin"}
+13:21:13.776 Slow 200 POST /api/login/protected with 16 bytes took 432ms
+13:21:13.780 200 GET /api/tree with 14560 bytes took 1ms
+13:21:13.780 204 POST /api/login/protected/touch with 0 bytes took 0ms
+13:21:13.816 200 POST /api/tree/load with 31926 bytes took 1ms
+13:21:13.863 Slow 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 35ms
+13:21:13.864 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+13:21:15.278 Slow 204 POST /api/login/protected/touch with 0 bytes took 17ms
+13:21:15.278 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1924 bytes took 0ms
+13:21:15.311 Slow 200 GET /api/note-map/H10Bt9HL1iJ1/backlink-count with 11 bytes took 33ms
+13:21:15.352 Slow 204 PUT /api/options with 0 bytes took 40ms
+13:21:18.274 204 POST /api/login/protected/touch with 0 bytes took 0ms
+13:21:18.304 Slow query took 29ms: SELECT revisionId FROM revisions WHERE noteId = ? AND utcDateCreated >= ?
+13:21:18.384 Slow 204 PUT /api/notes/H10Bt9HL1iJ1/data with 0 bytes took 109ms
+13:21:18.423 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1936 bytes took 8ms
+13:21:19.279 204 POST /api/login/protected/touch with 0 bytes took 0ms
+13:21:19.293 Slow 204 PUT /api/notes/H10Bt9HL1iJ1/data with 0 bytes took 14ms
+13:21:19.296 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1924 bytes took 0ms
+13:31:21.124 204 PUT /api/branches/PlfyCkEEJala_7uobh7L0xRn8/expanded/0 with 0 bytes took 3ms
+13:31:32.455 Expiring protected session
+13:31:32.455 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+13:31:32.457 JS Info: Frontend app reload: received request from backend to reload frontend
+13:31:32.498 Generated CSRF token z4aeDYPg-DNqaoyBR6cdmij5nhdcAQ1rg7QA with secret undefined
+13:31:32.813 200 GET /api/options with 6526 bytes took 1ms
+13:31:32.825 Slow 200 GET /api/tree with 13448 bytes took 12ms
+13:31:32.826 200 GET /api/keyboard-actions with 14263 bytes took 1ms
+13:31:32.826 200 GET /api/script/widgets with 2687 bytes took 0ms
+13:31:32.832 200 POST /api/tree/load with 5777 bytes took 5ms
+13:31:32.921 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+13:31:32.960 200 POST /api/tree/load with 7070 bytes took 1ms
+13:31:32.971 200 POST /api/tree/load with 20012 bytes took 1ms
+13:31:33.388 200 GET /api/note-map/H10Bt9HL1iJ1/backlink-count with 11 bytes took 1ms
+13:31:33.389 200 GET /api/notes/H10Bt9HL1iJ1/blob with 158 bytes took 0ms
+13:31:33.408 200 GET /api/note-map/H10Bt9HL1iJ1/backlink-count with 11 bytes took 1ms
+13:31:34.111 204 PUT /api/options with 0 bytes took 7ms
+13:31:35.101 200 GET /api/script/startup with 2 bytes took 1ms
+13:47:10.832 Table counts: notes: 285, revisions: 28, attachments: 19, branches: 299, attributes: 359, etapi_tokens: 0, blobs: 182
+13:47:11.194 Slow query took 356ms: SELECT page_count * page_size / 1000 as size FROM pragma_page_count(), pragma_page_size()
+13:47:11.520 All consistency checks passed with no errors detected (took 688ms)
+14:47:10.835 Table counts: notes: 285, revisions: 28, attachments: 19, branches: 299, attributes: 359, etapi_tokens: 0, blobs: 182
+14:47:10.842 All consistency checks passed with no errors detected (took 8ms)
+15:47:08.314 Optimizing database
+15:47:08.336 Slow query took 21ms: PRAGMA optimize
+15:47:08.336 Optimization finished in 21ms.
+15:47:10.839 Table counts: notes: 285, revisions: 28, attachments: 19, branches: 299, attributes: 359, etapi_tokens: 0, blobs: 182
+15:47:10.872 All consistency checks passed with no errors detected (took 35ms)
+16:47:10.842 Table counts: notes: 285, revisions: 28, attachments: 19, branches: 299, attributes: 359, etapi_tokens: 0, blobs: 182
+16:47:10.849 All consistency checks passed with no errors detected (took 8ms)
+17:25:12.960 Sending message to all clients: {"type":"protectedSessionLogin"}
+17:25:12.961 Slow 200 POST /api/login/protected with 16 bytes took 120ms
+17:25:12.994 200 GET /api/tree with 13528 bytes took 2ms
+17:25:12.994 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:13.025 Slow 200 POST /api/tree/load with 30894 bytes took 27ms
+17:25:13.130 Slow 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1924 bytes took 39ms
+17:25:13.131 200 GET /api/note-map/H10Bt9HL1iJ1/backlink-count with 11 bytes took 0ms
+17:25:15.192 204 POST /api/login/protected/touch with 0 bytes took 1ms
+17:25:15.204 Slow 200 GET /api/notes/7uobh7L0xRn8/blob with 156 bytes took 12ms
+17:25:15.204 200 GET /api/note-map/7uobh7L0xRn8/backlink-count with 11 bytes took 0ms
+17:25:15.239 Slow query took 28ms: INSERT INTO options (name, value, isSynced, utcDateModified) VALUES (@name, @value, @isSynced, @utcDateModified) ON CONFLICT (name) DO UPDATE SET name = @name, value = @value, isSynced = @isSynced, utcDateModified = @utcDateModified
+17:25:15.285 Slow 204 PUT /api/options with 0 bytes took 81ms
+17:25:15.326 200 POST /api/tree/load with 5433 bytes took 0ms
+17:25:15.348 Slow 204 POST /api/login/protected/touch with 0 bytes took 19ms
+17:25:15.349 200 GET /api/notes/ue9rcGOGdMnI/blob with 1300 bytes took 0ms
+17:25:15.351 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:15.352 200 GET /api/notes/uLoqaGarL7nu/blob with 1334 bytes took 1ms
+17:25:15.353 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:15.354 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 0ms
+17:25:15.364 204 POST /api/login/protected/touch with 0 bytes took 8ms
+17:25:15.364 200 GET /api/notes/M5xUiLoKZNOf/blob with 1967 bytes took 0ms
+17:25:15.389 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:15.390 200 GET /api/notes/25ZG5mtGZhFt/blob with 2158 bytes took 1ms
+17:25:15.391 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:15.392 200 GET /api/notes/DCHknJe7ElEy/blob with 1237 bytes took 0ms
+17:25:15.393 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:15.393 200 GET /api/notes/Q6EGDAsgJqx0/blob with 2507 bytes took 0ms
+17:25:15.395 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:15.395 200 GET /api/notes/oLNIgf8fX9qG/blob with 277 bytes took 0ms
+17:25:16.647 204 POST /api/login/protected/touch with 0 bytes took 0ms
+17:25:16.648 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 0ms
+17:25:16.648 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+17:25:16.649 200 GET /api/tree?subTreeNoteId=7uobh7L0xRn8 with 5433 bytes took 0ms
+17:25:16.655 204 PUT /api/options with 0 bytes took 1ms
+17:25:16.693 204 PUT /api/branches/PlfyCkEEJala_7uobh7L0xRn8/expanded/1 with 0 bytes took 9ms
+17:25:19.984 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 0ms
+17:35:36.610 Expiring protected session
+17:35:36.610 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+17:35:36.613 JS Info: Frontend app reload: received request from backend to reload frontend
+17:35:36.939 Generated CSRF token OhHW1hJ8-8R2WN3esJca4HF4jXwbzFfv-urw with secret undefined
+17:35:38.322 Slow 200 GET /api/options with 6539 bytes took 16ms
+17:35:38.517 Slow 200 GET /api/tree with 14503 bytes took 195ms
+17:35:38.595 Slow 200 GET /api/keyboard-actions with 14263 bytes took 77ms
+17:35:38.617 Slow 200 GET /api/script/widgets with 2687 bytes took 21ms
+17:35:38.620 200 POST /api/tree/load with 5777 bytes took 0ms
+17:35:38.666 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+17:35:38.697 200 POST /api/tree/load with 7070 bytes took 0ms
+17:35:38.703 200 POST /api/tree/load with 20012 bytes took 1ms
+17:35:39.173 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 0ms
+17:35:39.174 200 GET /api/notes/ncenxbDEDufV/blob with 158 bytes took 1ms
+17:35:39.198 Slow 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 11ms
+17:35:40.210 Slow 204 PUT /api/options with 0 bytes took 108ms
+17:35:41.173 200 GET /api/script/startup with 2 bytes took 0ms
+17:47:09.369 Created backup at C:\Users\Dreamer\AppData\Roaming\trilium-data\backup/backup-weekly.db
+17:47:10.843 Table counts: notes: 285, revisions: 28, attachments: 19, branches: 299, attributes: 359, etapi_tokens: 0, blobs: 182
+17:47:10.848 All consistency checks passed with no errors detected (took 6ms)
+18:03:06.806 Sending message to all clients: {"type":"protectedSessionLogin"}
+18:03:06.807 Slow 200 POST /api/login/protected with 16 bytes took 126ms
+18:03:06.812 200 GET /api/tree with 14560 bytes took 2ms
+18:03:06.813 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:03:06.815 200 POST /api/tree/load with 31926 bytes took 1ms
+18:03:06.828 200 GET /api/notes/ncenxbDEDufV/blob with 2305 bytes took 2ms
+18:03:07.111 Slow 200 GET /api/note-map/ncenxbDEDufV/backlink-count with 11 bytes took 283ms
+18:03:10.940 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:10.950 Slow 200 GET /api/notes/9iDZ7KfxdAmG/blob with 156 bytes took 10ms
+18:03:10.950 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 0ms
+18:03:10.984 Slow 204 PUT /api/options with 0 bytes took 34ms
+18:03:10.986 200 POST /api/tree/load with 3624 bytes took 0ms
+18:03:10.988 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:10.989 200 GET /api/notes/Qbgr2FOZRBHT/blob with 218 bytes took 0ms
+18:03:10.990 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:10.990 200 GET /api/notes/jQtcdrlQEWjD/blob with 191 bytes took 0ms
+18:03:10.991 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:10.992 200 GET /api/notes/wuWWW698bAlz/blob with 190 bytes took 0ms
+18:03:11.470 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:11.471 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 0ms
+18:03:11.601 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:03:11.604 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:03:11.605 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:11.984 Slow 204 PUT /api/options with 0 bytes took 34ms
+18:03:13.182 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:13.183 200 GET /api/notes/9iDZ7KfxdAmG/blob with 156 bytes took 0ms
+18:03:13.198 Slow 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 15ms
+18:03:13.226 Slow 204 PUT /api/options with 0 bytes took 28ms
+18:03:13.303 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:13.303 200 GET /api/notes/Qbgr2FOZRBHT/blob with 218 bytes took 0ms
+18:03:13.306 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:13.307 200 GET /api/notes/jQtcdrlQEWjD/blob with 191 bytes took 1ms
+18:03:13.321 Slow 204 POST /api/login/protected/touch with 0 bytes took 13ms
+18:03:13.347 Slow 200 GET /api/notes/wuWWW698bAlz/blob with 190 bytes took 26ms
+18:03:13.815 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:03:13.815 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 0ms
+18:03:13.929 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:13.931 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:03:13.932 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:13.967 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:13.967 200 GET /api/note-map/9iDZ7KfxdAmG/backlink-count with 11 bytes took 0ms
+18:03:13.977 200 GET /api/tree?subTreeNoteId=9iDZ7KfxdAmG with 3624 bytes took 0ms
+18:03:14.084 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:03:14.084 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:14.086 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:03:14.219 Slow 204 PUT /api/options with 0 bytes took 29ms
+18:03:14.224 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/1 with 0 bytes took 3ms
+18:03:15.224 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:15.224 200 GET /api/notes/Qbgr2FOZRBHT/blob with 218 bytes took 0ms
+18:03:15.225 200 GET /api/note-map/Qbgr2FOZRBHT/backlink-count with 11 bytes took 1ms
+18:03:15.245 Slow 204 PUT /api/options with 0 bytes took 18ms
+18:03:15.350 200 POST /api/tree/load with 4061 bytes took 1ms
+18:03:15.352 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:15.353 200 GET /api/notes/Se7jolEtqf8g/blob with 543 bytes took 1ms
+18:03:15.365 Slow 204 POST /api/login/protected/touch with 0 bytes took 11ms
+18:03:15.366 200 GET /api/notes/385GY3FiqpYy/blob with 2657 bytes took 0ms
+18:03:15.369 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:15.369 200 GET /api/notes/VLUxfS3hcaC5/blob with 1767 bytes took 0ms
+18:03:16.223 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:16.224 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 1ms
+18:03:16.264 200 GET /api/tree?subTreeNoteId=Qbgr2FOZRBHT with 4061 bytes took 0ms
+18:03:16.292 Slow 204 PUT /api/options with 0 bytes took 27ms
+18:03:16.386 204 PUT /api/branches/9iDZ7KfxdAmG_Qbgr2FOZRBHT/expanded/1 with 0 bytes took 0ms
+18:03:19.015 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:19.055 Slow query took 28ms: SELECT 1 FROM notes WHERE blobId = ? LIMIT 1
+18:03:19.144 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 129ms
+18:03:19.257 200 GET /api/notes/385GY3FiqpYy/blob with 191 bytes took 0ms
+18:03:21.142 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:03:21.184 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 42ms
+18:03:21.186 200 GET /api/notes/385GY3FiqpYy/blob with 192 bytes took 0ms
+18:03:22.144 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:03:22.169 Slow 204 PUT /api/notes/385GY3FiqpYy/data with 0 bytes took 25ms
+18:03:22.171 200 GET /api/notes/385GY3FiqpYy/blob with 365 bytes took 0ms
+18:13:23.120 Slow 204 PUT /api/branches/PlfyCkEEJala_7uobh7L0xRn8/expanded/0 with 0 bytes took 10ms
+18:13:24.103 204 PUT /api/branches/root_PlfyCkEEJala/expanded/0 with 0 bytes took 0ms
+18:13:37.298 Expiring protected session
+18:13:37.298 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+18:13:37.301 JS Info: Frontend app reload: received request from backend to reload frontend
+18:13:37.328 Generated CSRF token VyluRnNA-ortRlTiX9ZF0UhZuJtSGm7zW1Wo with secret undefined
+18:13:37.473 200 GET /api/options with 6607 bytes took 1ms
+18:13:37.473 200 GET /api/tree with 13009 bytes took 0ms
+18:13:37.474 200 GET /api/keyboard-actions with 14263 bytes took 1ms
+18:13:37.475 200 GET /api/script/widgets with 2687 bytes took 1ms
+18:13:37.492 200 POST /api/tree/load with 5777 bytes took 0ms
+18:13:37.518 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+18:13:37.556 200 POST /api/tree/load with 7070 bytes took 1ms
+18:13:37.561 200 POST /api/tree/load with 20012 bytes took 0ms
+18:13:37.918 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+18:13:37.919 200 GET /api/notes/385GY3FiqpYy/blob with 157 bytes took 0ms
+18:13:37.969 Slow 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 33ms
+18:13:39.127 Slow 204 PUT /api/options with 0 bytes took 16ms
+18:13:40.112 200 GET /api/script/startup with 2 bytes took 1ms
+18:20:48.886 Sending message to all clients: {"type":"protectedSessionLogin"}
+18:20:48.887 Slow 200 POST /api/login/protected with 16 bytes took 126ms
+18:20:48.888 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:20:48.889 200 GET /api/tree with 12997 bytes took 0ms
+18:20:48.890 200 POST /api/tree/load with 30363 bytes took 0ms
+18:20:48.900 200 GET /api/notes/385GY3FiqpYy/blob with 365 bytes took 1ms
+18:20:48.900 200 GET /api/note-map/385GY3FiqpYy/backlink-count with 11 bytes took 0ms
+18:20:51.770 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:20:51.786 Slow 200 GET /api/notes/PlfyCkEEJala/blob with 156 bytes took 15ms
+18:20:51.787 200 GET /api/note-map/PlfyCkEEJala/backlink-count with 11 bytes took 0ms
+18:20:51.805 Slow 204 PUT /api/options with 0 bytes took 18ms
+18:20:51.912 200 POST /api/tree/load with 5143 bytes took 1ms
+18:20:51.914 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:20:51.915 200 GET /api/notes/2kKJAbj2zuUW/blob with 1240 bytes took 1ms
+18:20:51.921 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:20:51.922 200 GET /api/notes/kZX9udkPCT8D/blob with 1037 bytes took 0ms
+18:20:51.924 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:20:51.925 200 GET /api/notes/AYglMZCkAqqw/blob with 1055 bytes took 1ms
+18:20:51.927 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:20:51.927 200 GET /api/notes/D5j0UYACCaXW/blob with 3044 bytes took 0ms
+18:20:51.929 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:20:51.929 200 GET /api/notes/7uobh7L0xRn8/blob with 156 bytes took 0ms
+18:20:51.930 200 POST /api/tree/load with 5433 bytes took 0ms
+18:20:51.936 204 POST /api/login/protected/touch with 0 bytes took 1ms
+18:20:51.945 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1924 bytes took 9ms
+18:20:54.552 204 POST /api/login/protected/touch with 0 bytes took 0ms
+18:20:54.553 200 GET /api/notes/H10Bt9HL1iJ1/blob with 1924 bytes took 0ms
+18:20:54.553 200 GET /api/note-map/H10Bt9HL1iJ1/backlink-count with 11 bytes took 0ms
+18:20:54.555 200 GET /api/tree?subTreeNoteId=PlfyCkEEJala with 5143 bytes took 0ms
+18:20:54.560 204 PUT /api/options with 0 bytes took 1ms
+18:20:54.594 204 PUT /api/branches/root_PlfyCkEEJala/expanded/1 with 0 bytes took 0ms
+18:30:55.166 Slow 204 PUT /api/branches/9iDZ7KfxdAmG_Qbgr2FOZRBHT/expanded/0 with 0 bytes took 34ms
+18:30:56.111 204 PUT /api/branches/root_9iDZ7KfxdAmG/expanded/0 with 0 bytes took 0ms
+18:31:07.595 Expiring protected session
+18:31:07.595 Sending message to all clients: {"type":"reload-frontend","reason":"leaving protected session"}
+18:31:07.597 JS Info: Frontend app reload: received request from backend to reload frontend
+18:31:07.617 Generated CSRF token EnCxU89H-ZMI-IUZ6Ut-o4uhyHIXjSuSTGlU with secret undefined
+18:31:07.886 200 GET /api/options with 6526 bytes took 0ms
+18:31:07.886 200 GET /api/tree with 13448 bytes took 0ms
+18:31:07.887 200 GET /api/keyboard-actions with 14263 bytes took 1ms
+18:31:07.887 200 GET /api/script/widgets with 2687 bytes took 0ms
+18:31:07.911 200 POST /api/tree/load with 5777 bytes took 7ms
+18:31:07.964 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+18:31:08.021 200 POST /api/tree/load with 7070 bytes took 0ms
+18:31:08.054 200 POST /api/tree/load with 20012 bytes took 0ms
+18:31:08.434 200 GET /api/note-map/H10Bt9HL1iJ1/backlink-count with 11 bytes took 1ms
+18:31:08.434 200 GET /api/notes/H10Bt9HL1iJ1/blob with 158 bytes took 0ms
+18:31:08.454 200 GET /api/note-map/H10Bt9HL1iJ1/backlink-count with 11 bytes took 0ms
+18:31:09.125 Slow 204 PUT /api/options with 0 bytes took 24ms
+18:31:10.112 200 GET /api/script/startup with 2 bytes took 0ms
+18:47:10.857 Table counts: notes: 285, revisions: 29, attachments: 19, branches: 299, attributes: 359, etapi_tokens: 0, blobs: 183
+18:47:10.886 All consistency checks passed with no errors detected (took 30ms)
+19:47:10.930 Slow query took 30ms: SELECT attachmentId FROM attachments WHERE utcDateScheduledForErasureSince < ?
+19:47:10.970 Slow query took 39ms: SELECT COUNT(1) FROM notes
+19:47:10.971 Table counts: notes: 285, revisions: 29, attachments: 19, branches: 299, attributes: 359, etapi_tokens: 0, blobs: 183
+19:47:11.072 All consistency checks passed with no errors detected (took 141ms)
+20:47:10.934 Table counts: notes: 285, revisions: 29, attachments: 19, branches: 299, attributes: 359, etapi_tokens: 0, blobs: 183
+20:47:10.953 All consistency checks passed with no errors detected (took 20ms)
+21:47:10.949 Table counts: notes: 285, revisions: 29, attachments: 19, branches: 299, attributes: 359, etapi_tokens: 0, blobs: 183
+21:47:10.955 All consistency checks passed with no errors detected (took 7ms)
+22:47:10.953 Table counts: notes: 285, revisions: 29, attachments: 19, branches: 299, attributes: 359, etapi_tokens: 0, blobs: 183
+22:47:10.960 All consistency checks passed with no errors detected (took 8ms)
+23:47:10.953 Table counts: notes: 285, revisions: 29, attachments: 19, branches: 299, attributes: 359, etapi_tokens: 0, blobs: 183
+23:47:10.960 All consistency checks passed with no errors detected (took 8ms)

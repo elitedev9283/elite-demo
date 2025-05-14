@@ -1,0 +1,1 @@
+otpauth://totp/Google:alexkovalenko618%40gmail.com?secret=54to3kzsy4r2xmqtg3tklcckcmr3iqpv&issuer=Google
